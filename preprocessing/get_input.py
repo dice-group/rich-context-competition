@@ -13,6 +13,23 @@ class ProcessInput:
         self.dataset_df = dataset_df
         self.citation_df = citation_df
 
+    def add_publication_metadata(self):
+        """
+        add the metadata information, extracted from pdfinfo command to the publication dataframe
+        :return:
+        """
+        metadata = dict()
+        metadata_list = list()
+        pub_metadata_path = os.path.join(parentPath, "train_test/files/pdf-info/")
+        for _, row in self.pub_df.iterrows():
+            with open(pub_metadata_path+row['pdf_file_name']+".txt", encoding = "utf-8") as file:
+                for line in file:
+                    key, value = line.partition(":")[::2]
+                    metadata[key.strip()] = value.strip()
+                    metadata_list.append(metadata)
+
+        print(metadata_list)
+
     def load_publication_input(self, path=pub_path):
         """
         reads publications.json and converts it into a pandas dataframe.
@@ -24,15 +41,21 @@ class ProcessInput:
         with open(path, 'r'):
             self.pub_df = pd.read_json(path)
 
+        #self.add_publication_metadata()
         text_file_path = os.path.join(parentPath,"train_test/files/text/")
+        pdf_file_path = os.path.join(parentPath, "train_test/files/pdf/")
         pub_text_list = list()
+        pdf_path_list = list()
 
         for _, row in self.pub_df.iterrows():
             with open(text_file_path+row['text_file_name'], 'r') as txt_file:
                 data = txt_file.read()
                 pub_text_list.append(data)
+            pdf_full_path = os.path.join(pdf_file_path, row['pdf_file_name'])
+            pdf_path_list.append(pdf_full_path)
 
         self.pub_df['text'] = pub_text_list
+        self.pub_df['pdf_path'] = pdf_path_list
         return self.pub_df
 
     def load_dataset_input(self, path=dataset_path):
