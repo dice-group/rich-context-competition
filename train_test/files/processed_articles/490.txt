@@ -1,4 +1,0 @@
-{
-    "abstract": "The authors note that within the Acknowledgments, the line \"a program project designed by J. Richard Udry, Peter S. Bearman, and Kathleen Mullan Harris\" should instead appear as \"a pro- gram project directed by Kathleen Mullan Harris and designed by J. Richard Udry, Peter S. Bearman, and Kathleen Mullan",
-    "reduced_content": "for \"How social and genetic factors predict friendship\nnetworks,\" by Jason D. Boardman, Benjamin W. Domingue, and\nThe authors note that within the "
-}
