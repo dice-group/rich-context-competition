@@ -1,0 +1,4 @@
+{
+    "abstract": "In the article \"The `Black Box' of Prescription Drug Diversion\" by Inciardi et al., published in data.",
+    "reduced_content": "In the article \"The `Black Box' of Prescription Drug Diversion\" by Inciardi et al., published in\ndata.\nThe needed corrections are in the second paragraph of the Discussion on page 343. The percent\nshould be corrected from 70% to 45%, and the word \"street\" immediately prior to dealers should be\nremoved, as some dealers were students. The correct sentence is \"In addition, 45% of the Delaware\n11th graders and 31% of the sex workers interviewed purchased prescription drugs from dealers.\""
+}
