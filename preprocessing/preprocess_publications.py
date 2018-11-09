@@ -5,7 +5,7 @@ import os
 import unicodedata, re
 from pathlib import Path
 from langdetect import detect
-import enchant, spacy
+import enchant, spacy, json
 from collections import Counter
 from langdetect import DetectorFactory
 DetectorFactory.seed = 0
@@ -25,16 +25,15 @@ class PublicationPreprocessing:
         self.pub_df = self.pi.load_publication_input()
 
     def write_nounPharses_to_file(self, np_dict, file_name):
-        directory = os.path.join(parentPath, "train_test/files/noun_phrases/")
+        directory = os.path.join(str(parentPath), "train_test/files/noun_phrases/")
         if not os.path.exists(directory):
             os.makedirs(directory)
         with open(directory+file_name, 'w') as file:
-            for key, value in np_dict.items():
-                file.write('%s\t%s\n' % (key, '\t'.join(value)))
+            file.write(json.dumps(np_dict, indent=4))
 
     def gather_nounPhrases(self, text):
         nlp = spacy.load('en')
-        doc= nlp(text)
+        doc= nlp(text.replaceAll('\n', ' '))
         index = 0
         nounIndices = []
         all_phrases = []
@@ -45,13 +44,17 @@ class PublicationPreprocessing:
             index = index + 1
 
         for idxValue in nounIndices:
-            doc = nlp(text)
+            doc = nlp(text.replaceAll('\n', ' '))
             span = doc[doc[idxValue].left_edge.i: doc[idxValue].right_edge.i + 1]
             span.merge()
 
             for token in doc:
                 if token.dep_ == 'dobj' or token.dep_ == 'pobj' or token.pos_ == "PRON":
+                    if (token.text.strip().find(' ') == -1 and token.pos_ == "PRON"): #remove single words that are pronouns
+                        continue
+                    token.text
                     all_phrases.append(token.text)
+        return all_phrases
 
 
     def remove_noise(self, fileobj, separator='\n'):
@@ -127,7 +130,7 @@ class PublicationPreprocessing:
         abstract_file =list()
         all_files = list()
         nlp = spacy.load('en')
-        text_file_path = os.path.join(parentPath, "train_test/files/text/")
+        text_file_path = os.path.join(str(parentPath), "train_test/files/text/")
         for _,row in self.pub_df.iterrows():
 
             all_files.append(row['pdf_file_name'])
@@ -262,7 +265,7 @@ class PublicationPreprocessing:
             for _, row in self.pub_df.iterrows():
                 np_dict = dict()
                 np_dict['title'] = self.gather_nounPhrases(row['title'])
-                np_dict['abstarct'] = self.gather_nounPhrases(row['abstract'])
+                np_dict['abstract'] = self.gather_nounPhrases(row['abstract'])
                 np_dict['processed_text'] = self.gather_nounPhrases(row['processed_text'])
                 self.write_nounPharses_to_file(np_dict,row['text_file_name'])
                 print('files written.')
@@ -273,8 +276,6 @@ class PublicationPreprocessing:
         print(no_keyword_mention, no_abstract_mention)
         print(len(no_keyword), no_keyword)
         print(len(no_abstract), no_abstract)
-
-
 
 def main():
     obj = PublicationPreprocessing()
