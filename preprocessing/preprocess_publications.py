@@ -31,6 +31,13 @@ class PublicationPreprocessing:
         with open(directory+file_name, 'w') as file:
             file.write(json.dumps(np_dict, indent=4))
 
+    def write_processed_content(self, content_dict, file_name):
+        directory = os.path.join(str(parentPath), "train_test/files/processed_articles/")
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        with open(directory + file_name, 'w') as file:
+            file.write(json.dumps(content_dict,  indent=4))
+
     def gather_nounPhrases(self, text):
         nlp = spacy.load('en')
         doc= nlp(text.replaceAll('\n', ' '))
@@ -129,6 +136,7 @@ class PublicationPreprocessing:
         no_intro = list()
         abstract_file =list()
         all_files = list()
+        content_dict = dict()
         nlp = spacy.load('en')
         text_file_path = os.path.join(str(parentPath), "train_test/files/text/")
         for _,row in self.pub_df.iterrows():
@@ -182,7 +190,6 @@ class PublicationPreprocessing:
                     # if (len(abstract.split('.')) < 2): #abstract won't be of just 1 sentence
                     #     abstract_beg = -1
 
-
             if(abstract_beg < 0): # extract the first para as abstract
                 paras = self.extract_paragraphs(reduced_content)
                 for p in paras:
@@ -198,6 +205,7 @@ class PublicationPreprocessing:
                             else:
                                 abstract = p
                                 all_abstracts.append(abstract)
+                                content_dict['abstract'] = abstract
                                 abstract_file.append(row['pdf_file_name'])
                                 abstract_found= True
                                 break
@@ -206,6 +214,7 @@ class PublicationPreprocessing:
 
             else:
                 abstract = reduced_content[abstract_beg:abstract_end]
+                content_dict['abstract'] = abstract
                 all_abstracts.append(abstract)
                 abstract_file.append(row['pdf_file_name'])
                 abstract_found= True
@@ -214,6 +223,7 @@ class PublicationPreprocessing:
                     no_abstract.append(row['pdf_file_name'])
 
             if(not abstract_found):
+                content_dict['abstract'] = abstract
                 all_abstracts.append(row['title'])  #3126.pdf
 
             # remove references or bibliography
@@ -252,7 +262,10 @@ class PublicationPreprocessing:
             if ack_beg > 0:
                 reduced_content = reduced_content[:ack_beg]
 
+            content_dict['reduced_content'] = reduced_content
+
             all_content.append(reduced_content)
+            self.write_processed_content(content_dict, row['text_file_name'])
 
         print(len(all_abstracts))
         # temp3 = [item for item in all_files if item not in abstract_file]
@@ -279,7 +292,7 @@ class PublicationPreprocessing:
 
 def main():
     obj = PublicationPreprocessing()
-    obj.process_text()
+    obj.process_text(extract_np=True)
 
 if __name__ == '__main__':
     main()
