@@ -64,12 +64,16 @@ class PublicationPreprocessing:
 
     def gather_nounPhrases(self, text):
         nlp = spacy.load('en')
+        print(text.replace('\n', ' '))
         doc= nlp(text.replace('\n', ' '))
         index = 0
         nounIndices = []
         all_phrases = []
+        for np in doc.noun_chunks:
+            all_phrases.append(np)
+
         for token in doc:
-            # print(token.text, token.pos_, token.dep_, token.head.text)
+            #print(token.text, token.pos_, token.dep_, token.head.text)
             if token.pos_ == 'NOUN':
                 nounIndices.append(index)
             index = index + 1
@@ -85,9 +89,7 @@ class PublicationPreprocessing:
                         continue
                     if (c.isdigit() for c in token.text):
                         continue
-                    print('np: ',token.text)
                     all_phrases.append(token.text.replace('\n', ' '))
-
         return all_phrases
 
     def extract_paragraphs(self, doc):
@@ -147,11 +149,11 @@ class PublicationPreprocessing:
             if (symbol_count > 0.25 * len(lines[i - 1])):
                 i += 1
                 continue
-            if(uppercase_count == len(lines[i-1])): # probably heading
+            if(uppercase_count > 0.7*len(lines[i-1])): # probably heading
                 content.append(lines[i-1])
-            elif(uppercase_count > 0.6*len(lines[i-1])):
-                i += 1
-                continue
+            # elif(uppercase_count > 0.5*len(lines[i-1])):
+            #     i += 1
+            #     continue
             else:
                 if (dehyphenation and lines[i - 1].endswith('-')):  # handle hyphenation
                     last_word_prev_line = lines[i - 1].split()[-1]
@@ -181,7 +183,7 @@ class PublicationPreprocessing:
         ack_files = list()
         count_ref =0
         no_abstract_mention = 0
-        no_keyword_mention= 0
+        no_conclusion = list()
         no_abstract = list()
         no_keyword = list()
         no_intro = list()
@@ -199,7 +201,7 @@ class PublicationPreprocessing:
 
             # remove references or bibliography
             references_match = re.search(
-                'References:?|Bibliography:?|Literature Cited:?|Notes:?|Literature:?|REFERENCES:?|BIBLIOGRAPHY:?|LITERATURE CITED:?|NOTES:?|LITERATURE:?',
+                'References:?|Bibliography:?|Literature Cited:?|Notes:?|REFERENCES:?|BIBLIOGRAPHY:?|LITERATURE CITED:?|NOTES:?|LITERATURE:?',
                 reduced_content)
 
             if (references_match):
@@ -222,8 +224,16 @@ class PublicationPreprocessing:
                         reduced_content = re.sub(pattern, '', reduced_content)
                         all_ref.append(ref)
 
+            #TODO: remove Appendix
+            # appendix_match = re.search('Appendix\n|APPENDIX\n', reduced_content)
+            # if appendix_match:
+            #     appendix_section = reduced_content[appendix_match.start():]
+            #     if len(appendix_section.split('\n')[0].split()) < 4: # contains only the word Appendix or addtional alphabets/numbers
+            #         appendix_beg = appendix_match.start()
+            #         reduced_content = reduced_content[:appendix_beg]
+
             # remove acknowledgement
-            ack_match = re.search('Acknowledge?ments?|ACKNOWLEDGE?MENTS?', reduced_content)
+            ack_match = re.search('^Acknowledge?ments?|^ACKNOWLEDGE?MENTS?', reduced_content)
             if (ack_match):
                 ack_beg = ack_match.start()
                 reduced_content = reduced_content[:ack_beg]
@@ -237,6 +247,9 @@ class PublicationPreprocessing:
 
             reduced_content = self.remove_noise_and_handle_hyphenation(reduced_content, dehyphenation=True)
             reduced_content = self.remove_url(reduced_content)
+
+            
+
             # tables_index = [m.start() for m in re.finditer('Table|TABLE', reduced_content)]
             # for i in tables_index:
             #     selected_content = reduced_content[i:]
@@ -254,7 +267,8 @@ class PublicationPreprocessing:
             #             break
 
             abstract_found = False
-            abstract_match = re.search('Abstract|ABSTRACT', reduced_content)
+            abstract_match = re.search('^\d?\.?\s?Abstract:?|^\d?\.?\s?ABSTRACT:?|^\d?\.?\s?abstract:?', reduced_content, flags=re.MULTILINE)
+
             if(abstract_match): #not None
                 abstract_beg = abstract_match.start()
             else:
@@ -264,11 +278,14 @@ class PublicationPreprocessing:
             if(abstract_beg < 0):
                 no_abstract_mention += 1
 
-            keywords_match=re.search("keywords|key words|key-words", reduced_content, flags=re.IGNORECASE)
+            keywords_match=re.search("^key-?\s?words:?", reduced_content, flags=re.IGNORECASE|re.MULTILINE)
             if(keywords_match):
                 keywords_beg= keywords_match.start()
                 keywords = reduced_content[keywords_beg:]
                 start = keywords.find(':')
+                newline = keywords.find('\n') #if keywords are on the next line
+                if (newline < start):
+                    start = newline
                 keywords = keywords[start+1:].strip()
                 keywords = keywords.replace(', \n', ', ').replace('-\n', '')
                 keywords = keywords.split('\n')[0]
@@ -286,7 +303,6 @@ class PublicationPreprocessing:
 
             if (keywords_beg < 0):
                 content_dict['keywords'] = []
-                no_keyword_mention += 1
                 all_keywords.append(list())
                 print('no keywords in: ', row['pdf_file_name'])
                 no_keyword.append(row['pdf_file_name'])
@@ -315,15 +331,18 @@ class PublicationPreprocessing:
                 for p in paras:
                     try:
                         if (len(p.split(' ')) < 10 or len(p.split('.')) < 2 or detect(p) != 'en'): # less than 10 words in a para or just 1 line
-                            reduced_content = reduced_content.replace(p,' ').strip()
+                            reduced_content = reduced_content.replace(p,'').strip()
+                            print('removed p!!: ', p)
                             continue
                         else:
                             count = Counter(([token.pos_ for token in nlp(p)]))
                             if(count['PROPN'] > 0.68 * sum(count.values())):
-                                reduced_content = reduced_content.replace(p,' ').strip()
+                                reduced_content = reduced_content.replace(p,'').strip()
+                                print('removed p!!: ', p)
                                 continue
                             else:
                                 abstract = p
+                                print('selected abstract!!: ', p)
                                 all_abstracts.append(abstract)
                                 content_dict['abstract'] = abstract
                                 abstract_file.append(row['pdf_file_name'])
@@ -338,7 +357,7 @@ class PublicationPreprocessing:
                 all_abstracts.append(abstract)
                 abstract_file.append(row['pdf_file_name'])
                 abstract_found= True
-                reduced_content = reduced_content.replace(abstract, ' ').strip()
+                reduced_content = reduced_content.replace(abstract, '').strip()
                 if len(abstract)==0:
                     no_abstract.append(row['pdf_file_name'])
 
@@ -354,78 +373,133 @@ class PublicationPreprocessing:
                 content_dict['subject'] = ''
 
             for key in pdf_info:
-                if pdf_info[key] in reduced_content:
-                    print(pdf_info[key], reduced_content.find(pdf_info[key]), len(reduced_content))
+                if len(pdf_info[key]) > 3 and pdf_info[key] in reduced_content:
                     reduced_content = reduced_content.replace(pdf_info[key], ' ')
-            print(len(reduced_content))
+            print('reduced_content: ', len(reduced_content))
 
             methods_index = [m.start() for m in
-                             re.finditer('Methodology|Methods?|METHODS?|METHODOLODY|Data|DATA', reduced_content)]
-            summary_index = [m.start() for m in re.finditer('Conclusion|Summary|CONCLUSION|SUMMARY', reduced_content)]
-            results_index = [m.start() for m in re.finditer('Results?|RESULTS?', reduced_content)]
-            discussion_index = [m.start() for m in re.finditer('Discussions?|DISCUSSIONS?', reduced_content)]
+                             re.finditer('Methodology|Methods?|METHODS?|METHODOLODY|Data|DATA|^Materials and methods', reduced_content, flags=re.MULTILINE)]
+            summary_index = [m.start() for m in re.finditer('Summary|SUMMARY|Conclusions?|CONCLUSIONS?|Concluding\sRemarks|CONCLUDING\sREMARKS', reduced_content, flags=re.MULTILINE)]
+            #conclusion_index = [m.start() for m in re.finditer('', reduced_content)]
+            results_index = [m.start() for m in re.finditer('^\d?\.?\s?Results?|^\d?\.?\s?RESULTS?', reduced_content, flags=re.MULTILINE)]
+            discussion_index = [m.start() for m in re.finditer('^\d?\.?\s?Discussions?|^\d?\.?\s?DISCUSSIONS?', reduced_content, flags=re.MULTILINE)]
 
             methods_beg = -1
             results_beg = -1
             summary_beg = -1
+            conclusion_beg = -1
             discussion_beg = -1
+            intro_found = False
+
             if len(results_index) > 0:
                 results_beg = results_index[-1]
             if len(summary_index) > 0:
                 summary_beg = summary_index[-1]
+            elif len(summary_index) == 0:
+                print('no conclusion in: ', row['pdf_file_name'])
+                no_conclusion.append(row['pdf_file_name'])
             if len(discussion_index) > 0:
                 discussion_beg = discussion_index[-1]
             if(introduction_beg > 0):
-                intro_found = False
                 for m in methods_index:
                     if (m > introduction_beg):
                         methods_beg = m
+                        methods = reduced_content[methods_beg:]
+                        newline = methods.find('\n')
+                        words_btw_m_newline = methods[:newline].split()
+                        section_words = methods.split()
+
+                        if len(section_words) > 1 and not section_words[1][0].isupper() or len(section_words) > 1 \
+                                and not section_words[2][0].isupper() or len(words_btw_m_newline) > 5:
+                            #if the first word after 'methods' is not in uppercase or the difference between newline character
+                            continue
+
                         intro = reduced_content[introduction_beg:methods_beg]
                         intro_found = True
-                        reduced_content = reduced_content.replace(intro, ' ').strip()
                         all_intro.append(intro)
+                        content_dict['introduction'] = intro
                         break
-                if(not intro_found):
+            if(not intro_found):
+                if(methods_beg > 0):
+                    intro = reduced_content[:methods_beg]
+                    intro = intro.replace(content_dict['abstract'], '').strip()
+                    all_intro.append(intro)
+                    content_dict['introduction'] = intro
+
+                elif(methods_beg < 0 and len(methods_index) > 0):
+                    for m in methods_index:
+                        methods_beg = m
+                        methods = reduced_content[methods_beg:]
+                        if not methods.split()[1][0].isupper() or not methods.split()[2][
+                            0].isupper():  # if the first word after 'methods' is not in uppercase
+                            continue
+                        else:
+                            break
+                else:
                     all_intro.append('')
+                    content_dict['introduction'] = ''
 
             if methods_beg > 0:
-                if results_beg > 0:
+                if results_beg > 0 and results_beg > methods_beg:
                     methodology = reduced_content[methods_beg:results_beg]
+
                 elif summary_beg > 0 and summary_beg < discussion_beg:
                     methodology = reduced_content[methods_beg:summary_beg]
+
+                elif summary_beg > 0:
+                    methodology = reduced_content[methods_beg:summary_beg]
+
                 elif discussion_beg > 0:
                     methodology = reduced_content[methods_beg:discussion_beg]
+
                 else:
                     methodology = reduced_content[methods_beg:]
+
                 all_methods.append(methodology)
-                content_dict['methodogy'] = methodology
-                reduced_content = reduced_content.replace(methodology, ' ').strip()
+                content_dict['methodology'] = methodology
             else:
                 all_methods.append('')
+                print('no methods in: ',row['pdf_file_name'])
                 content_dict['methodology'] = ''
                 no_methods.append(row['pdf_file_name'])
 
             if summary_beg > 0:
                 if summary_beg < discussion_beg:
                     summary = reduced_content[summary_beg:discussion_beg]
+                    discussion = reduced_content[discussion_beg:]
+                    content_dict['discussion'] = discussion
+                    reduced_content = reduced_content.replace(discussion, '').strip()
                 else:
                     summary = reduced_content[summary_beg:]
+                    if discussion_beg > 0:
+                        discussion = reduced_content[discussion_beg:summary_beg]
+                        content_dict['discussion'] = discussion
+                        reduced_content = reduced_content.replace(discussion, '').strip()
+
                 all_summary.append(summary)
-                reduced_content.replace(summary, ' ').strip()
+                reduced_content = reduced_content.replace(summary, '').strip()
                 content_dict['summary'] = summary
             else:
                 content_dict['summary'] = ''
                 all_summary.append('')
-
+                if discussion_beg > 0:
+                    discussion = reduced_content[discussion_beg:]
+                    content_dict['discussion'] = discussion
+                    reduced_content = reduced_content.replace(discussion, '').strip()
+                    reduced_content = reduced_content.replace(content_dict['introduction'], '').strip()
+                    reduced_content = reduced_content.replace(content_dict['methodology'], '').strip()
+            #print(reduced_content)
 
             content_dict['reduced_content'] = reduced_content
             all_content.append(reduced_content)
+
+            print(row['title'])
 
             if(write_processed_files):
                 self.write_processed_content(content_dict, row['text_file_name'])
 
         print(len(all_abstracts))
-        print(len(no_methods), no_methods)
+        print('no methods in: ', len(no_methods), no_methods)
         # temp3 = [item for item in all_files if item not in abstract_file]
         # print(temp3)
 
@@ -436,31 +510,29 @@ class PublicationPreprocessing:
         self.pub_df['methodology'] = all_methods
         self.pub_df['summary'] = all_summary
 
+        print('no conclusion in:', len(no_conclusion), no_conclusion)
+        print(self.pub_df.columns.tolist())
+
         if(extract_np):
             for _, row in self.pub_df.iterrows():
                 np_dict = dict()
+                print(row['title'])
                 np_dict['title'] = self.gather_nounPhrases(row['title'])
-                print(np_dict)
                 np_dict['abstract'] = self.gather_nounPhrases(row['abstract'])
                 np_dict['processed_text'] = self.gather_nounPhrases(row['processed_text'])
-                np_dict['keywords'] = self.gather_nounPhrases(row['keywords'])
+                np_dict['keywords'] = self.gather_nounPhrases('; '.join(row['keywords']))
+                np_dict['summary'] = self.gather_nounPhrases(row['summary'])
+                np_dict['methodology'] = self.gather_nounPhrases(row['methodology'])
+                np_dict['subject'] = self.gather_nounPhrases(row['subject'])
                 self.write_nounPharses_to_file(np_dict,row['text_file_name'])
                 print('files written.')
-                break
-
-        print(count_ref, count_ack)
-        print(ack_files)
-        print(len(all_ref), len(no_intro))
-        print(no_keyword_mention, no_abstract_mention)
-        print(len(no_keyword), no_keyword)
-        print(len(no_abstract), no_abstract)
 
         return self.pub_df
 
 
 def main():
     obj = PublicationPreprocessing()
-    obj.process_text(extract_np=False, write_processed_files=True)
+    obj.process_text(extract_np=True, write_processed_files=True)
 
 if __name__ == '__main__':
     main()
