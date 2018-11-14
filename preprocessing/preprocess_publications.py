@@ -29,14 +29,15 @@ class PublicationPreprocessing:
         if not os.path.exists(directory):
             os.makedirs(directory)
         with open(directory+file_name, 'w') as file:
-            file.write(json.dumps(np_dict, indent=4, ensure_ascii=False))
+            print(np_dict)
+            json.dump(np_dict, file, indent=4, ensure_ascii=False)
 
     def write_processed_content(self, content_dict, file_name):
         directory = os.path.join(str(parentPath), "train_test/files/processed_articles/")
         if not os.path.exists(directory):
             os.makedirs(directory)
         with open(directory + file_name, 'w') as file:
-            file.write(json.dumps(content_dict,  indent=4, ensure_ascii=False))
+            json.dump(content_dict, file, indent=4, ensure_ascii=False)
 
     def fetch_pdf_info(self, file_name):
         """
@@ -64,13 +65,12 @@ class PublicationPreprocessing:
 
     def gather_nounPhrases(self, text):
         nlp = spacy.load('en')
-        print(text.replace('\n', ' '))
         doc= nlp(text.replace('\n', ' '))
         index = 0
         nounIndices = []
         all_phrases = []
         for np in doc.noun_chunks:
-            all_phrases.append(np)
+            all_phrases.append(str(np))
 
         for token in doc:
             #print(token.text, token.pos_, token.dep_, token.head.text)
@@ -85,11 +85,13 @@ class PublicationPreprocessing:
 
             for token in doc:
                 if token.dep_ == 'dobj' or token.dep_ == 'pobj' or token.pos_ == "PRON":
-                    if (token.text.strip().find(' ') == -1 and token.pos_ == "PRON"): #remove single words that are pronouns
+                    if (len(token.text.split()) == 1 and token.pos_ == "PRON"): #remove single words that are pronouns
                         continue
                     if (c.isdigit() for c in token.text):
                         continue
-                    all_phrases.append(token.text.replace('\n', ' '))
+                    token.text = token.text.replace('\n', ' ')
+                    if token.text not in all_phrases:
+                        all_phrases.append(str(token.text))
         return all_phrases
 
     def extract_paragraphs(self, doc):
@@ -248,7 +250,7 @@ class PublicationPreprocessing:
             reduced_content = self.remove_noise_and_handle_hyphenation(reduced_content, dehyphenation=True)
             reduced_content = self.remove_url(reduced_content)
 
-            
+
 
             # tables_index = [m.start() for m in re.finditer('Table|TABLE', reduced_content)]
             # for i in tables_index:
@@ -532,7 +534,7 @@ class PublicationPreprocessing:
 
 def main():
     obj = PublicationPreprocessing()
-    obj.process_text(extract_np=True, write_processed_files=True)
+    obj.process_text(extract_np=True, write_processed_files=False)
 
 if __name__ == '__main__':
     main()
