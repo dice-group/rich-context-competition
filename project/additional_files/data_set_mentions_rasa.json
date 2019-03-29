@@ -1,0 +1,762 @@
+[
+    {
+        "publication_id": 143,
+        "score": 0.9888388625184841,
+        "mention": "MiDi"
+    },
+    {
+        "publication_id": 143,
+        "score": 0.8336025108016819,
+        "mention": "Micro Database Direct Investment"
+    },
+    {
+        "publication_id": 153,
+        "score": 0.8112021582690775,
+        "mention": "FDI data"
+    },
+    {
+        "publication_id": 153,
+        "score": 0.9846961304378675,
+        "mention": "MiDi"
+    },
+    {
+        "publication_id": 153,
+        "score": 0.7233397536127553,
+        "mention": "panel dataset on foreign direct investment"
+    },
+    {
+        "publication_id": 153,
+        "score": 0.8683904952731192,
+        "mention": "add BANKSECj"
+    },
+    {
+        "publication_id": 163,
+        "score": 0.9470718103872311,
+        "mention": "Midi"
+    },
+    {
+        "publication_id": 163,
+        "score": 0.8215838452236426,
+        "mention": "foreign direct investment (FDI)"
+    },
+    {
+        "publication_id": 163,
+        "score": 0.7592563577125143,
+        "mention": "FDI ijt is foreign direct investment"
+    },
+    {
+        "publication_id": 189,
+        "score": 0.9042061255674044,
+        "mention": "NHIS"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.9703172251050355,
+        "mention": "Sage"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.7416890609117247,
+        "mention": "active"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.7629312256040942,
+        "mention": "CPS"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.8700814136732752,
+        "mention": "Health and Retirement Study"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.9749019802563389,
+        "mention": "LSOA"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.8240586996014878,
+        "mention": "NHIS"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.9813042250931548,
+        "mention": "National Long Term Care Survey"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.9588868909242207,
+        "mention": "midlife and help"
+    },
+    {
+        "publication_id": 192,
+        "score": 0.8539625247919631,
+        "mention": "National Study of Families and Households"
+    },
+    {
+        "publication_id": 339,
+        "score": 0.9674546303565118,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 339,
+        "score": 0.9992276804114142,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 339,
+        "score": 0.9071005967183988,
+        "mention": "NHIS"
+    },
+    {
+        "publication_id": 765,
+        "score": 0.9069847208310938,
+        "mention": "National Long-Term Care Survey"
+    },
+    {
+        "publication_id": 765,
+        "score": 0.9393452008367864,
+        "mention": "NLTCS"
+    },
+    {
+        "publication_id": 765,
+        "score": 0.9650271632364437,
+        "mention": "ACL"
+    },
+    {
+        "publication_id": 770,
+        "score": 0.9257852922282386,
+        "mention": "National Survey of Families and Households"
+    },
+    {
+        "publication_id": 770,
+        "score": 0.9661250429545585,
+        "mention": "NSFH"
+    },
+    {
+        "publication_id": 793,
+        "score": 0.8243174615412285,
+        "mention": "Robert Wood Johnson Foundation Employer Health Insurance Survey"
+    },
+    {
+        "publication_id": 876,
+        "score": 0.9932074391264424,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 876,
+        "score": 0.9124088990753602,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 876,
+        "score": 0.8910549616356299,
+        "mention": "NHANES I"
+    },
+    {
+        "publication_id": 876,
+        "score": 0.8365516841655296,
+        "mention": "NHANES II"
+    },
+    {
+        "publication_id": 991,
+        "score": 0.8318283345287392,
+        "mention": "Study of Women’s Health across the Nation"
+    },
+    {
+        "publication_id": 991,
+        "score": 0.9965826421910563,
+        "mention": "SWAN"
+    },
+    {
+        "publication_id": 1067,
+        "score": 0.8855080868653845,
+        "mention": "ECLS-K"
+    },
+    {
+        "publication_id": 1067,
+        "score": 0.8136520112271461,
+        "mention": "ECLS-K, Early Childhood Longitudinal Study"
+    },
+    {
+        "publication_id": 1067,
+        "score": 0.8988643634365456,
+        "mention": "ECLS-K data"
+    },
+    {
+        "publication_id": 1113,
+        "score": 0.9800275664135524,
+        "mention": "National Longitudinal Study of Adolescent Health"
+    },
+    {
+        "publication_id": 1113,
+        "score": 0.9982585317058913,
+        "mention": "Add Health"
+    },
+    {
+        "publication_id": 1134,
+        "score": 0.9458971075541595,
+        "mention": "National Comorbidity Survey"
+    },
+    {
+        "publication_id": 1134,
+        "score": 0.971748481779689,
+        "mention": "NCS"
+    },
+    {
+        "publication_id": 1134,
+        "score": 0.9902159324568319,
+        "mention": "British Psychiatric Morbidity Survey"
+    },
+    {
+        "publication_id": 1282,
+        "score": 0.882875992566801,
+        "mention": "Monitoring the Future survey"
+    },
+    {
+        "publication_id": 1282,
+        "score": 0.8169505099556982,
+        "mention": "Monitoring the Future study (MTF)"
+    },
+    {
+        "publication_id": 1282,
+        "score": 0.9863128379442266,
+        "mention": "MTF"
+    },
+    {
+        "publication_id": 1293,
+        "score": 0.9514440314429711,
+        "mention": "EPESE"
+    },
+    {
+        "publication_id": 1293,
+        "score": 0.9756217268727249,
+        "mention": "Hispanic EPESE"
+    },
+    {
+        "publication_id": 1338,
+        "score": 0.9286499742346491,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 1338,
+        "score": 0.9837745354733732,
+        "mention": "NHANES III"
+    },
+    {
+        "publication_id": 1338,
+        "score": 0.9869444237715218,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 1524,
+        "score": 0.9115470196231434,
+        "mention": "national social life, health, and aging project"
+    },
+    {
+        "publication_id": 1524,
+        "score": 0.8788979227360462,
+        "mention": "National Social Life, Health, and Aging Project"
+    },
+    {
+        "publication_id": 1524,
+        "score": 0.9958467034153001,
+        "mention": "NSHAP"
+    },
+    {
+        "publication_id": 1524,
+        "score": 0.967529585729933,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 1524,
+        "score": 0.9597749217056821,
+        "mention": "NHANES III"
+    },
+    {
+        "publication_id": 1665,
+        "score": 0.9555129152255109,
+        "mention": "Third National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 1665,
+        "score": 0.9881710047428476,
+        "mention": "NHANES III"
+    },
+    {
+        "publication_id": 1665,
+        "score": 0.7477454133074448,
+        "mention": "Third National Health and Nutritional Examination Survey"
+    },
+    {
+        "publication_id": 1665,
+        "score": 0.9845476205811252,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 1776,
+        "score": 0.9914823190056508,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 1776,
+        "score": 0.8952278169381757,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 1935,
+        "score": 0.9943274730718492,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 1935,
+        "score": 0.9328191902477114,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 2022,
+        "score": 0.9685477587906755,
+        "mention": "National Health and Nutrition Examination Survey"
+    },
+    {
+        "publication_id": 2022,
+        "score": 0.994996228413082,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 2119,
+        "score": 0.9933904167062301,
+        "mention": "MIDUS"
+    },
+    {
+        "publication_id": 2119,
+        "score": 0.9463638375113247,
+        "mention": "Add health"
+    },
+    {
+        "publication_id": 2119,
+        "score": 0.8001431952981968,
+        "mention": "Add give"
+    },
+    {
+        "publication_id": 2119,
+        "score": 0.994996228413082,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 2148,
+        "score": 0.9452978418441348,
+        "mention": "NHANES III"
+    },
+    {
+        "publication_id": 2148,
+        "score": 0.9956415829195456,
+        "mention": "NHANES"
+    },
+    {
+        "publication_id": 2148,
+        "score": 0.7276578209975675,
+        "mention": "NHANES I"
+    },
+    {
+        "publication_id": 2152,
+        "score": 0.9586659844948597,
+        "mention": "LSOG"
+    },
+    {
+        "publication_id": 2152,
+        "score": 0.7464263332067718,
+        "mention": "CTS"
+    },
+    {
+        "publication_id": 2241,
+        "score": 0.7269685299072327,
+        "mention": "add a"
+    },
+    {
+        "publication_id": 2241,
+        "score": 0.8319659487899961,
+        "mention": "add it"
+    },
+    {
+        "publication_id": 2328,
+        "score": 0.9837470615367688,
+        "mention": "National Ambulatory Medical Care Survey"
+    },
+    {
+        "publication_id": 2358,
+        "score": 0.9616945987818178,
+        "mention": "maternal lifestyle study"
+    },
+    {
+        "publication_id": 2358,
+        "score": 0.9603812173674932,
+        "mention": "Maternal lifestyle study"
+    },
+    {
+        "publication_id": 2541,
+        "score": 0.988900992147797,
+        "mention": "HIV-STIC"
+    },
+    {
+        "publication_id": 2556,
+        "score": 0.822967147898962,
+        "mention": "Family Exchanges Study"
+    },
+    {
+        "publication_id": 2556,
+        "score": 0.774411585693285,
+        "mention": "Midlife in the United States Study"
+    },
+    {
+        "publication_id": 2556,
+        "score": 0.9744791288509855,
+        "mention": "MIDUS"
+    },
+    {
+        "publication_id": 2593,
+        "score": 0.942787624212445,
+        "mention": "National Social Life, Health, and Aging Project"
+    },
+    {
+        "publication_id": 2593,
+        "score": 0.9934530449160401,
+        "mention": "NSHAP"
+    },
+    {
+        "publication_id": 2593,
+        "score": 0.7655825646270057,
+        "mention": "add a"
+    },
+    {
+        "publication_id": 2683,
+        "score": 0.7427112358999926,
+        "mention": "Study on Global Ageing and Adult Health"
+    },
+    {
+        "publication_id": 2683,
+        "score": 0.9813121235949688,
+        "mention": "SAGE"
+    },
+    {
+        "publication_id": 2683,
+        "score": 0.9548024251596714,
+        "mention": "sage"
+    },
+    {
+        "publication_id": 2683,
+        "score": 0.870594716711082,
+        "mention": "WHO SAGE"
+    },
+    {
+        "publication_id": 2707,
+        "score": 0.8343646748002281,
+        "mention": "National Congregations Study"
+    },
+    {
+        "publication_id": 2707,
+        "score": 0.9800567251360073,
+        "mention": "NCS"
+    },
+    {
+        "publication_id": 2707,
+        "score": 0.9911843896915514,
+        "mention": "NCS-III"
+    },
+    {
+        "publication_id": 2707,
+        "score": 0.9490695349249494,
+        "mention": "GSS"
+    },
+    {
+        "publication_id": 2707,
+        "score": 0.7740364310743384,
+        "mention": "NCS survey help"
+    },
+    {
+        "publication_id": 2819,
+        "score": 0.9503787857537488,
+        "mention": "securities register"
+    },
+    {
+        "publication_id": 2819,
+        "score": 0.996259663164956,
+        "mention": "credit register"
+    },
+    {
+        "publication_id": 2819,
+        "score": 0.8181192971530031,
+        "mention": "securities database"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.9281271743732239,
+        "mention": "Credit Register"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.9942805365118789,
+        "mention": "credit register"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.8020052518299978,
+        "mention": "balance sheet data"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.9195432275420177,
+        "mention": "monthly Balance Sheet Statistics"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.9828473353804552,
+        "mention": "BCs"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.8426910503730718,
+        "mention": "add up"
+    },
+    {
+        "publication_id": 2820,
+        "score": 0.8762945256122284,
+        "mention": "balance sheet)"
+    },
+    {
+        "publication_id": 2850,
+        "score": 0.7242248205878478,
+        "mention": "corporate balance sheet statistics"
+    },
+    {
+        "publication_id": 2850,
+        "score": 0.7709696199318751,
+        "mention": "active"
+    },
+    {
+        "publication_id": 2896,
+        "score": 0.9691734874763297,
+        "mention": "FDI project"
+    },
+    {
+        "publication_id": 2896,
+        "score": 0.7302879721894489,
+        "mention": "foreign direct investment (FDI)"
+    },
+    {
+        "publication_id": 2896,
+        "score": 0.8121725634582343,
+        "mention": "FDI dataset"
+    },
+    {
+        "publication_id": 2907,
+        "score": 0.9884464936625679,
+        "mention": "MIDI"
+    },
+    {
+        "publication_id": 2907,
+        "score": 0.899530102242337,
+        "mention": "MIcro database Direct Investment"
+    },
+    {
+        "publication_id": 3025,
+        "score": 0.9747232160575054,
+        "mention": "NCS"
+    },
+    {
+        "publication_id": 3025,
+        "score": 0.9360880506899005,
+        "mention": "National Comorbidity Survey"
+    },
+    {
+        "publication_id": 3025,
+        "score": 0.8961704082739499,
+        "mention": "Epidemiologic Catchment Area Study"
+    },
+    {
+        "publication_id": 3025,
+        "score": 0.898076536254207,
+        "mention": "National Comorbidity Study"
+    },
+    {
+        "publication_id": 3025,
+        "score": 0.8161702201164812,
+        "mention": "New Haven Epidemiologic Catchment Area Study"
+    },
+    {
+        "publication_id": 3074,
+        "score": 0.7500245758535922,
+        "mention": "Study to Understand Prognoses and Preferences for Outcomes and Risks of Treatments"
+    },
+    {
+        "publication_id": 3074,
+        "score": 0.8766824709784347,
+        "mention": "Study to Understand Prognoses and Preferences for Outcomes and Risks of Treatments (SUPPORT)"
+    },
+    {
+        "publication_id": 3074,
+        "score": 0.7916035556769379,
+        "mention": "SUPPORT"
+    },
+    {
+        "publication_id": 3118,
+        "score": 0.7976214725867157,
+        "mention": "National Health Interview Survey"
+    },
+    {
+        "publication_id": 3118,
+        "score": 0.9131235300773035,
+        "mention": "NHIS"
+    },
+    {
+        "publication_id": 3152,
+        "score": 0.9688322009160035,
+        "mention": "SAGE"
+    },
+    {
+        "publication_id": 3152,
+        "score": 0.8638707493088149,
+        "mention": "YPP"
+    },
+    {
+        "publication_id": 3266,
+        "score": 0.9929168425315272,
+        "mention": "BSE mid-cap"
+    },
+    {
+        "publication_id": 3266,
+        "score": 0.944126790416775,
+        "mention": "small-cap"
+    },
+    {
+        "publication_id": 3266,
+        "score": 0.874704624948126,
+        "mention": "the mid-cap"
+    },
+    {
+        "publication_id": 3266,
+        "score": 0.8419227572037844,
+        "mention": "small-cap and the mid-cap"
+    },
+    {
+        "publication_id": 3266,
+        "score": 0.8852780891048002,
+        "mention": "CAARs Mid-cap Small-cap"
+    },
+    {
+        "publication_id": 3266,
+        "score": 0.9949413653660509,
+        "mention": "small-cap and mid-cap"
+    },
+    {
+        "publication_id": 3268,
+        "score": 0.9688981882682047,
+        "mention": "SAGE"
+    },
+    {
+        "publication_id": 3268,
+        "score": 0.7695615979070783,
+        "mention": "mythos"
+    },
+    {
+        "publication_id": 3268,
+        "score": 0.735613081144207,
+        "mention": "add a"
+    },
+    {
+        "publication_id": 3270,
+        "score": 0.7210183328973284,
+        "mention": "NSA"
+    },
+    {
+        "publication_id": 3272,
+        "score": 0.7681613389670179,
+        "mention": "the position of moving objects"
+    },
+    {
+        "publication_id": 3272,
+        "score": 0.7271467106272299,
+        "mention": "moving objects"
+    },
+    {
+        "publication_id": 3276,
+        "score": 0.7621253745340304,
+        "mention": "active"
+    },
+    {
+        "publication_id": 3277,
+        "score": 0.9802033697528315,
+        "mention": "SAGE"
+    },
+    {
+        "publication_id": 3277,
+        "score": 0.8539118097974304,
+        "mention": "Strategic Position Growth"
+    },
+    {
+        "publication_id": 3277,
+        "score": 0.7621253745340304,
+        "mention": "active"
+    },
+    {
+        "publication_id": 3278,
+        "score": 0.7621253745340304,
+        "mention": "active"
+    },
+    {
+        "publication_id": 3279,
+        "score": 0.9454278728436549,
+        "mention": "GSS"
+    },
+    {
+        "publication_id": 3279,
+        "score": 0.7621253745340304,
+        "mention": "active"
+    },
+    {
+        "publication_id": 3280,
+        "score": 0.7621253745340304,
+        "mention": "active"
+    },
+    {
+        "publication_id": 3282,
+        "score": 0.7771892776329361,
+        "mention": "good news for democracy"
+    },
+    {
+        "publication_id": 3285,
+        "score": 0.8054561957215417,
+        "mention": "HoS"
+    },
+    {
+        "publication_id": 3291,
+        "score": 0.9688714408725877,
+        "mention": "SAGE"
+    },
+    {
+        "publication_id": 3291,
+        "score": 0.7463909115496903,
+        "mention": "stop-signal study"
+    },
+    {
+        "publication_id": 3293,
+        "score": 0.9675427662265405,
+        "mention": "SAGE"
+    },
+    {
+        "publication_id": 3293,
+        "score": 0.7429728002597855,
+        "mention": "community partnerships"
+    },
+    {
+        "publication_id": 3297,
+        "score": 0.7354171884837153,
+        "mention": "CPSS"
+    },
+    {
+        "publication_id": 3297,
+        "score": 0.9688988681004532,
+        "mention": "SAGE"
+    }
+]

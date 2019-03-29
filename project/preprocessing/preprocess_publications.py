@@ -2,7 +2,7 @@ import tempfile
 
 from project.preprocessing.get_input import ProcessInput
 import os, subprocess
-import re
+import re, logging
 from pathlib import Path
 from langdetect import detect
 import enchant, spacy, json
@@ -27,17 +27,39 @@ class PublicationPreprocessing:
         self.pub_df = self.pi.load_publication_input(path=path)
 
     def write_nounPharses_to_file(self, np_dict, file_name):
+        """
+        Writes the dict to a file on the disk.
+        :param np_dict: a dict containing noun phrases present in the relevant sections of a publication
+                        key -> relevant section (eg. abstract) value -> noun phrases present in that section
+        :param file_name:
+        :return:
+        """
         directory = "project/additional_files/nounPhrases/"
         if not os.path.exists(directory):
             os.makedirs(directory)
-        with open(directory + file_name, 'w') as file:
+
+        os.chmod("project/additional_files/", 0o777)
+        os.chmod(directory, 0o777)
+
+        with open(directory + file_name, 'w+') as file:
             json.dump(np_dict, file, indent=4, ensure_ascii=False)
 
     def write_processed_content(self, content_dict, file_name):
+        """
+        Writes the dict to a file on the disk.
+        :param content_dict: contains preprocessed/denoised text of the relevant sections of a pub
+                            key -> relevant section (eg. abstract) value -> denoised text in that section
+        :param file_name:
+        :return:
+        """
         directory = "project/additional_files/processed_articles/"
         if not os.path.exists(directory):
             os.makedirs(directory)
-        with open(directory + file_name, 'w') as file:
+
+        os.chmod("project/additional_files/", 0o777)
+        os.chmod(directory, 0o777)
+
+        with open(directory + file_name, 'w+') as file:
             json.dump(content_dict, file, indent=4, ensure_ascii=False)
 
     def fetch_pdf_info(self, file_name):
@@ -46,9 +68,9 @@ class PublicationPreprocessing:
         :param file_name:
         :return:
         """
-        print(file_name)
         info = dict()
         directory = "project/additional_files/pdf-info/"
+
         with open(directory + file_name, encoding='utf-8', errors='ignore') as file:
 
             lines = file.readlines()
@@ -61,10 +83,31 @@ class PublicationPreprocessing:
                 info[k.strip()] = v.strip()
                 i+=1
 
-            #print('info', info)
             return info
 
+    def extract_text_from_pdf(self, pdf_name, txt_name):
+        """
+        Converts a PDF into text using the open source tool 'pdftotext' by Poppler Utils, writes the text file to disk
+        :param file_name:
+        :return: returns the converted text
+        """
+        directory = "project/additional_files/text/"
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            os.chmod(directory, 0o777)
+
+        subprocess.call(['pdftotext -nopgbrk "{0}" "{1}"'.format('data/input/files/pdf/' + pdf_name,
+                                                         directory + txt_name)], shell=True)
+
+        with open(directory + txt_name, 'r+', errors='ignore') as txt_file:
+            data = txt_file.read()
+            return data
+
     def gather_nounPhrases(self, text):
+        """
+        :param text:
+        :return: noun phrases present in the given text
+        """
 
         text = text.replace('-\n', '').replace('\n', ' ')
         doc = self.nlp(text)
@@ -79,7 +122,11 @@ class PublicationPreprocessing:
         return all_phrases
 
     def extract_paragraphs(self, doc):
-        # start = timer()
+        """
+        given a text, tries to find the lines that belong to the same paragraph (e.g. abstract) and return it.
+        :param doc:
+        :return:
+        """
         lines = doc.split('\n')
         i = 1
         one_para = []
@@ -103,28 +150,50 @@ class PublicationPreprocessing:
             i += 1
         one_para.append(lines[i - 1])
         all_paras.append(' '.join(one_para))
-        # end = timer()
-        # print('para extraction', end-start, 'secs')
         return all_paras
 
     def remove_url(self, text):
+        """
+        :param text:
+        :return: text devoid of url  
+        """
         text = re.sub(r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'".,<>?«»“”‘’]))', '', text, flags=re.MULTILINE)
         return text
 
     def remove_noise_and_handle_hyphenation(self, doc, dehyphenation=True):
-        # start = timer()
         lines = doc.split('\n')
         i = 1
         content = []
+        jel_method = []
+        jel_field = []
+        with open('project/train_test/jel-dict.json', 'r+') as file:
+            jel_dict = json.load(file)
+
         while (i <= len(lines)):
             lines[i-1] = remove_control_chars(lines[i-1])
+
+            jel_match = re.search(
+                'JEL-?Classification:?\s?|JEL\s?-?[c|C]lassification:?\s?|JEL-?CLASSIFICATION:?\s?|JEL\s?-?\s?[c|C][o|O][d|D][e|E]:?\s?|JEL:?\s?',
+                lines[i - 1])
+            if jel_match:
+                if lines[i - 1][jel_match.end() - 1] == ':':  # because lines have already been split based on newline
+                    i += 1
+
+                matches = re.finditer(r"[a-zA-Z]\d+", lines[i-1], re.MULTILINE)
+
+                for match in matches:
+                    code = lines[i-1][match.start():match.end()][:3]
+                    if code in jel_dict:
+                        if code.startswith('c') or code.startswith('C'):
+                            jel_method.append(jel_dict[code])
+                        else:
+                            jel_field.append(jel_dict[code])
+                i += 1
+                continue
+
             numbers = sum(c.isdigit() for c in lines[i-1])
             uppercase_count = sum(1 for c in lines[i-1] if c.isupper())
             symbol_count = sum(1 for c in lines[i-1] if c in ['(', ')', '{', '}', '*', '+', '-', '/', '=', '<', '>','%','.'])
-
-            if(re.search('JEL-?Classification|JEL\s?-?[c|C]lassification|JEL-?CLASSIFICATION|JEL',lines[i-1])):
-                i+=1
-                continue
 
             if(len(lines[i-1]) <= 3): #for characters in equations
                 i+=1
@@ -154,21 +223,20 @@ class PublicationPreprocessing:
                         lines[i] = lines[i].replace(first_word_curr_line, '')
                 content.append(lines[i-1])
             i+=1
-        # end = timer()
-        # print('dehyphenation and noise removal', end - start, 'secs')
-        return '\n'.join(content)
+
+        return '\n'.join(content), jel_field, jel_method
 
     def process_text(self, extract_np=True, write_processed_files=True):
 
         content_dict = dict()
-        num_pages = [] # contains pdfs with pages < threshold (eg 7)
-        no_method_match = []
-        no_method_found = []
-        no_abstract = []
+        # no_method_match = [] # -- pubs with no regex match for methodology
+        # no_method_found = [] # -- pubs with no 'methodology' section in content_dict
+        # no_abstract = [] # -- pubs with no abstract
 
         directory = "project/additional_files/pdf-info/"
         if not os.path.exists(directory):
             os.makedirs(directory)
+            os.chmod(directory, 0o777)
 
         for _,row in self.pub_df.iterrows():
             try:
@@ -177,6 +245,7 @@ class PublicationPreprocessing:
                 if np_file.exists():
                     continue
                 else:
+                    print(row['pdf_file_name'])
                     start1 = timer()
                     subprocess.call(['pdfinfo "{0}" >> "{1}"'.format('data/input/files/pdf/' + row['pdf_file_name'],
                                                                      'project/additional_files/pdf-info/' + row[
@@ -184,6 +253,7 @@ class PublicationPreprocessing:
                                     shell=True)
                     pdf_info = self.fetch_pdf_info(row['text_file_name'])
 
+                    row['text'] = self.extract_text_from_pdf(row['pdf_file_name'], row['text_file_name'])
                     reduced_content = row['text']
 
                     # remove references or bibliography
@@ -194,37 +264,48 @@ class PublicationPreprocessing:
 
                     reduced_content = reduced_content.replace(row['title'], '')
 
-                    reduced_content = self.remove_noise_and_handle_hyphenation(reduced_content, dehyphenation=True)
+                    reduced_content, jel_field, jel_method = self.remove_noise_and_handle_hyphenation(reduced_content, dehyphenation=True)
+
+                    if len(row['jel_field']) > len(jel_field) or len(row['jel_method']) > len(jel_method):
+                        content_dict['jel_field'] = row['jel_field']
+                        content_dict['jel_method'] = row['jel_method']
+                    else:
+                        content_dict['jel_field'] = jel_field
+                        row['jel_field'] = jel_field
+                        content_dict['jel_method'] = jel_method
+                        row['jel_method'] = jel_method
+
                     reduced_content = self.remove_url(reduced_content)
 
                     abstract_found = False
                     abstract_beg = self.find_abstract(reduced_content)
                     abstract_end = -1
 
-                    keywords_match=re.search("^key-?\s?words:?", reduced_content, flags=re.IGNORECASE|re.MULTILINE)
+                    keywords_match=re.search("^key-?\s?words:?.?\n?\s?", reduced_content, flags=re.IGNORECASE|re.MULTILINE)
                     if keywords_match:
                         keywords_beg= keywords_match.start()
-                        keywords = reduced_content[keywords_beg:]
-                        start = keywords.find(':')
-                        if start < 0:
-                            start = keywords.find('-')
-                        newline = keywords.find('\n') #if keywords are on the next line
-                        if (newline < start):
-                            start = newline
-                        keywords = keywords[start+1:].strip()
+                        keywords_end= keywords_match.end()
+                        keywords = reduced_content[keywords_end:]
+
+                        # print(row['text_file_name'])
                         keywords = keywords.replace(', \n', ', ').replace('-\n', '')
                         keywords = keywords.split('\n')[0]
-                        keyword_list = re.split(',|;', keywords)
+                        # print(keywords)
+                        keyword_list = re.split(',|;|/|—', keywords)
                         # print('keywords', keyword_list)
 
                         if 'Keywords' in pdf_info.keys() and len(pdf_info['Keywords']) > len(keyword_list):
-                            keyword_list = re.split(',|;|/', pdf_info['Keywords'])
+                            keyword_list = re.split(',|;|/|—', pdf_info['Keywords'])
 
                         content_dict['keywords'] = keyword_list
 
                     else:
                         keywords_beg = -1
-                        content_dict['keywords'] = []
+                        if 'Keywords' in pdf_info.keys():
+                            keyword_list = re.split(',|;|/|—', pdf_info['Keywords'])
+                            content_dict['keywords'] = keyword_list
+                        else:
+                            content_dict['keywords'] = []
 
                     if keywords_beg > abstract_beg: #when keywords are present after the abstract
                         abstract_end = keywords_beg
@@ -236,9 +317,7 @@ class PublicationPreprocessing:
                     if keywords_beg < abstract_beg < introduction_beg:
                         # if abstract_beg > 0:
                         abstract_end = introduction_beg
-                    # elif keywords_beg > 0 and keywords_beg + len(keywords) > introduction_beg and abstract_beg < 0: #for keywords that lie above the abstract
-                    #     abstract_beg = keywords_beg
-                    #     abstract_end = introduction_beg
+
                     elif abstract_beg < introduction_beg and keywords_beg < 0:
                         abstract_end = introduction_beg
                         if abstract_beg < 0:
@@ -284,13 +363,9 @@ class PublicationPreprocessing:
                         content_dict['subject'] = ''
 
                     for key in pdf_info:
-                        if key == "Pages" and int(pdf_info[key]) < 7:
-                            num_pages.append(row['pdf_file_name'])
-
                         if len(pdf_info[key]) > 3 and pdf_info[key] in reduced_content:
                             reduced_content = reduced_content.replace(pdf_info[key], ' ')
 
-                    #contents_index = re.search('^Contents|^CONTENTS|^INDEX|^Index', reduced_content, flags=re.MULTILINE)
                     methods_match = [(m.start(), m.end()) for m in re.finditer(r"^.*(Data|DATA|Methodology|\b[m|M]ethods?\b|METHODS?|METHODOLODY|APPROACH|Approach).*$", reduced_content, flags=re.MULTILINE)]
                     summary_index = [m.start() for m in re.finditer(r"^\d?\.?\s?Summary|^\d?\.?\s?SUMMARY|^\d?\.?\s?Conclusions?|^\d?\.?\s?CONCLUSIONS?|^\d?\.?\s?Concluding\sRemarks|^\d?\.?\s?CONCLUDING\sREMARKS", reduced_content, flags=re.MULTILINE)]
                     results_index = [m.start() for m in re.finditer(r"^\d?\.?\s?Results?|^\d?\.?\s?RESULTS?", reduced_content, flags=re.MULTILINE)]
@@ -301,8 +376,8 @@ class PublicationPreprocessing:
                     discussion_beg = -1
                     intro_found = False
 
-                    if len(methods_match) == 0:
-                        no_method_match.append(row['pdf_file_name'])
+                    # if len(methods_match) == 0:
+                    #     no_method_match.append(row['pdf_file_name'])
 
                     introduction_beg = self.find_introduction(reduced_content)
                     if len(results_index) > 0:
@@ -373,7 +448,7 @@ class PublicationPreprocessing:
                         content_dict['methodology'] = methodology
                     else:
                         content_dict['methodology'] = ''
-                        no_method_found.append(row['pdf_file_name'])
+                        # no_method_found.append(row['pdf_file_name'])
 
                     if abstract_beg > 0 and abstract_end == -1 and not abstract_found:
                         if methods_beg > 0:
@@ -385,8 +460,8 @@ class PublicationPreprocessing:
                     if not abstract_found:
                         content_dict['abstract'] = row['title']
 
-                    if len(content_dict['abstract']) == 0:
-                        no_abstract.append(row['pdf_file_name'])
+                    # if len(content_dict['abstract']) == 0:
+                    #     no_abstract.append(row['pdf_file_name'])
 
                     if summary_beg > 0:
                         if summary_beg < discussion_beg:
@@ -411,7 +486,6 @@ class PublicationPreprocessing:
                             reduced_content = reduced_content.replace(discussion, '').strip()
                     reduced_content = reduced_content.replace(content_dict['introduction'], '').strip()
                     reduced_content = reduced_content.replace(content_dict['methodology'], '').strip()
-                    #reduced_content = reduced_content.replace(content_dict['abstract'], '').strip()
                     if reduced_content.find(content_dict['abstract']) > 0:
                         reduced_content = reduced_content[reduced_content.find(content_dict['abstract']) + len(content_dict['abstract']):]
 
@@ -422,7 +496,6 @@ class PublicationPreprocessing:
 
                     if (extract_np):
                         np_dict = dict()
-                        start = timer()
                         np_dict['title'] = self.gather_nounPhrases(row['title'])
 
                         if len(content_dict['abstract']) > 0:
@@ -440,13 +513,15 @@ class PublicationPreprocessing:
 
                         np_dict['subject'] = self.gather_nounPhrases(content_dict['subject'])
 
-                        print(f'np per file: {timer() - start}')
-                        self.write_nounPharses_to_file(np_dict, row['text_file_name'])
-                        print('files written.')
+                        np_dict['jel_method'] = self.gather_nounPhrases('; '.join(content_dict['jel_method']))
 
-                        print(f'total processing time: {timer()-start1}')
+                        np_dict['jel_field'] = self.gather_nounPhrases('; '.join(content_dict['jel_field']))
+
+
+                        self.write_nounPharses_to_file(np_dict, row['text_file_name'])
+
             except Exception as e:
-                print(e)
+                logging.exception(e)
                 continue
 
     def find_introduction(self, reduced_content):
@@ -469,23 +544,25 @@ class PublicationPreprocessing:
         return abstract_beg
 
     def remove_acknowledgment(self, reduced_content):
-        #ack_match = re.search('^Acknowledge?ments?|^ACKNOWLEDGE?MENTS?', reduced_content, flags=re.MULTILINE)
+        # TODO: handle 'thank/grateful'. can appear anywhere in the article as a part of acknowledgement. remove that para
+
         ack_index = [m.start() for m in re.finditer('^Acknowledge?ments?|^ACKNOWLEDGE?MENTS?', reduced_content, flags=re.MULTILINE)]
+
         if len(ack_index) > 0:
             ack_beg = ack_index[-1]
             reduced_content = reduced_content[:ack_beg]
-        else:
-            ack_beg = -1  # TODO: handle 'thank/grateful'. can appear anywhere in the article as a part of acknowledgement. remove that para
+
         return reduced_content
 
     def remove_references(self, reduced_content):
         references_index = [m.start() for m in re.finditer(
             '^\d?\.?\s?References:?|^\d?\.?\s?Bibliography:?|^\d?\.?\s?Literature Cited:?|^\d?\.?\s?Notes:?|^\d?\.?\s?REFERENCES:?|^\d?\.?\s?BIBLIOGRAPHY:?|^\d?\.?\s?LITERATURE CITED:?|^\d?\.?\s?NOTES:?|^\d?\.?\s?LITERATURE:?',
             reduced_content, flags=re.MULTILINE)]
+
         if len(references_index) > 0:
             references_beg = references_index[-1]
             reduced_content = reduced_content[:references_beg]
-            # all_ref.append(ref)
+
         else:
             references_beg = -1
         if (references_beg < 0):
@@ -494,9 +571,7 @@ class PublicationPreprocessing:
                 if (len(match) < 25):
                     continue
                 else:
-                    # ref = match
                     reduced_content = re.sub(pattern, '', reduced_content)
-                    # all_ref.append(ref)
         return reduced_content
 
 

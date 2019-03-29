@@ -12,22 +12,22 @@ class DatasetIdentification(object):
         self.dataset_citation_list = list()
         self.dataset_mention_list = list()
 
-    def generate_dataset_citation(self, dataset_citation_list=None, output_path='data/output/'):
+    def generate_dataset_citation(self, dataset_citation_list=None, output_path='./data/output/'):
         """
-        creates the json file data_set_citations.json
+        creates the json file data_set_citations-train.json
         :param dataset_citation_list:
         :return:
         """
-        with open(output_path+"data_set_citations.json", "w") as write_file:
-            json.dump(dataset_citation_list, write_file, indent=4)
+        with open(output_path+"data_set_citations.json", "w+") as write_file:
+            json.dump(dataset_citation_list, write_file, indent=4, ensure_ascii=False)
 
-    def generate_dataset_mention(self, dataset_mention_list=None, output_path='data/output/'):
+    def generate_dataset_mention(self, dataset_mention_list=None, output_path='./data/output/'):
         """
         creates the json file data_set_mentions.json
         :return:
         """
-        with open(output_path+"data_set_mentions.json", "w") as write_file:
-            json.dump(dataset_mention_list, write_file, indent=4)
+        with open(output_path+"data_set_mentions.json", "w+") as write_file:
+            json.dump(dataset_mention_list, write_file, indent=4, ensure_ascii=False)
 
     @abstractmethod
     def find_dataset(self):

@@ -1,0 +1,4301 @@
+[ {
+  "fileName" : "1935.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.9660937898383808
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.9627382320219575
+  }, {
+    "fieldId" : "Hlth-12-74",
+    "fieldLabel" : "Pediatric Oncology Nursing",
+    "score" : 0.798392853296476
+  }, {
+    "fieldId" : "Hlth-6-1",
+    "fieldLabel" : "Epidemiology & Biostatistics",
+    "score" : 0.9038628093384942
+  }, {
+    "fieldId" : "BusMgt-1-5",
+    "fieldLabel" : "Management",
+    "score" : 0.8905190309784151
+  }, {
+    "fieldId" : "Hlth-2-19",
+    "fieldLabel" : "Nephrology",
+    "score" : 0.8438323799494685
+  }, {
+    "fieldId" : "Hlth-17-21",
+    "fieldLabel" : "Public Health Research Methods",
+    "score" : 0.8388965023041062
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Hlth-2-27",
+    "fieldLabel" : "Pediatric Medicine",
+    "score" : 0.8324509302706651
+  }, {
+    "fieldId" : "Edu-4-4",
+    "fieldLabel" : "Childhood & Society",
+    "score" : 0.8182147545906274
+  } ]
+}, {
+  "fileName" : "3276.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-2-32",
+    "fieldLabel" : "Pulmonary & Respiratory Medicine",
+    "score" : 0.7165921658009939
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Hlth-12-35",
+    "fieldLabel" : "Infusion Therapy",
+    "score" : 0.63173805520315
+  }, {
+    "fieldId" : "Psych-12-4",
+    "fieldLabel" : "Double Blind Experimental Design in Psychology",
+    "score" : 0.5855694597066257
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.5310584455466583
+  }, {
+    "fieldId" : "Psych-6-1",
+    "fieldLabel" : "Conceptual Issues in Psychology",
+    "score" : 0.4999156682311812
+  }, {
+    "fieldId" : "Poli-13-4",
+    "fieldLabel" : "Energy Policy",
+    "score" : 0.3526421032918552
+  }, {
+    "fieldId" : "Geo-9-3",
+    "fieldLabel" : "Meteorological Equipment & Research Methods",
+    "score" : 0.3518147227908571
+  }, {
+    "fieldId" : "Hlth-18-1",
+    "fieldLabel" : "Radiological & Imaging Technologies",
+    "score" : 0.38390781812778907
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.35865586811792516
+  } ]
+}, {
+  "fileName" : "2328.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-3-3",
+    "fieldLabel" : "Correctional Health Care",
+    "score" : 0.9368630238174759
+  }, {
+    "fieldId" : "Hlth-12-72",
+    "fieldLabel" : "Patient Education",
+    "score" : 0.926067646882936
+  }, {
+    "fieldId" : "Hlth-15-3",
+    "fieldLabel" : "Primary Care PA",
+    "score" : 0.8595357806821359
+  }, {
+    "fieldId" : "Hlth-17-11",
+    "fieldLabel" : "Health Education",
+    "score" : 0.9580049782361784
+  }, {
+    "fieldId" : "Hlth-17-17",
+    "fieldLabel" : "Population Health",
+    "score" : 0.9188899884872409
+  }, {
+    "fieldId" : "Hlth-12-7",
+    "fieldLabel" : "Child Care Nursing",
+    "score" : 0.8323231163113997
+  }, {
+    "fieldId" : "Hlth-24-11",
+    "fieldLabel" : "Health Care & Aging",
+    "score" : 0.8310627689465322
+  }, {
+    "fieldId" : "Hlth-2-30",
+    "fieldLabel" : "Primary Care / Family Practice",
+    "score" : 0.8148612987453554
+  }, {
+    "fieldId" : "Hlth-8-6",
+    "fieldLabel" : "Home Health Care Management & Administration",
+    "score" : 0.7390791637924152
+  }, {
+    "fieldId" : "Hlth-12-45",
+    "fieldLabel" : "Medical-Surgical Nursing",
+    "score" : 0.7100628271775021
+  } ]
+}, {
+  "fileName" : "1338.txt",
+  "result" : [ {
+    "fieldId" : "Edu-25-30",
+    "fieldLabel" : "Research Methods",
+    "score" : 0.9251717922522003
+  }, {
+    "fieldId" : "Hlth-6-1",
+    "fieldLabel" : "Epidemiology & Biostatistics",
+    "score" : 0.9038628093384942
+  }, {
+    "fieldId" : "Hlth-17-11",
+    "fieldLabel" : "Health Education",
+    "score" : 0.8738678836351637
+  }, {
+    "fieldId" : "Hlth-8-5",
+    "fieldLabel" : "Health Risk Assessment",
+    "score" : 0.8713644584789091
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.7235283134857249
+  }, {
+    "fieldId" : "Hlth-17-3",
+    "fieldLabel" : "Community Mental Health",
+    "score" : 0.8649554836130927
+  }, {
+    "fieldId" : "Hlth-2-27",
+    "fieldLabel" : "Pediatric Medicine",
+    "score" : 0.8324509302706651
+  }, {
+    "fieldId" : "Edu-26-7",
+    "fieldLabel" : "Middle School Math",
+    "score" : 0.8168335897377174
+  }, {
+    "fieldId" : "BusMgt-9-19",
+    "fieldLabel" : "Leadership Development",
+    "score" : 0.668785100848531
+  }, {
+    "fieldId" : "Hlth-10-3",
+    "fieldLabel" : "North American Health",
+    "score" : 0.6567900559929378
+  } ]
+}, {
+  "fileName" : "1293.txt",
+  "result" : [ {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Hlth-5-1",
+    "fieldLabel" : "Disability & Rehabilitation",
+    "score" : 0.7605640924361655
+  }, {
+    "fieldId" : "Hlth-8-1",
+    "fieldLabel" : "Health Services Research",
+    "score" : 0.8922865867359384
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Psych-11-8",
+    "fieldLabel" : "Interpersonal Relationships",
+    "score" : 0.8325666317215323
+  }, {
+    "fieldId" : "Hlth-8-2",
+    "fieldLabel" : "Health Care Management & Administration",
+    "score" : 0.8240758788255107
+  }, {
+    "fieldId" : "Hlth-15-1",
+    "fieldLabel" : "Physician Assistant",
+    "score" : 0.7759297548541659
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Soc-13-6",
+    "fieldLabel" : "Disability",
+    "score" : 0.7577574927128543
+  } ]
+}, {
+  "fileName" : "3278.txt",
+  "result" : [ {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.6429499160336265
+  }, {
+    "fieldId" : "Geo-4-4",
+    "fieldLabel" : "Light Pollution",
+    "score" : 0.6165187190486309
+  }, {
+    "fieldId" : "Psych-9-5",
+    "fieldLabel" : "Personality & Motivation",
+    "score" : 0.4134039469109851
+  }, {
+    "fieldId" : "BusMgt-9-23",
+    "fieldLabel" : "Leadership, Power & Influence",
+    "score" : 0.4725256176590233
+  }, {
+    "fieldId" : "Psych-5-20",
+    "fieldLabel" : "Object & Face Recognition",
+    "score" : 0.45074404844907806
+  }, {
+    "fieldId" : "Geo-4-7",
+    "fieldLabel" : "Soil Contamination",
+    "score" : 0.38221413012740435
+  }, {
+    "fieldId" : "Comm-2-45",
+    "fieldLabel" : "Video Games",
+    "score" : 0.3729681395433554
+  }, {
+    "fieldId" : "Geo-4-5",
+    "fieldLabel" : "Noise Pollution",
+    "score" : 0.36883717899305885
+  }, {
+    "fieldId" : "Psych-8-10",
+    "fieldLabel" : "Lifespan Development",
+    "score" : 0.3321522952794822
+  } ]
+}, {
+  "fileName" : "2820.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.8858844575307216
+  }, {
+    "fieldId" : "Poli-13-7",
+    "fieldLabel" : "Local Government Policy",
+    "score" : 0.841656907696217
+  }, {
+    "fieldId" : "BusMgt-5-3",
+    "fieldLabel" : "Banking",
+    "score" : 0.7545901174643862
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.6075262137522464
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.6986710942552742
+  }, {
+    "fieldId" : "BusMgt-5-5",
+    "fieldLabel" : "Capital Budgeting",
+    "score" : 0.6094875434845611
+  }, {
+    "fieldId" : "Psych-9-1",
+    "fieldLabel" : "Personality & Individual Differences",
+    "score" : 0.5546244266656765
+  }, {
+    "fieldId" : "Poli-11-11",
+    "fieldLabel" : "Peace Studies / Conflict Resolution",
+    "score" : 0.4137793032411559
+  }, {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.4750871567191839
+  }, {
+    "fieldId" : "Psych-9-2",
+    "fieldLabel" : "Big 5 Personality Measure",
+    "score" : 0.4333862705599418
+  } ]
+}, {
+  "fileName" : "3265.txt",
+  "result" : [ {
+    "fieldId" : "Poli-7-27",
+    "fieldLabel" : "Religion & Politics",
+    "score" : 0.8752844568446493
+  }, {
+    "fieldId" : "Comm-2-11",
+    "fieldLabel" : "Global Media",
+    "score" : 0.6262741933347925
+  }, {
+    "fieldId" : "Poli-8-11",
+    "fieldLabel" : "Political Ideologies",
+    "score" : 0.7438325552145368
+  }, {
+    "fieldId" : "Poli-7-23",
+    "fieldLabel" : "Political Culture",
+    "score" : 0.7415969827719215
+  }, {
+    "fieldId" : "Poli-7-26",
+    "fieldLabel" : "Race, Ethnicity & Politics",
+    "score" : 0.602816848637239
+  }, {
+    "fieldId" : "BusMgt-2-11",
+    "fieldLabel" : "Financial Reporting",
+    "score" : 0.7209203988280899
+  }, {
+    "fieldId" : "Comm-2-28",
+    "fieldLabel" : "Media History",
+    "score" : 0.6877850759979885
+  }, {
+    "fieldId" : "Comm-2-23",
+    "fieldLabel" : "Media Archives",
+    "score" : 0.5263470751047475
+  }, {
+    "fieldId" : "Poli-6-32",
+    "fieldLabel" : "United Nations",
+    "score" : 0.6280663569018369
+  }, {
+    "fieldId" : "Poli-12-10",
+    "fieldLabel" : "Polling & Forecasting",
+    "score" : 0.5245453004142461
+  } ]
+}, {
+  "fileName" : "3152.txt",
+  "result" : [ {
+    "fieldId" : "Soc-9-10",
+    "fieldLabel" : "Social Movements",
+    "score" : 0.908394085230648
+  }, {
+    "fieldId" : "BusMgt-13-13",
+    "fieldLabel" : "Power in Organizations",
+    "score" : 0.7510887315564905
+  }, {
+    "fieldId" : "Comm-2-43",
+    "fieldLabel" : "Social Media",
+    "score" : 0.8977469899014439
+  }, {
+    "fieldId" : "Comm-2-9",
+    "fieldLabel" : "Digital Media",
+    "score" : 0.8696574942195784
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Edu-5-11",
+    "fieldLabel" : "Leading Student Engagement",
+    "score" : 0.6756820931909301
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.7330653328703289
+  }, {
+    "fieldId" : "Soc-11-10",
+    "fieldLabel" : "Constructionism/Constructivism",
+    "score" : 0.7172757444339122
+  }, {
+    "fieldId" : "Hlth-23-14",
+    "fieldLabel" : "Empowerment & Participation in Youth & Community Work",
+    "score" : 0.7130275659676766
+  }, {
+    "fieldId" : "Soc-19-2",
+    "fieldLabel" : "Violence & Society",
+    "score" : 0.6764588974519543
+  } ]
+}, {
+  "fileName" : "3258.txt",
+  "result" : [ {
+    "fieldId" : "Edu-24-1",
+    "fieldLabel" : "Educational Research",
+    "score" : 0.9366983479324681
+  }, {
+    "fieldId" : "Edu-9-22",
+    "fieldLabel" : "Online Learning & Distance Education",
+    "score" : 0.9041800182886633
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "BusMgt-11-9",
+    "fieldLabel" : "Business-to-Business Marketing",
+    "score" : 0.864768157369577
+  }, {
+    "fieldId" : "Edu-25-3",
+    "fieldLabel" : "ANOVA/MANOVA",
+    "score" : 0.8396421055818765
+  }, {
+    "fieldId" : "Soc-3-14",
+    "fieldLabel" : "Latin American Studies",
+    "score" : 0.6790120263023142
+  }, {
+    "fieldId" : "Edu-3-12",
+    "fieldLabel" : "Mathematics Curricula",
+    "score" : 0.7955939828182322
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "BusMgt-4-15",
+    "fieldLabel" : "Engineering Economics",
+    "score" : 0.7418633352234573
+  }, {
+    "fieldId" : "Edu-25-14",
+    "fieldLabel" : "Internet Research",
+    "score" : 0.7157815461452849
+  } ]
+}, {
+  "fileName" : "3267.txt",
+  "result" : [ {
+    "fieldId" : "Geo-12-2",
+    "fieldLabel" : "Research Methods for Earth & Environmental Science",
+    "score" : 0.7774277094521772
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7109878963167325
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.5337679595241462
+  }, {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.6148104030737245
+  }, {
+    "fieldId" : "Soc-3-6",
+    "fieldLabel" : "Chinese Studies",
+    "score" : 0.6051013863029094
+  }, {
+    "fieldId" : "Counsel-6-2",
+    "fieldLabel" : "Evaluating Therapeutic Outcomes",
+    "score" : 0.571882426779505
+  }, {
+    "fieldId" : "Soc-3-11",
+    "fieldLabel" : "Irish Studies",
+    "score" : 0.45479874603520104
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.5310584455466583
+  }, {
+    "fieldId" : "Poli-6-1",
+    "fieldLabel" : "International Relations",
+    "score" : 0.46120748185282506
+  } ]
+}, {
+  "fileName" : "2541.txt",
+  "result" : [ {
+    "fieldId" : "Crim-3-6",
+    "fieldLabel" : "Criminal Justice Policy",
+    "score" : 0.830047511365438
+  }, {
+    "fieldId" : "Hlth-8-1",
+    "fieldLabel" : "Health Services Research",
+    "score" : 0.8913004712009672
+  }, {
+    "fieldId" : "BusMgt-3-7",
+    "fieldLabel" : "Sustainability in Business",
+    "score" : 0.740203366835045
+  }, {
+    "fieldId" : "Crim-2-7",
+    "fieldLabel" : "Correctional Management",
+    "score" : 0.6737434037173682
+  }, {
+    "fieldId" : "BusMgt-16-12",
+    "fieldLabel" : "Strategic Implementation",
+    "score" : 0.7767703874333325
+  }, {
+    "fieldId" : "BusMgt-9-13",
+    "fieldLabel" : "Change Leadership",
+    "score" : 0.62961385144686
+  }, {
+    "fieldId" : "BusMgt-13-6",
+    "fieldLabel" : "Organization Development",
+    "score" : 0.7173580707595701
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "BusMgt-13-7",
+    "fieldLabel" : "Organizational Behavior",
+    "score" : 0.6906108467636279
+  }, {
+    "fieldId" : "Edu-3-16",
+    "fieldLabel" : "Science Curricula",
+    "score" : 0.6776490188091859
+  } ]
+}, {
+  "fileName" : "3172.txt",
+  "result" : [ {
+    "fieldId" : "Poli-13-8",
+    "fieldLabel" : "Policy Analysis",
+    "score" : 0.6492917607770426
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.748590078559139
+  }, {
+    "fieldId" : "BusMgt-4-27",
+    "fieldLabel" : "Monetary Theory & Policy",
+    "score" : 0.7253595660825141
+  }, {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.7225152690373094
+  }, {
+    "fieldId" : "Psych-4-5",
+    "fieldLabel" : "Behavior Modification",
+    "score" : 0.708571123752617
+  }, {
+    "fieldId" : "BusMgt-2-18",
+    "fieldLabel" : "Not-for-profit Accounting",
+    "score" : 0.5527626468703906
+  }, {
+    "fieldId" : "Poli-9-28",
+    "fieldLabel" : "Public Sector Reform",
+    "score" : 0.5360311042242668
+  }, {
+    "fieldId" : "BusMgt-4-8",
+    "fieldLabel" : "E-business Economics",
+    "score" : 0.6110238902428307
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.5957761124344427
+  }, {
+    "fieldId" : "Poli-13-5",
+    "fieldLabel" : "Environmental Policy",
+    "score" : 0.5598492665496584
+  } ]
+}, {
+  "fileName" : "3263.txt",
+  "result" : [ {
+    "fieldId" : "Psych-11-12",
+    "fieldLabel" : "Prosocial Behavior",
+    "score" : 0.8958498399924639
+  }, {
+    "fieldId" : "Psych-3-9",
+    "fieldLabel" : "Evolutionary Psychology",
+    "score" : 0.9538031061057286
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Psych-5-4",
+    "fieldLabel" : "Attention",
+    "score" : 0.7200635555709988
+  }, {
+    "fieldId" : "Psych-12-8",
+    "fieldLabel" : "Observational Research in Psychology",
+    "score" : 0.7189899968693565
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Soc-20-3",
+    "fieldLabel" : "Social Interaction",
+    "score" : 0.5814019425636584
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.6255067002737077
+  }, {
+    "fieldId" : "Psych-8-5",
+    "fieldLabel" : "Cognitive Development",
+    "score" : 0.5921965751865599
+  }, {
+    "fieldId" : "Psych-12-4",
+    "fieldLabel" : "Double Blind Experimental Design in Psychology",
+    "score" : 0.5066316329025494
+  } ]
+}, {
+  "fileName" : "2850.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.8643655166341747
+  }, {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.7225152690373094
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.6808308573063602
+  }, {
+    "fieldId" : "Poli-6-29",
+    "fieldLabel" : "International Trade & Finance",
+    "score" : 0.5591825004407294
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.6209233196250148
+  }, {
+    "fieldId" : "Soc-16-5",
+    "fieldLabel" : "Work & the Economy",
+    "score" : 0.6041642884044712
+  }, {
+    "fieldId" : "BusMgt-5-34",
+    "fieldLabel" : "Valuation",
+    "score" : 0.4970555956760872
+  }, {
+    "fieldId" : "BusMgt-4-22",
+    "fieldLabel" : "International Trade",
+    "score" : 0.5862159859010135
+  }, {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.5246868495266013
+  }, {
+    "fieldId" : "BusMgt-5-29",
+    "fieldLabel" : "Options & Futures",
+    "score" : 0.4586876705275847
+  } ]
+}, {
+  "fileName" : "2683.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-19-12",
+    "fieldLabel" : "Poverty & Inequality",
+    "score" : 0.7939968163453248
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.751445882537944
+  }, {
+    "fieldId" : "Soc-22-4",
+    "fieldLabel" : "Poverty & Homelessness",
+    "score" : 0.833577889529533
+  }, {
+    "fieldId" : "Hlth-11-2",
+    "fieldLabel" : "Child Health",
+    "score" : 0.7840994611452097
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.7637068458194861
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Soc-22-3",
+    "fieldLabel" : "Global Inequality",
+    "score" : 0.7557624287620512
+  }, {
+    "fieldId" : "Hlth-8-1",
+    "fieldLabel" : "Health Services Research",
+    "score" : 0.7486304509793853
+  }, {
+    "fieldId" : "Counsel-2-9",
+    "fieldLabel" : "Counseling for Depression, Anxiety & Stress",
+    "score" : 0.7235388831259968
+  }, {
+    "fieldId" : "BusMgt-2-11",
+    "fieldLabel" : "Financial Reporting",
+    "score" : 0.7209203988280899
+  } ]
+}, {
+  "fileName" : "153.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-2-21",
+    "fieldLabel" : "Taxation",
+    "score" : 0.8579306762000195
+  }, {
+    "fieldId" : "BusMgt-5-22",
+    "fieldLabel" : "International Finance",
+    "score" : 0.9458749012829709
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.8858844575307216
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.8452949945420316
+  }, {
+    "fieldId" : "Poli-13-7",
+    "fieldLabel" : "Local Government Policy",
+    "score" : 0.841656907696217
+  }, {
+    "fieldId" : "Comm-2-33",
+    "fieldLabel" : "Media Policy & Regulation",
+    "score" : 0.6868744173946132
+  }, {
+    "fieldId" : "BusMgt-4-12",
+    "fieldLabel" : "Economic Issues",
+    "score" : 0.6943983451923283
+  }, {
+    "fieldId" : "Poli-13-8",
+    "fieldLabel" : "Policy Analysis",
+    "score" : 0.6708799961324291
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.6454000282017459
+  }, {
+    "fieldId" : "Psych-12-17",
+    "fieldLabel" : "Quantitative Methods in Psychology",
+    "score" : 0.6295634001535998
+  } ]
+}, {
+  "fileName" : "1968.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.9660937898383808
+  }, {
+    "fieldId" : "Hlth-17-12",
+    "fieldLabel" : "Health Promotion",
+    "score" : 0.9086308879476461
+  }, {
+    "fieldId" : "Hlth-8-2",
+    "fieldLabel" : "Health Care Management & Administration",
+    "score" : 0.8051699772659405
+  }, {
+    "fieldId" : "Hlth-19-7",
+    "fieldLabel" : "Health Policy",
+    "score" : 0.934458141245056
+  }, {
+    "fieldId" : "Hlth-17-17",
+    "fieldLabel" : "Population Health",
+    "score" : 0.9188899884872409
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.7574140889741686
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.8915760166695366
+  }, {
+    "fieldId" : "BusMgt-1-5",
+    "fieldLabel" : "Management",
+    "score" : 0.8905190309784151
+  }, {
+    "fieldId" : "Hlth-17-3",
+    "fieldLabel" : "Community Mental Health",
+    "score" : 0.8649554836130927
+  } ]
+}, {
+  "fileName" : "3118.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-8-2",
+    "fieldLabel" : "Health Care Management & Administration",
+    "score" : 0.8978458464935288
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.8778414869642047
+  }, {
+    "fieldId" : "Hlth-12-91",
+    "fieldLabel" : "Study Skills for Nurses",
+    "score" : 0.8642982845137732
+  }, {
+    "fieldId" : "Hlth-3-3",
+    "fieldLabel" : "Correctional Health Care",
+    "score" : 0.8599235791137548
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.8272786008994796
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.8130902919817806
+  }, {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.8123802783297374
+  }, {
+    "fieldId" : "Hlth-17-12",
+    "fieldLabel" : "Health Promotion",
+    "score" : 0.7797787662328283
+  }, {
+    "fieldId" : "Hlth-5-1",
+    "fieldLabel" : "Disability & Rehabilitation",
+    "score" : 0.7605640924361655
+  } ]
+}, {
+  "fileName" : "2906.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-4-32",
+    "fieldLabel" : "Theory of the Firm",
+    "score" : 0.6714875258929865
+  }, {
+    "fieldId" : "BusMgt-5-3",
+    "fieldLabel" : "Banking",
+    "score" : 0.6574855323883262
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "BusMgt-5-25",
+    "fieldLabel" : "Investment Banking",
+    "score" : 0.6271503042221522
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.7327782109719612
+  }, {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.7019501021258836
+  }, {
+    "fieldId" : "BusMgt-11-51",
+    "fieldLabel" : "Marketing Strategy",
+    "score" : 0.68339746514078
+  }, {
+    "fieldId" : "BusMgt-5-19",
+    "fieldLabel" : "Fixed Income Securities",
+    "score" : 0.564985539616116
+  }, {
+    "fieldId" : "BusMgt-5-24",
+    "fieldLabel" : "International Investments",
+    "score" : 0.555563430399116
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.5416850313303321
+  } ]
+}, {
+  "fileName" : "3293.txt",
+  "result" : [ {
+    "fieldId" : "Edu-18-2",
+    "fieldLabel" : "Co-Teachers",
+    "score" : 0.8026783516935924
+  }, {
+    "fieldId" : "Edu-3-6",
+    "fieldLabel" : "Curriculum Design",
+    "score" : 0.9090800795505313
+  }, {
+    "fieldId" : "Edu-21-11",
+    "fieldLabel" : "Teaching Study Skills",
+    "score" : 0.8891821135535408
+  }, {
+    "fieldId" : "Edu-15-21",
+    "fieldLabel" : "Special Education Curriculum",
+    "score" : 0.8764404657278958
+  }, {
+    "fieldId" : "Edu-18-4",
+    "fieldLabel" : "Training for Parateachers/ Teacher Assistants",
+    "score" : 0.727066415020786
+  }, {
+    "fieldId" : "Edu-3-17",
+    "fieldLabel" : "Teaching Social Skills",
+    "score" : 0.8497071392895994
+  }, {
+    "fieldId" : "Poli-9-29",
+    "fieldLabel" : "Public-Private Partnerships",
+    "score" : 0.681511579066133
+  }, {
+    "fieldId" : "Hlth-5-8",
+    "fieldLabel" : "Learning Disabilities",
+    "score" : 0.7966410502363489
+  }, {
+    "fieldId" : "Edu-7-4",
+    "fieldLabel" : "Educational Policy",
+    "score" : 0.7894329566312202
+  }, {
+    "fieldId" : "Edu-23-2",
+    "fieldLabel" : "Community & Family Issues in Education",
+    "score" : 0.7597865805020607
+  } ]
+}, {
+  "fileName" : "2241.txt",
+  "result" : [ {
+    "fieldId" : "Edu-21-12",
+    "fieldLabel" : "Teaching At-Risk Students",
+    "score" : 0.8267198769864665
+  }, {
+    "fieldId" : "Psych-5-15",
+    "fieldLabel" : "Knowledge Representation",
+    "score" : 0.6419812896208746
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7499590858977881
+  }, {
+    "fieldId" : "Edu-11-5",
+    "fieldLabel" : "Preservice Training for Elementary",
+    "score" : 0.6236788008898869
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.6968464796592297
+  }, {
+    "fieldId" : "Edu-25-25",
+    "fieldLabel" : "Quantitative/Statistical Research",
+    "score" : 0.5436392766111816
+  }, {
+    "fieldId" : "Edu-3-12",
+    "fieldLabel" : "Mathematics Curricula",
+    "score" : 0.6452051652243681
+  }, {
+    "fieldId" : "Edu-20-1",
+    "fieldLabel" : "Teaching Diverse Students",
+    "score" : 0.6154252622324249
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.4579389233306127
+  } ]
+}, {
+  "fileName" : "1067.txt",
+  "result" : [ {
+    "fieldId" : "Edu-4-4",
+    "fieldLabel" : "Childhood & Society",
+    "score" : 0.8182147545906274
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.9627382320219575
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Edu-25-30",
+    "fieldLabel" : "Research Methods",
+    "score" : 0.9251717922522003
+  }, {
+    "fieldId" : "Edu-6-20",
+    "fieldLabel" : "Elementary Math",
+    "score" : 0.8632970611487063
+  }, {
+    "fieldId" : "Edu-7-2",
+    "fieldLabel" : "Education & Child Welfare",
+    "score" : 0.7830239344396297
+  }, {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.7742056669110655
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-3-1",
+    "fieldLabel" : "Area Studies",
+    "score" : 0.5830397279867636
+  }, {
+    "fieldId" : "Edu-12-2",
+    "fieldLabel" : "Academic Intervention",
+    "score" : 0.5827716728330427
+  } ]
+}, {
+  "fileName" : "1665.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-16",
+    "fieldLabel" : "Oral Public Health",
+    "score" : 0.7554536414826859
+  }, {
+    "fieldId" : "Edu-4-9",
+    "fieldLabel" : "Early Childhood Assessment",
+    "score" : 0.7258242015064201
+  }, {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.7153070768183277
+  }, {
+    "fieldId" : "Edu-23-5",
+    "fieldLabel" : "Resources for Parents of Students",
+    "score" : 0.8492589897327326
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.7414448797901262
+  }, {
+    "fieldId" : "Comm-5-6",
+    "fieldLabel" : "Cultural Policy",
+    "score" : 0.7386006570888145
+  }, {
+    "fieldId" : "Hlth-15-3",
+    "fieldLabel" : "Primary Care PA",
+    "score" : 0.7243326370784425
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Soc-22-1",
+    "fieldLabel" : "Social Stratification & Class",
+    "score" : 0.6282532367667245
+  } ]
+}, {
+  "fileName" : "3163.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.5246868495266013
+  }, {
+    "fieldId" : "BusMgt-6-4",
+    "fieldLabel" : "Economical & Industrial Democracy",
+    "score" : 0.5206568879213938
+  }, {
+    "fieldId" : "BusMgt-2-12",
+    "fieldLabel" : "Financial Statement Analysis",
+    "score" : 0.4260719177974983
+  }, {
+    "fieldId" : "Psych-9-8",
+    "fieldLabel" : "Intelligence",
+    "score" : 0.39358934738916446
+  }, {
+    "fieldId" : "Poli-6-1",
+    "fieldLabel" : "International Relations",
+    "score" : 0.46120748185282506
+  }, {
+    "fieldId" : "BusMgt-4-22",
+    "fieldLabel" : "International Trade",
+    "score" : 0.38304380219017664
+  }, {
+    "fieldId" : "BusMgt-2-15",
+    "fieldLabel" : "Introductory Accounting",
+    "score" : 0.45220610551105195
+  }, {
+    "fieldId" : "Crim-4-2",
+    "fieldLabel" : "Applied Criminology",
+    "score" : 0.38053560509191564
+  }, {
+    "fieldId" : "BusMgt-2-6",
+    "fieldLabel" : "Budgeting",
+    "score" : 0.3707469815316062
+  }, {
+    "fieldId" : "BusMgt-4-27",
+    "fieldLabel" : "Monetary Theory & Policy",
+    "score" : 0.32619961504933115
+  } ]
+}, {
+  "fileName" : "770.txt",
+  "result" : [ {
+    "fieldId" : "Soc-20-1",
+    "fieldLabel" : "Social Interaction & Everyday Life (general)",
+    "score" : 0.8276465935230553
+  }, {
+    "fieldId" : "Hlth-12-7",
+    "fieldLabel" : "Child Care Nursing",
+    "score" : 0.8323231163113997
+  }, {
+    "fieldId" : "Hlth-5-1",
+    "fieldLabel" : "Disability & Rehabilitation",
+    "score" : 0.7605640924361655
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-23-2",
+    "fieldLabel" : "Community & Family Issues in Education",
+    "score" : 0.7090283053061605
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Soc-5-19",
+    "fieldLabel" : "Partnership & Marriage",
+    "score" : 0.6859629650929485
+  }, {
+    "fieldId" : "Soc-20-3",
+    "fieldLabel" : "Social Interaction",
+    "score" : 0.6795116243082081
+  }, {
+    "fieldId" : "Hlth-12-86",
+    "fieldLabel" : "Research & Evidence-Based Practice in Nursing",
+    "score" : 0.6794787529943054
+  }, {
+    "fieldId" : "Hlth-12-90",
+    "fieldLabel" : "Service User & Carer Perspectives in Nursing",
+    "score" : 0.5649580415035818
+  } ]
+}, {
+  "fileName" : "3260.txt",
+  "result" : [ {
+    "fieldId" : "Edu-6-1",
+    "fieldLabel" : "Elementary Education",
+    "score" : 0.8805470380716397
+  }, {
+    "fieldId" : "Edu-15-10",
+    "fieldLabel" : "Diverse Learners",
+    "score" : 0.8984953152398929
+  }, {
+    "fieldId" : "Edu-10-6",
+    "fieldLabel" : "Motivation & Learning",
+    "score" : 0.692246368173992
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7805785592778409
+  }, {
+    "fieldId" : "Edu-9-22",
+    "fieldLabel" : "Online Learning & Distance Education",
+    "score" : 0.7313997558068084
+  }, {
+    "fieldId" : "Edu-15-21",
+    "fieldLabel" : "Special Education Curriculum",
+    "score" : 0.7057337191152181
+  }, {
+    "fieldId" : "Edu-2-9",
+    "fieldLabel" : "Conflict Resolution for Students",
+    "score" : 0.663096103525126
+  }, {
+    "fieldId" : "Edu-20-1",
+    "fieldLabel" : "Teaching Diverse Students",
+    "score" : 0.6328106661527059
+  }, {
+    "fieldId" : "Edu-11-5",
+    "fieldLabel" : "Preservice Training for Elementary",
+    "score" : 0.6236788008898869
+  }, {
+    "fieldId" : "Soc-3-1",
+    "fieldLabel" : "Area Studies",
+    "score" : 0.5876730808888395
+  } ]
+}, {
+  "fileName" : "3170.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-4-27",
+    "fieldLabel" : "Monetary Theory & Policy",
+    "score" : 0.843294765919957
+  }, {
+    "fieldId" : "Psych-12-11",
+    "fieldLabel" : "Quasi Experimental Designs in Psychology",
+    "score" : 0.5062279697438623
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.47247423216636963
+  }, {
+    "fieldId" : "BusMgt-9-27",
+    "fieldLabel" : "Transformational/Visionary Leadership",
+    "score" : 0.4420317337957244
+  }, {
+    "fieldId" : "BusMgt-5-34",
+    "fieldLabel" : "Valuation",
+    "score" : 0.434222358613681
+  }, {
+    "fieldId" : "Poli-13-9",
+    "fieldLabel" : "Policy Making",
+    "score" : 0.41192919594766236
+  }, {
+    "fieldId" : "Comm-2-33",
+    "fieldLabel" : "Media Policy & Regulation",
+    "score" : 0.39288771574005843
+  }, {
+    "fieldId" : "BusMgt-9-26",
+    "fieldLabel" : "Sustainable Leadership",
+    "score" : 0.39149733547074106
+  }, {
+    "fieldId" : "BusMgt-9-13",
+    "fieldLabel" : "Change Leadership",
+    "score" : 0.3581718768575211
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.3563508686840415
+  } ]
+}, {
+  "fileName" : "3261.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-9-27",
+    "fieldLabel" : "Transformational/Visionary Leadership",
+    "score" : 0.5465636282621924
+  }, {
+    "fieldId" : "Comm-3-40",
+    "fieldLabel" : "Visual Communication",
+    "score" : 0.44662770611710695
+  }, {
+    "fieldId" : "Psych-12-4",
+    "fieldLabel" : "Double Blind Experimental Design in Psychology",
+    "score" : 0.5066316329025494
+  }, {
+    "fieldId" : "Edu-15-8",
+    "fieldLabel" : "Cognitive Impairments in Students",
+    "score" : 0.5001716276372764
+  }, {
+    "fieldId" : "Psych-9-2",
+    "fieldLabel" : "Big 5 Personality Measure",
+    "score" : 0.48373030465742906
+  }, {
+    "fieldId" : "Comm-2-44",
+    "fieldLabel" : "Television, Radio & Audio",
+    "score" : 0.46872903793515674
+  }, {
+    "fieldId" : "BusMgt-11-14",
+    "fieldLabel" : "Electronic Marketing",
+    "score" : 0.38449514495108017
+  }, {
+    "fieldId" : "Counsel-5-25",
+    "fieldLabel" : "Solution-Focused Therapy",
+    "score" : 0.374690814685834
+  }, {
+    "fieldId" : "BusMgt-9-20",
+    "fieldLabel" : "Leadership Styles",
+    "score" : 0.43777298316203883
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.4289413654844524
+  } ]
+}, {
+  "fileName" : "2358.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-12-52",
+    "fieldLabel" : "Normal Midwifery Practice (Pre-Natal, Intrapartum, Postnatal)",
+    "score" : 0.6328472350471894
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Geo-4-6",
+    "fieldLabel" : "Psychosocial Factors in Environmental Health",
+    "score" : 0.6922948660108682
+  }, {
+    "fieldId" : "Psych-8-16",
+    "fieldLabel" : "Pre-natal Development",
+    "score" : 0.5633792320925777
+  }, {
+    "fieldId" : "Soc-18-1",
+    "fieldLabel" : "Age & the Life Course",
+    "score" : 0.6453742833050258
+  }, {
+    "fieldId" : "Edu-23-1",
+    "fieldLabel" : "Child Advocacy",
+    "score" : 0.5925539661302565
+  }, {
+    "fieldId" : "Edu-23-3",
+    "fieldLabel" : "Parent & Family Involvement in Education",
+    "score" : 0.577084575717653
+  }, {
+    "fieldId" : "Counsel-2-6",
+    "fieldLabel" : "Counseling Children & Young People",
+    "score" : 0.5204815844477915
+  }, {
+    "fieldId" : "Counsel-2-23",
+    "fieldLabel" : "Substance Abuse & Addiction Counseling",
+    "score" : 0.490232288805365
+  }, {
+    "fieldId" : "Comm-3-27",
+    "fieldLabel" : "Nonverbal Communication",
+    "score" : 0.487440909329979
+  } ]
+}, {
+  "fileName" : "1524.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Hlth-19-9",
+    "fieldLabel" : "International Social Work",
+    "score" : 0.7939178979368195
+  }, {
+    "fieldId" : "Soc-18-2",
+    "fieldLabel" : "Gerontology",
+    "score" : 0.9027177214985608
+  }, {
+    "fieldId" : "Edu-25-3",
+    "fieldLabel" : "ANOVA/MANOVA",
+    "score" : 0.8396421055818765
+  }, {
+    "fieldId" : "Hlth-12-35",
+    "fieldLabel" : "Infusion Therapy",
+    "score" : 0.3692123609632679
+  }, {
+    "fieldId" : "Soc-3-11",
+    "fieldLabel" : "Irish Studies",
+    "score" : 0.3307489723724872
+  }, {
+    "fieldId" : "Geo-4-7",
+    "fieldLabel" : "Soil Contamination",
+    "score" : 0.23617770005790467
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.19271037226287596
+  }, {
+    "fieldId" : "Edu-8-4",
+    "fieldLabel" : "Gifted & Talented Identification",
+    "score" : 0.09948161842941916
+  }, {
+    "fieldId" : "Psych-8-10",
+    "fieldLabel" : "Lifespan Development",
+    "score" : 0.2384999293704116
+  } ]
+}, {
+  "fileName" : "3166.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-4-27",
+    "fieldLabel" : "Monetary Theory & Policy",
+    "score" : 0.7711861832959115
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.9083295294888765
+  }, {
+    "fieldId" : "BusMgt-5-25",
+    "fieldLabel" : "Investment Banking",
+    "score" : 0.6472028640387433
+  }, {
+    "fieldId" : "Poli-13-9",
+    "fieldLabel" : "Policy Making",
+    "score" : 0.6795494093873075
+  }, {
+    "fieldId" : "Poli-13-8",
+    "fieldLabel" : "Policy Analysis",
+    "score" : 0.6614192252513096
+  }, {
+    "fieldId" : "BusMgt-4-12",
+    "fieldLabel" : "Economic Issues",
+    "score" : 0.6261219408175237
+  }, {
+    "fieldId" : "BusMgt-9-27",
+    "fieldLabel" : "Transformational/Visionary Leadership",
+    "score" : 0.4420317337957244
+  }, {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.5246868495266013
+  }, {
+    "fieldId" : "BusMgt-5-31",
+    "fieldLabel" : "Quantitative Investment Analysis",
+    "score" : 0.5232886934528592
+  }, {
+    "fieldId" : "Crim-16-5",
+    "fieldLabel" : "Criminal Procedure",
+    "score" : 0.5048615961199295
+  } ]
+}, {
+  "fileName" : "1145.txt",
+  "result" : [ {
+    "fieldId" : "Counsel-2-7",
+    "fieldLabel" : "Counseling in Education",
+    "score" : 0.9295437528280199
+  }, {
+    "fieldId" : "Hlth-23-8",
+    "fieldLabel" : "Community Development",
+    "score" : 0.7177880972247865
+  }, {
+    "fieldId" : "BusMgt-14-3",
+    "fieldLabel" : "Creativity & Innovation in Business",
+    "score" : 0.848107304754657
+  }, {
+    "fieldId" : "BusMgt-12-10",
+    "fieldLabel" : "Service Operations",
+    "score" : 0.8455894632239515
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Hlth-12-7",
+    "fieldLabel" : "Child Care Nursing",
+    "score" : 0.8323231163113997
+  }, {
+    "fieldId" : "Poli-13-9",
+    "fieldLabel" : "Policy Making",
+    "score" : 0.6858968418612665
+  }, {
+    "fieldId" : "Hlth-2-30",
+    "fieldLabel" : "Primary Care / Family Practice",
+    "score" : 0.8148612987453554
+  }, {
+    "fieldId" : "Hlth-24-12",
+    "fieldLabel" : "Health Psychology / Behavioral Medicine",
+    "score" : 0.800334300957489
+  }, {
+    "fieldId" : "Hlth-6-3",
+    "fieldLabel" : "HIV/AIDS",
+    "score" : 0.7984726973170831
+  } ]
+}, {
+  "fileName" : "2707.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-19-17",
+    "fieldLabel" : "Social Services",
+    "score" : 0.9316045400362897
+  }, {
+    "fieldId" : "Soc-24-3",
+    "fieldLabel" : "Religion in the United States",
+    "score" : 0.793927011735272
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Edu-5-8",
+    "fieldLabel" : "Education Finance, Funding & Grantwriting",
+    "score" : 0.7284563677750556
+  }, {
+    "fieldId" : "Soc-21-8",
+    "fieldLabel" : "Welfare",
+    "score" : 0.8549609498281089
+  }, {
+    "fieldId" : "BusMgt-6-8",
+    "fieldLabel" : "Human Resource Development",
+    "score" : 0.692520610041879
+  }, {
+    "fieldId" : "Hlth-21-13",
+    "fieldLabel" : "Human Development in Social Work",
+    "score" : 0.7931568039060047
+  }, {
+    "fieldId" : "BusMgt-13-4",
+    "fieldLabel" : "Families, Work & Organizations",
+    "score" : 0.7902846837462267
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.6873940681260754
+  } ]
+}, {
+  "fileName" : "339.txt",
+  "result" : [ {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Hlth-8-5",
+    "fieldLabel" : "Health Risk Assessment",
+    "score" : 0.7927208547804854
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.7582070150218368
+  }, {
+    "fieldId" : "Soc-8-3",
+    "fieldLabel" : "Ethnic Studies",
+    "score" : 0.7214974771169037
+  }, {
+    "fieldId" : "BusMgt-2-11",
+    "fieldLabel" : "Financial Reporting",
+    "score" : 0.7209203988280899
+  }, {
+    "fieldId" : "Edu-25-40",
+    "fieldLabel" : "Test & Measurement",
+    "score" : 0.7087386670457142
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Soc-3-14",
+    "fieldLabel" : "Latin American Studies",
+    "score" : 0.6474765080924775
+  } ]
+}, {
+  "fileName" : "3271.txt",
+  "result" : [ {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.6266792028981231
+  }, {
+    "fieldId" : "Poli-11-8",
+    "fieldLabel" : "International Conflict",
+    "score" : 0.47982090773375186
+  }, {
+    "fieldId" : "Psych-9-5",
+    "fieldLabel" : "Personality & Motivation",
+    "score" : 0.456516696923506
+  }, {
+    "fieldId" : "Poli-11-11",
+    "fieldLabel" : "Peace Studies / Conflict Resolution",
+    "score" : 0.528453813786532
+  }, {
+    "fieldId" : "Psych-12-4",
+    "fieldLabel" : "Double Blind Experimental Design in Psychology",
+    "score" : 0.5040547343372588
+  }, {
+    "fieldId" : "Comm-2-44",
+    "fieldLabel" : "Television, Radio & Audio",
+    "score" : 0.33327236885222666
+  }, {
+    "fieldId" : "Comm-2-45",
+    "fieldLabel" : "Video Games",
+    "score" : 0.3962341371447896
+  }, {
+    "fieldId" : "Geo-4-7",
+    "fieldLabel" : "Soil Contamination",
+    "score" : 0.3932114660388997
+  }, {
+    "fieldId" : "BusMgt-11-27",
+    "fieldLabel" : "Marketing Models",
+    "score" : 0.3920196549712419
+  } ]
+}, {
+  "fileName" : "143.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.647375880896131
+  }, {
+    "fieldId" : "BusMgt-4-22",
+    "fieldLabel" : "International Trade",
+    "score" : 0.6382440882367008
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.7316258331139107
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.6986710942552742
+  }, {
+    "fieldId" : "BusMgt-11-45",
+    "fieldLabel" : "Services Marketing",
+    "score" : 0.6778085327479726
+  }, {
+    "fieldId" : "Psych-5-11",
+    "fieldLabel" : "Human Factors & Ergonomics",
+    "score" : 0.5278589571245531
+  }, {
+    "fieldId" : "BusMgt-6-5",
+    "fieldLabel" : "Employee, Industrial & Labor Relations",
+    "score" : 0.6204251929848991
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.6010386338397067
+  }, {
+    "fieldId" : "Edu-14-4",
+    "fieldLabel" : "Extra-Curricular Activities",
+    "score" : 0.5512493399820221
+  } ]
+}, {
+  "fileName" : "3274.txt",
+  "result" : [ {
+    "fieldId" : "Edu-25-20",
+    "fieldLabel" : "Qualitative Data Analysis",
+    "score" : 0.7429601363134006
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.8272786008994796
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.6616128114675545
+  }, {
+    "fieldId" : "Geo-6-1",
+    "fieldLabel" : "Environmental Sciences",
+    "score" : 0.7894642636635241
+  }, {
+    "fieldId" : "Geo-12-2",
+    "fieldLabel" : "Research Methods for Earth & Environmental Science",
+    "score" : 0.7774277094521772
+  }, {
+    "fieldId" : "Soc-11-3",
+    "fieldLabel" : "Modernity & Postmodernity",
+    "score" : 0.6204040651976064
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.7088851810211051
+  }, {
+    "fieldId" : "Edu-25-33",
+    "fieldLabel" : "Secondary Data Analysis",
+    "score" : 0.7015177396128598
+  }, {
+    "fieldId" : "Edu-16-8",
+    "fieldLabel" : "Presentation Skills for Educational Staff",
+    "score" : 0.49527777949194074
+  }, {
+    "fieldId" : "Psych-5-15",
+    "fieldLabel" : "Knowledge Representation",
+    "score" : 0.5795345524951241
+  } ]
+}, {
+  "fileName" : "1113.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.9660937898383808
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.9627382320219575
+  }, {
+    "fieldId" : "Edu-25-30",
+    "fieldLabel" : "Research Methods",
+    "score" : 0.9251717922522003
+  }, {
+    "fieldId" : "Hlth-11-4",
+    "fieldLabel" : "Maternal Health",
+    "score" : 0.7603811063749212
+  }, {
+    "fieldId" : "Hlth-13-2",
+    "fieldLabel" : "Nutrition in Healthcare",
+    "score" : 0.8533530522445323
+  }, {
+    "fieldId" : "Hlth-2-27",
+    "fieldLabel" : "Pediatric Medicine",
+    "score" : 0.8324509302706651
+  }, {
+    "fieldId" : "Edu-7-2",
+    "fieldLabel" : "Education & Child Welfare",
+    "score" : 0.7830239344396297
+  }, {
+    "fieldId" : "Soc-5-25",
+    "fieldLabel" : "Work & the Family",
+    "score" : 0.6339094945407289
+  }, {
+    "fieldId" : "Soc-8-10",
+    "fieldLabel" : "Racism & Discrimination",
+    "score" : 0.6079360735616135
+  }, {
+    "fieldId" : "Edu-5-2",
+    "fieldLabel" : "After School, Tutoring & Out-of-School Programs",
+    "score" : 0.7240418323610728
+  } ]
+}, {
+  "fileName" : "3275.txt",
+  "result" : [ {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7228111254507321
+  }, {
+    "fieldId" : "Psych-12-11",
+    "fieldLabel" : "Quasi Experimental Designs in Psychology",
+    "score" : 0.5899081658222006
+  }, {
+    "fieldId" : "BusMgt-13-21",
+    "fieldLabel" : "Organization Design",
+    "score" : 0.48575290045016956
+  }, {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.5661271244642837
+  }, {
+    "fieldId" : "Edu-23-2",
+    "fieldLabel" : "Community & Family Issues in Education",
+    "score" : 0.4143754290170487
+  }, {
+    "fieldId" : "Psych-8-14",
+    "fieldLabel" : "Perceptual & Motor Development",
+    "score" : 0.49482016137366713
+  }, {
+    "fieldId" : "BusMgt-9-13",
+    "fieldLabel" : "Change Leadership",
+    "score" : 0.40840666124845865
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.4653332553271905
+  }, {
+    "fieldId" : "Psych-8-10",
+    "fieldLabel" : "Lifespan Development",
+    "score" : 0.3758290416507038
+  }, {
+    "fieldId" : "Edu-11-2",
+    "fieldLabel" : "Advanced Certification Training",
+    "score" : 0.43341020991994456
+  } ]
+}, {
+  "fileName" : "189.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-8-1",
+    "fieldLabel" : "Health Services Research",
+    "score" : 0.8913004712009672
+  }, {
+    "fieldId" : "Hlth-12-7",
+    "fieldLabel" : "Child Care Nursing",
+    "score" : 0.8323231163113997
+  }, {
+    "fieldId" : "Hlth-8-2",
+    "fieldLabel" : "Health Care Management & Administration",
+    "score" : 0.831436989479469
+  }, {
+    "fieldId" : "Hlth-10-3",
+    "fieldLabel" : "North American Health",
+    "score" : 0.6849866012685675
+  }, {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.6849649497635155
+  }, {
+    "fieldId" : "Hlth-8-4",
+    "fieldLabel" : "Health Policy Research",
+    "score" : 0.7382050661594752
+  }, {
+    "fieldId" : "Poli-13-6",
+    "fieldLabel" : "Health Care Policy",
+    "score" : 0.7257507083130592
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.7122151881379755
+  }, {
+    "fieldId" : "Poli-6-32",
+    "fieldLabel" : "United Nations",
+    "score" : 0.6280663569018369
+  }, {
+    "fieldId" : "Hlth-15-3",
+    "fieldLabel" : "Primary Care PA",
+    "score" : 0.5834389883342782
+  } ]
+}, {
+  "fileName" : "3296.txt",
+  "result" : [ {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "BusMgt-9-23",
+    "fieldLabel" : "Leadership, Power & Influence",
+    "score" : 0.4984173625847555
+  }, {
+    "fieldId" : "BusMgt-9-18",
+    "fieldLabel" : "Leadership & Ethics",
+    "score" : 0.46356488217079206
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.4272537297669376
+  }, {
+    "fieldId" : "Psych-8-10",
+    "fieldLabel" : "Lifespan Development",
+    "score" : 0.3680714575531951
+  }, {
+    "fieldId" : "Psych-4-15",
+    "fieldLabel" : "Hypnosis/Hypnotherapy",
+    "score" : 0.3062320077949888
+  }, {
+    "fieldId" : "Comm-3-2",
+    "fieldLabel" : "Argumentation & Debate",
+    "score" : 0.33096574322352007
+  }, {
+    "fieldId" : "Psych-9-2",
+    "fieldLabel" : "Big 5 Personality Measure",
+    "score" : 0.3225267865052369
+  }, {
+    "fieldId" : "BusMgt-14-5",
+    "fieldLabel" : "Entrepreneurial Strategies",
+    "score" : 0.31536832674078935
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.31142599352486056
+  } ]
+}, {
+  "fileName" : "2022.txt",
+  "result" : [ {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.7742056669110655
+  }, {
+    "fieldId" : "Hlth-8-5",
+    "fieldLabel" : "Health Risk Assessment",
+    "score" : 0.7612211479435181
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.7587927105328148
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.7558249673988751
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Counsel-2-6",
+    "fieldLabel" : "Counseling Children & Young People",
+    "score" : 0.5729344966159006
+  }, {
+    "fieldId" : "Hlth-18-2",
+    "fieldLabel" : "Cardiovascular Technology",
+    "score" : 0.6209424110865458
+  }, {
+    "fieldId" : "Geo-4-9",
+    "fieldLabel" : "Water Pollution",
+    "score" : 0.4149469871076755
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.43395558387536987
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.3752212344551017
+  } ]
+}, {
+  "fileName" : "3297.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-17",
+    "fieldLabel" : "Population Health",
+    "score" : 0.9188899884872409
+  }, {
+    "fieldId" : "Hlth-2-30",
+    "fieldLabel" : "Primary Care / Family Practice",
+    "score" : 0.8453085194885144
+  }, {
+    "fieldId" : "Hlth-14-3",
+    "fieldLabel" : "Pharmacy Technician",
+    "score" : 0.8265858681732219
+  }, {
+    "fieldId" : "Hlth-2-28",
+    "fieldLabel" : "Pharmacology (Clinical)",
+    "score" : 0.7681715385360154
+  }, {
+    "fieldId" : "Counsel-5-25",
+    "fieldLabel" : "Solution-Focused Therapy",
+    "score" : 0.6785582244152818
+  }, {
+    "fieldId" : "Edu-5-10",
+    "fieldLabel" : "Educational Leadership",
+    "score" : 0.7515264377152521
+  }, {
+    "fieldId" : "Hlth-23-17",
+    "fieldLabel" : "Integrated Youth / Community Services",
+    "score" : 0.7102709233844963
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.7042030727854822
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.5321408221726668
+  }, {
+    "fieldId" : "Hlth-12-4",
+    "fieldLabel" : "Adult Nursing",
+    "score" : 0.6371901142158062
+  } ]
+}, {
+  "fileName" : "2896.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-2-21",
+    "fieldLabel" : "Taxation",
+    "score" : 0.8579306762000195
+  }, {
+    "fieldId" : "BusMgt-5-24",
+    "fieldLabel" : "International Investments",
+    "score" : 0.7764304368891554
+  }, {
+    "fieldId" : "BusMgt-8-8",
+    "fieldLabel" : "International Business Policy",
+    "score" : 0.8854719064891152
+  }, {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.8347361170636947
+  }, {
+    "fieldId" : "Poli-6-1",
+    "fieldLabel" : "International Relations",
+    "score" : 0.7508641542077248
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.5507224575381255
+  }, {
+    "fieldId" : "Poli-9-14",
+    "fieldLabel" : "Public Administration Organizations",
+    "score" : 0.5755234800140823
+  }, {
+    "fieldId" : "BusMgt-5-34",
+    "fieldLabel" : "Valuation",
+    "score" : 0.5632504310618917
+  }, {
+    "fieldId" : "BusMgt-11-24",
+    "fieldLabel" : "Marketing Decision Making",
+    "score" : 0.4486003489010454
+  } ]
+}, {
+  "fileName" : "2119.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Hlth-5-1",
+    "fieldLabel" : "Disability & Rehabilitation",
+    "score" : 0.7605640924361655
+  }, {
+    "fieldId" : "Soc-18-2",
+    "fieldLabel" : "Gerontology",
+    "score" : 0.9027177214985608
+  }, {
+    "fieldId" : "Soc-11-3",
+    "fieldLabel" : "Modernity & Postmodernity",
+    "score" : 0.5703129381788433
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.49062959141407864
+  }, {
+    "fieldId" : "Comm-2-23",
+    "fieldLabel" : "Media Archives",
+    "score" : 0.41711474474072463
+  }, {
+    "fieldId" : "Edu-4-15",
+    "fieldLabel" : "Early Childhood Gifted & Talented",
+    "score" : 0.3086012434107942
+  }, {
+    "fieldId" : "Psych-9-2",
+    "fieldLabel" : "Big 5 Personality Measure",
+    "score" : 0.18826995346748474
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.18362282393067658
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.20223512567294422
+  } ]
+}, {
+  "fileName" : "3168.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.9083295294888765
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.6954854324854511
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7071247490491877
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.6162656112137218
+  }, {
+    "fieldId" : "BusMgt-5-4",
+    "fieldLabel" : "Bond Markets",
+    "score" : 0.5890584846526545
+  }, {
+    "fieldId" : "Counsel-3-20",
+    "fieldLabel" : "Risk Assessment in Counseling",
+    "score" : 0.46059340830398643
+  }, {
+    "fieldId" : "BusMgt-6-4",
+    "fieldLabel" : "Economical & Industrial Democracy",
+    "score" : 0.516480695989913
+  }, {
+    "fieldId" : "BusMgt-9-15",
+    "fieldLabel" : "Cross-Cultural Leadership",
+    "score" : 0.5111905024986
+  }, {
+    "fieldId" : "BusMgt-5-1",
+    "fieldLabel" : "Finance",
+    "score" : 0.4706743836810554
+  } ]
+}, {
+  "fileName" : "3266.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-11-27",
+    "fieldLabel" : "Marketing Models",
+    "score" : 0.6099462484520736
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.675514844406562
+  }, {
+    "fieldId" : "BusMgt-5-4",
+    "fieldLabel" : "Bond Markets",
+    "score" : 0.5165531376392738
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.6190115487498332
+  }, {
+    "fieldId" : "BusMgt-5-19",
+    "fieldLabel" : "Fixed Income Securities",
+    "score" : 0.419033702380065
+  }, {
+    "fieldId" : "BusMgt-2-19",
+    "fieldLabel" : "Public Sector Accounting",
+    "score" : 0.4235716038269208
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.41172275548907145
+  }, {
+    "fieldId" : "BusMgt-9-23",
+    "fieldLabel" : "Leadership, Power & Influence",
+    "score" : 0.373521136111352
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.35732810841115864
+  } ]
+}, {
+  "fileName" : "3169.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-4-18",
+    "fieldLabel" : "Economic Forecasting",
+    "score" : 0.8373048955413424
+  }, {
+    "fieldId" : "BusMgt-5-33",
+    "fieldLabel" : "Small Business Finance",
+    "score" : 0.9780002700029644
+  }, {
+    "fieldId" : "BusMgt-4-21",
+    "fieldLabel" : "International Economics",
+    "score" : 0.9523604754179632
+  }, {
+    "fieldId" : "BusMgt-4-1",
+    "fieldLabel" : "Economics",
+    "score" : 0.9187326237813263
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.9083295294888765
+  }, {
+    "fieldId" : "BusMgt-5-3",
+    "fieldLabel" : "Banking",
+    "score" : 0.8871145566772387
+  }, {
+    "fieldId" : "Poli-13-8",
+    "fieldLabel" : "Policy Analysis",
+    "score" : 0.8666250475943584
+  }, {
+    "fieldId" : "BusMgt-14-3",
+    "fieldLabel" : "Creativity & Innovation in Business",
+    "score" : 0.848107304754657
+  }, {
+    "fieldId" : "BusMgt-4-27",
+    "fieldLabel" : "Monetary Theory & Policy",
+    "score" : 0.843294765919957
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.8130902919817806
+  } ]
+}, {
+  "fileName" : "3295.txt",
+  "result" : [ {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Hlth-2-7",
+    "fieldLabel" : "Cancer / Oncology",
+    "score" : 0.5729874720855446
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.5310584455466583
+  }, {
+    "fieldId" : "Counsel-2-17",
+    "fieldLabel" : "Psychotherapy & Medication",
+    "score" : 0.4383084707093165
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.3986591148925
+  }, {
+    "fieldId" : "Psych-4-26",
+    "fieldLabel" : "Dissociative Disorders",
+    "score" : 0.4511371232116219
+  }, {
+    "fieldId" : "BusMgt-9-20",
+    "fieldLabel" : "Leadership Styles",
+    "score" : 0.36450721196007574
+  }, {
+    "fieldId" : "Hlth-12-34",
+    "fieldLabel" : "Infectious Disease Nursing",
+    "score" : 0.43532726181022563
+  }, {
+    "fieldId" : "Psych-4-15",
+    "fieldLabel" : "Hypnosis/Hypnotherapy",
+    "score" : 0.3573678037137896
+  }, {
+    "fieldId" : "Psych-8-14",
+    "fieldLabel" : "Perceptual & Motor Development",
+    "score" : 0.4196496023773601
+  } ]
+}, {
+  "fileName" : "3280.txt",
+  "result" : [ {
+    "fieldId" : "Psych-3-9",
+    "fieldLabel" : "Evolutionary Psychology",
+    "score" : 0.9538031061057286
+  }, {
+    "fieldId" : "Psych-3-2",
+    "fieldLabel" : "Behavioral Genetics",
+    "score" : 0.7348510520186677
+  }, {
+    "fieldId" : "BusMgt-11-42",
+    "fieldLabel" : "Relationship Marketing",
+    "score" : 0.590446076356127
+  }, {
+    "fieldId" : "Edu-25-31",
+    "fieldLabel" : "Research Projects",
+    "score" : 0.6950470397126615
+  }, {
+    "fieldId" : "BusMgt-6-8",
+    "fieldLabel" : "Human Resource Development",
+    "score" : 0.6345553852812047
+  }, {
+    "fieldId" : "Soc-11-3",
+    "fieldLabel" : "Modernity & Postmodernity",
+    "score" : 0.5087309043774738
+  }, {
+    "fieldId" : "Poli-11-11",
+    "fieldLabel" : "Peace Studies / Conflict Resolution",
+    "score" : 0.45701527680057996
+  }, {
+    "fieldId" : "BusMgt-4-12",
+    "fieldLabel" : "Economic Issues",
+    "score" : 0.47555798346957356
+  }, {
+    "fieldId" : "BusMgt-13-8",
+    "fieldLabel" : "Organizational Communication",
+    "score" : 0.47460717572116495
+  }, {
+    "fieldId" : "Psych-12-11",
+    "fieldLabel" : "Quasi Experimental Designs in Psychology",
+    "score" : 0.4735518670065605
+  } ]
+}, {
+  "fileName" : "3294.txt",
+  "result" : [ {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.6471365642605621
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "BusMgt-6-14",
+    "fieldLabel" : "Employee Performance Management",
+    "score" : 0.5430578379588339
+  }, {
+    "fieldId" : "Psych-3-3",
+    "fieldLabel" : "Behavioral Neuroscience",
+    "score" : 0.6472945189189021
+  }, {
+    "fieldId" : "BusMgt-13-11",
+    "fieldLabel" : "Organizational Theory",
+    "score" : 0.6180623545524688
+  }, {
+    "fieldId" : "Counsel-4-11",
+    "fieldLabel" : "Therapeutic Relationship & Process",
+    "score" : 0.6179221409826258
+  }, {
+    "fieldId" : "Soc-8-10",
+    "fieldLabel" : "Racism & Discrimination",
+    "score" : 0.4991738043058904
+  }, {
+    "fieldId" : "BusMgt-5-24",
+    "fieldLabel" : "International Investments",
+    "score" : 0.5895100784877018
+  }, {
+    "fieldId" : "Psych-3-22",
+    "fieldLabel" : "Motivated Behaviors",
+    "score" : 0.554674409525424
+  }, {
+    "fieldId" : "BusMgt-2-7",
+    "fieldLabel" : "Cost Accounting",
+    "score" : 0.539349840951331
+  } ]
+}, {
+  "fileName" : "3285.txt",
+  "result" : [ {
+    "fieldId" : "Edu-14-1",
+    "fieldLabel" : "Secondary Education",
+    "score" : 0.987310571164849
+  }, {
+    "fieldId" : "BusMgt-1-5",
+    "fieldLabel" : "Management",
+    "score" : 0.8905190309784151
+  }, {
+    "fieldId" : "Edu-9-24",
+    "fieldLabel" : "Quality Assurance in Higher Education",
+    "score" : 0.8462708802811684
+  }, {
+    "fieldId" : "Edu-14-22",
+    "fieldLabel" : "Secondary Math",
+    "score" : 0.8103965320850014
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Edu-10-6",
+    "fieldLabel" : "Motivation & Learning",
+    "score" : 0.8201923925169884
+  }, {
+    "fieldId" : "Edu-26-7",
+    "fieldLabel" : "Middle School Math",
+    "score" : 0.8168335897377174
+  }, {
+    "fieldId" : "Edu-5-2",
+    "fieldLabel" : "After School, Tutoring & Out-of-School Programs",
+    "score" : 0.7240418323610728
+  }, {
+    "fieldId" : "Edu-21-6",
+    "fieldLabel" : "Elementary Teaching Methods",
+    "score" : 0.7063166065811733
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  } ]
+}, {
+  "fileName" : "876.txt",
+  "result" : [ {
+    "fieldId" : "Edu-25-13",
+    "fieldLabel" : "Health Evaluation",
+    "score" : 0.7682866627449705
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.7558249673988751
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.5839780298225532
+  }, {
+    "fieldId" : "Psych-12-4",
+    "fieldLabel" : "Double Blind Experimental Design in Psychology",
+    "score" : 0.471712369821992
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.46874797780161204
+  }, {
+    "fieldId" : "Counsel-2-9",
+    "fieldLabel" : "Counseling for Depression, Anxiety & Stress",
+    "score" : 0.38854761256380316
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.427357071997644
+  }, {
+    "fieldId" : "BusMgt-5-19",
+    "fieldLabel" : "Fixed Income Securities",
+    "score" : 0.32420767078803636
+  }, {
+    "fieldId" : "Psych-9-2",
+    "fieldLabel" : "Big 5 Personality Measure",
+    "score" : 0.33324624402193664
+  } ]
+}, {
+  "fileName" : "765.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-12-7",
+    "fieldLabel" : "Child Care Nursing",
+    "score" : 0.9006485515321415
+  }, {
+    "fieldId" : "BusMgt-6-8",
+    "fieldLabel" : "Human Resource Development",
+    "score" : 0.7170810354495727
+  }, {
+    "fieldId" : "Soc-6-9",
+    "fieldLabel" : "Gender Roles",
+    "score" : 0.8589164445499816
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Hlth-17-12",
+    "fieldLabel" : "Health Promotion",
+    "score" : 0.6675723394231072
+  }, {
+    "fieldId" : "Hlth-23-31",
+    "fieldLabel" : "Working with Groups in Youth & Community Work",
+    "score" : 0.6558474027695925
+  }, {
+    "fieldId" : "Edu-14-4",
+    "fieldLabel" : "Extra-Curricular Activities",
+    "score" : 0.6449180101227713
+  }, {
+    "fieldId" : "Counsel-2-15",
+    "fieldLabel" : "Counseling Older People",
+    "score" : 0.5361053009931682
+  }, {
+    "fieldId" : "BusMgt-13-1",
+    "fieldLabel" : "Organization Studies",
+    "score" : 0.44608197509906805
+  }, {
+    "fieldId" : "Counsel-3-13",
+    "fieldLabel" : "Negotiating Homework in Counseling",
+    "score" : 0.3946717228956402
+  } ]
+}, {
+  "fileName" : "3286.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-2-21",
+    "fieldLabel" : "Obstetrics, Gynecology & Reproductive Medicine",
+    "score" : 0.7400528019215767
+  }, {
+    "fieldId" : "Hlth-24-13",
+    "fieldLabel" : "Medical Administration / Medical Decision Making",
+    "score" : 0.7361649387400575
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Hlth-2-28",
+    "fieldLabel" : "Pharmacology (Clinical)",
+    "score" : 0.6960454276584392
+  }, {
+    "fieldId" : "Psych-4-21",
+    "fieldLabel" : "Psychosomatic Disorders",
+    "score" : 0.5492089519023368
+  }, {
+    "fieldId" : "Hlth-12-52",
+    "fieldLabel" : "Normal Midwifery Practice (Pre-Natal, Intrapartum, Postnatal)",
+    "score" : 0.5370508359436322
+  }, {
+    "fieldId" : "Counsel-6-2",
+    "fieldLabel" : "Evaluating Therapeutic Outcomes",
+    "score" : 0.6419448862975561
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.5310584455466583
+  }, {
+    "fieldId" : "Psych-4-3",
+    "fieldLabel" : "Addictive Disorders",
+    "score" : 0.41646060984273103
+  }, {
+    "fieldId" : "Hlth-12-35",
+    "fieldLabel" : "Infusion Therapy",
+    "score" : 0.49490235630176493
+  } ]
+}, {
+  "fileName" : "3289.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-11-53",
+    "fieldLabel" : "Social Media Marketing",
+    "score" : 0.7067264366994627
+  }, {
+    "fieldId" : "BusMgt-11-2",
+    "fieldLabel" : "Advertising & Promotion",
+    "score" : 0.749101601133329
+  }, {
+    "fieldId" : "BusMgt-14-5",
+    "fieldLabel" : "Entrepreneurial Strategies",
+    "score" : 0.73247027464514
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.6788062025646265
+  }, {
+    "fieldId" : "BusMgt-5-23",
+    "fieldLabel" : "International Finance Markets",
+    "score" : 0.6654830373011656
+  }, {
+    "fieldId" : "BusMgt-8-10",
+    "fieldLabel" : "Asian Pacific Business",
+    "score" : 0.5451514315419662
+  }, {
+    "fieldId" : "Comm-2-44",
+    "fieldLabel" : "Television, Radio & Audio",
+    "score" : 0.5372559877268155
+  }, {
+    "fieldId" : "Poli-6-32",
+    "fieldLabel" : "United Nations",
+    "score" : 0.6280663569018369
+  }, {
+    "fieldId" : "Edu-5-2",
+    "fieldLabel" : "After School, Tutoring & Out-of-School Programs",
+    "score" : 0.6050529004319369
+  } ]
+}, {
+  "fileName" : "2951.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-25",
+    "fieldLabel" : "Investment Banking",
+    "score" : 0.7391915216131624
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.647375880896131
+  }, {
+    "fieldId" : "BusMgt-9-20",
+    "fieldLabel" : "Leadership Styles",
+    "score" : 0.4657006371939039
+  }, {
+    "fieldId" : "Poli-6-12",
+    "fieldLabel" : "International Institutions & Organizations",
+    "score" : 0.5572205797761711
+  }, {
+    "fieldId" : "Comm-3-2",
+    "fieldLabel" : "Argumentation & Debate",
+    "score" : 0.5393229961580883
+  }, {
+    "fieldId" : "BusMgt-2-7",
+    "fieldLabel" : "Cost Accounting",
+    "score" : 0.4477911973902118
+  }, {
+    "fieldId" : "Psych-9-6",
+    "fieldLabel" : "Psychometric Personality Assessment",
+    "score" : 0.45372921970474306
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.30096912916529645
+  }, {
+    "fieldId" : "Comm-2-23",
+    "fieldLabel" : "Media Archives",
+    "score" : 0.2023787160308294
+  }, {
+    "fieldId" : "Comm-2-44",
+    "fieldLabel" : "Television, Radio & Audio",
+    "score" : 0.32108390353044575
+  } ]
+}, {
+  "fileName" : "3279.txt",
+  "result" : [ {
+    "fieldId" : "Poli-7-27",
+    "fieldLabel" : "Religion & Politics",
+    "score" : 0.8752844568446493
+  }, {
+    "fieldId" : "Psych-5-24",
+    "fieldLabel" : "Visual Cognition",
+    "score" : 0.722223702862163
+  }, {
+    "fieldId" : "Poli-7-1",
+    "fieldLabel" : "Political Science",
+    "score" : 0.8600004497840961
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Psych-9-1",
+    "fieldLabel" : "Personality & Individual Differences",
+    "score" : 0.6294550766500578
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.6110055621716045
+  }, {
+    "fieldId" : "Soc-17-1",
+    "fieldLabel" : "Social Research",
+    "score" : 0.7071841877090422
+  }, {
+    "fieldId" : "Psych-5-6",
+    "fieldLabel" : "Cognitive Engineering",
+    "score" : 0.7036115163988877
+  }, {
+    "fieldId" : "Psych-8-5",
+    "fieldLabel" : "Cognitive Development",
+    "score" : 0.674729188310055
+  }, {
+    "fieldId" : "Poli-8-15",
+    "fieldLabel" : "Comparative Political Theory",
+    "score" : 0.633882660038463
+  } ]
+}, {
+  "fileName" : "3025.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-21",
+    "fieldLabel" : "Public Health Research Methods",
+    "score" : 0.8388965023041062
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7319906723675336
+  }, {
+    "fieldId" : "Hlth-5-2",
+    "fieldLabel" : "Autism",
+    "score" : 0.5956853699688823
+  }, {
+    "fieldId" : "Soc-8-5",
+    "fieldLabel" : "Migration",
+    "score" : 0.5395900207522641
+  }, {
+    "fieldId" : "Poli-6-32",
+    "fieldLabel" : "United Nations",
+    "score" : 0.5543330418457454
+  }, {
+    "fieldId" : "Counsel-2-6",
+    "fieldLabel" : "Counseling Children & Young People",
+    "score" : 0.49581994889974035
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.3862404348542047
+  }, {
+    "fieldId" : "Counsel-3-16",
+    "fieldLabel" : "Opening Statements in Counseling",
+    "score" : 0.22939789660165702
+  }, {
+    "fieldId" : "Edu-8-2",
+    "fieldLabel" : "Gifted & Talented Assessment",
+    "score" : 0.19852191192991264
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.3197846560419732
+  } ]
+}, {
+  "fileName" : "3167.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-19",
+    "fieldLabel" : "Fixed Income Securities",
+    "score" : 0.6679992796424009
+  }, {
+    "fieldId" : "Counsel-2-19",
+    "fieldLabel" : "Redundancy/Unemployment Counseling",
+    "score" : 0.48175360985345406
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.5402351299621293
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.5402140300556333
+  }, {
+    "fieldId" : "Poli-6-32",
+    "fieldLabel" : "United Nations",
+    "score" : 0.520149099324708
+  }, {
+    "fieldId" : "BusMgt-6-5",
+    "fieldLabel" : "Employee, Industrial & Labor Relations",
+    "score" : 0.5033997755391129
+  }, {
+    "fieldId" : "Soc-11-3",
+    "fieldLabel" : "Modernity & Postmodernity",
+    "score" : 0.49132822009410426
+  }, {
+    "fieldId" : "BusMgt-9-21",
+    "fieldLabel" : "Leadership Theory",
+    "score" : 0.4671044337119061
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.4353629016290185
+  }, {
+    "fieldId" : "BusMgt-4-6",
+    "fieldLabel" : "Consumer Economics",
+    "score" : 0.4294739758658878
+  } ]
+}, {
+  "fileName" : "2907.txt",
+  "result" : [ {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7671092681958143
+  }, {
+    "fieldId" : "BusMgt-13-1",
+    "fieldLabel" : "Organization Studies",
+    "score" : 0.7019779211682493
+  }, {
+    "fieldId" : "BusMgt-4-22",
+    "fieldLabel" : "International Trade",
+    "score" : 0.6600628367330698
+  }, {
+    "fieldId" : "BusMgt-13-7",
+    "fieldLabel" : "Organizational Behavior",
+    "score" : 0.6511808208273574
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.6492938894253751
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.5582765961049181
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.5275405204276213
+  }, {
+    "fieldId" : "BusMgt-5-31",
+    "fieldLabel" : "Quantitative Investment Analysis",
+    "score" : 0.4390008899551916
+  }, {
+    "fieldId" : "BusMgt-5-21",
+    "fieldLabel" : "International Banking",
+    "score" : 0.43025238146959216
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.5051173211958316
+  } ]
+}, {
+  "fileName" : "3292.txt",
+  "result" : [ {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.7742056669110655
+  }, {
+    "fieldId" : "BusMgt-9-19",
+    "fieldLabel" : "Leadership Development",
+    "score" : 0.668785100848531
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7451824357459061
+  }, {
+    "fieldId" : "Psych-5-19",
+    "fieldLabel" : "Memory",
+    "score" : 0.7151286012017326
+  }, {
+    "fieldId" : "Comm-5-6",
+    "fieldLabel" : "Cultural Policy",
+    "score" : 0.70689480957423
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Counsel-2-6",
+    "fieldLabel" : "Counseling Children & Young People",
+    "score" : 0.6234134871167916
+  }, {
+    "fieldId" : "Soc-11-11",
+    "fieldLabel" : "Critical/Conflict Theory",
+    "score" : 0.5475400131893192
+  }, {
+    "fieldId" : "Psych-5-22",
+    "fieldLabel" : "Sensation & Perception",
+    "score" : 0.49842924994851445
+  } ]
+}, {
+  "fileName" : "2283.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.9660937898383808
+  }, {
+    "fieldId" : "Hlth-11-2",
+    "fieldLabel" : "Child Health",
+    "score" : 0.9659381641216714
+  }, {
+    "fieldId" : "Hlth-17-17",
+    "fieldLabel" : "Population Health",
+    "score" : 0.9188899884872409
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Hlth-6-1",
+    "fieldLabel" : "Epidemiology & Biostatistics",
+    "score" : 0.9038628093384942
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Hlth-8-3",
+    "fieldLabel" : "Health Information Technology",
+    "score" : 0.8629808950969682
+  }, {
+    "fieldId" : "Hlth-17-2",
+    "fieldLabel" : "Community Health Planning & Policy Development",
+    "score" : 0.8554229640908915
+  }, {
+    "fieldId" : "Hlth-19-7",
+    "fieldLabel" : "Health Policy",
+    "score" : 0.848134420898809
+  }, {
+    "fieldId" : "Edu-11-1",
+    "fieldLabel" : "Preservice Training",
+    "score" : 0.8365070871643904
+  } ]
+}, {
+  "fileName" : "3074.txt",
+  "result" : [ {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Hlth-6-1",
+    "fieldLabel" : "Epidemiology & Biostatistics",
+    "score" : 0.9038628093384942
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Hlth-12-53",
+    "fieldLabel" : "Nurse Anesthetist",
+    "score" : 0.8626127166011688
+  }, {
+    "fieldId" : "Hlth-12-45",
+    "fieldLabel" : "Medical-Surgical Nursing",
+    "score" : 0.8538836433201509
+  }, {
+    "fieldId" : "Hlth-2-7",
+    "fieldLabel" : "Cancer / Oncology",
+    "score" : 0.8498379551311908
+  }, {
+    "fieldId" : "Counsel-5-11",
+    "fieldLabel" : "Group Therapy",
+    "score" : 0.8380630569178025
+  }, {
+    "fieldId" : "Comm-3-28",
+    "fieldLabel" : "Communication in Organizations",
+    "score" : 0.8357598677295688
+  }, {
+    "fieldId" : "Hlth-2-27",
+    "fieldLabel" : "Pediatric Medicine",
+    "score" : 0.8324509302706651
+  } ]
+}, {
+  "fileName" : "3288.txt",
+  "result" : [ {
+    "fieldId" : "Psych-11-14",
+    "fieldLabel" : "Social Cognition",
+    "score" : 0.9338591949377077
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Edu-3-16",
+    "fieldLabel" : "Science Curricula",
+    "score" : 0.8821844441782921
+  }, {
+    "fieldId" : "Psych-5-24",
+    "fieldLabel" : "Visual Cognition",
+    "score" : 0.8160408078812444
+  }, {
+    "fieldId" : "Psych-5-12",
+    "fieldLabel" : "Human/Computer Interaction",
+    "score" : 0.6799230743504566
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Poli-9-18",
+    "fieldLabel" : "Public Management",
+    "score" : 0.6607639951917595
+  }, {
+    "fieldId" : "Edu-11-5",
+    "fieldLabel" : "Preservice Training for Elementary",
+    "score" : 0.6236788008898869
+  }, {
+    "fieldId" : "Soc-3-5",
+    "fieldLabel" : "British Studies",
+    "score" : 0.6017187751517158
+  }, {
+    "fieldId" : "BusMgt-13-8",
+    "fieldLabel" : "Organizational Communication",
+    "score" : 0.47460717572116495
+  } ]
+}, {
+  "fileName" : "2593.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-19-12",
+    "fieldLabel" : "Poverty & Inequality",
+    "score" : 0.9026654530465786
+  }, {
+    "fieldId" : "Soc-14-11",
+    "fieldLabel" : "Social Networks",
+    "score" : 0.852787725257271
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Soc-18-2",
+    "fieldLabel" : "Gerontology",
+    "score" : 0.9027177214985608
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.8933594288272529
+  }, {
+    "fieldId" : "Edu-25-3",
+    "fieldLabel" : "ANOVA/MANOVA",
+    "score" : 0.8396421055818765
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Soc-9-1",
+    "fieldLabel" : "Social Change & Modernization",
+    "score" : 0.8050799427302401
+  }, {
+    "fieldId" : "Hlth-19-9",
+    "fieldLabel" : "International Social Work",
+    "score" : 0.7939178979368195
+  } ]
+}, {
+  "fileName" : "3165.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-4-27",
+    "fieldLabel" : "Monetary Theory & Policy",
+    "score" : 0.7711861832959115
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.9083295294888765
+  }, {
+    "fieldId" : "Poli-13-7",
+    "fieldLabel" : "Local Government Policy",
+    "score" : 0.841656907696217
+  }, {
+    "fieldId" : "Poli-13-9",
+    "fieldLabel" : "Policy Making",
+    "score" : 0.6795494093873075
+  }, {
+    "fieldId" : "BusMgt-5-31",
+    "fieldLabel" : "Quantitative Investment Analysis",
+    "score" : 0.6148000371519305
+  }, {
+    "fieldId" : "BusMgt-5-9",
+    "fieldLabel" : "Financial Derivatives",
+    "score" : 0.5878299645945849
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.6986710942552742
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.6506229061085975
+  }, {
+    "fieldId" : "Poli-11-3",
+    "fieldLabel" : "Civil War",
+    "score" : 0.5303866133704123
+  }, {
+    "fieldId" : "Poli-9-28",
+    "fieldLabel" : "Public Sector Reform",
+    "score" : 0.49335487542180395
+  } ]
+}, {
+  "fileName" : "1134.txt",
+  "result" : [ {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Hlth-17-3",
+    "fieldLabel" : "Community Mental Health",
+    "score" : 0.7857810078738378
+  }, {
+    "fieldId" : "Counsel-2-24",
+    "fieldLabel" : "Counseling for Trauma, Violence & Abuse",
+    "score" : 0.65107890823299
+  }, {
+    "fieldId" : "Soc-3-5",
+    "fieldLabel" : "British Studies",
+    "score" : 0.5827277208416315
+  }, {
+    "fieldId" : "Counsel-2-9",
+    "fieldLabel" : "Counseling for Depression, Anxiety & Stress",
+    "score" : 0.6431838258440844
+  }, {
+    "fieldId" : "Edu-23-2",
+    "fieldLabel" : "Community & Family Issues in Education",
+    "score" : 0.4771783484775615
+  }, {
+    "fieldId" : "Soc-3-1",
+    "fieldLabel" : "Area Studies",
+    "score" : 0.4590176670911145
+  }, {
+    "fieldId" : "BusMgt-13-4",
+    "fieldLabel" : "Families, Work & Organizations",
+    "score" : 0.4468398875127326
+  }, {
+    "fieldId" : "BusMgt-9-23",
+    "fieldLabel" : "Leadership, Power & Influence",
+    "score" : 0.36086694294821536
+  } ]
+}, {
+  "fileName" : "3264.txt",
+  "result" : [ {
+    "fieldId" : "Counsel-3-24",
+    "fieldLabel" : "Working with Automatic Thoughts & Perceptions",
+    "score" : 0.42884707674956785
+  }, {
+    "fieldId" : "Psych-3-19",
+    "fieldLabel" : "Sensory Processes",
+    "score" : 0.5045198333601462
+  }, {
+    "fieldId" : "Psych-4-26",
+    "fieldLabel" : "Dissociative Disorders",
+    "score" : 0.4994585438022444
+  }, {
+    "fieldId" : "Psych-8-14",
+    "fieldLabel" : "Perceptual & Motor Development",
+    "score" : 0.4713215134633262
+  }, {
+    "fieldId" : "Comm-3-9",
+    "fieldLabel" : "Computer-Mediated Communication",
+    "score" : 0.4519084090323425
+  }, {
+    "fieldId" : "Psych-8-10",
+    "fieldLabel" : "Lifespan Development",
+    "score" : 0.3244067892438505
+  }, {
+    "fieldId" : "Counsel-3-10",
+    "fieldLabel" : "Enhancing the Client's Self-helping Skills",
+    "score" : 0.3179256756660092
+  }, {
+    "fieldId" : "Edu-4-25",
+    "fieldLabel" : "Early Years Placements",
+    "score" : 0.37205455951413585
+  }, {
+    "fieldId" : "BusMgt-4-22",
+    "fieldLabel" : "International Trade",
+    "score" : 0.28576736218213955
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.2789057374351708
+  } ]
+}, {
+  "fileName" : "192.txt",
+  "result" : [ {
+    "fieldId" : "Poli-15-8",
+    "fieldLabel" : "National Security",
+    "score" : 0.5737486583064655
+  }, {
+    "fieldId" : "BusMgt-6-20",
+    "fieldLabel" : "Diversity, Equality & Inclusion in the Workplace",
+    "score" : 0.4393475063735917
+  }, {
+    "fieldId" : "BusMgt-9-13",
+    "fieldLabel" : "Change Leadership",
+    "score" : 0.5188073442008746
+  }, {
+    "fieldId" : "BusMgt-9-26",
+    "fieldLabel" : "Sustainable Leadership",
+    "score" : 0.4150915652324757
+  }, {
+    "fieldId" : "Crim-8-8",
+    "fieldLabel" : "Police Partnerships & Collaborative Working",
+    "score" : 0.3762826890311008
+  }, {
+    "fieldId" : "Edu-4-15",
+    "fieldLabel" : "Early Childhood Gifted & Talented",
+    "score" : 0.35941055886506496
+  }, {
+    "fieldId" : "Soc-3-22",
+    "fieldLabel" : "Spanish & Portuguese Studies",
+    "score" : 0.34523582537266767
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.32138240262468193
+  }, {
+    "fieldId" : "Crim-16-7",
+    "fieldLabel" : "Sentencing",
+    "score" : 0.23289526425251939
+  }, {
+    "fieldId" : "Comm-2-23",
+    "fieldLabel" : "Media Archives",
+    "score" : 0.25965626764940125
+  } ]
+}, {
+  "fileName" : "3259.txt",
+  "result" : [ {
+    "fieldId" : "Edu-25-30",
+    "fieldLabel" : "Research Methods",
+    "score" : 0.8203970906152871
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Comm-3-40",
+    "fieldLabel" : "Visual Communication",
+    "score" : 0.5204059715422564
+  }, {
+    "fieldId" : "BusMgt-5-31",
+    "fieldLabel" : "Quantitative Investment Analysis",
+    "score" : 0.45126911381936424
+  }, {
+    "fieldId" : "Crim-6-5",
+    "fieldLabel" : "Interviewing/Interrogation",
+    "score" : 0.3719952257022691
+  }, {
+    "fieldId" : "Comm-2-45",
+    "fieldLabel" : "Video Games",
+    "score" : 0.3221934164379528
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.37689480929674346
+  }, {
+    "fieldId" : "Comm-2-23",
+    "fieldLabel" : "Media Archives",
+    "score" : 0.3044069511274429
+  }, {
+    "fieldId" : "Psych-9-5",
+    "fieldLabel" : "Personality & Motivation",
+    "score" : 0.2714163755608869
+  }, {
+    "fieldId" : "Comm-2-4",
+    "fieldLabel" : "Advertising Copywriting & Campaigns",
+    "score" : 0.311218209022733
+  } ]
+}, {
+  "fileName" : "3277.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-20-6",
+    "fieldLabel" : "Quality Assurance & Performance Management",
+    "score" : 0.6208042078265784
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.620415724272894
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "BusMgt-11-12",
+    "fieldLabel" : "Customer Relationship Management",
+    "score" : 0.680754990020522
+  }, {
+    "fieldId" : "BusMgt-11-11",
+    "fieldLabel" : "Consumer Marketing",
+    "score" : 0.598731910402029
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.5818859297964439
+  }, {
+    "fieldId" : "BusMgt-14-9",
+    "fieldLabel" : "Small & Medium Enterprise Marketing",
+    "score" : 0.543615626338869
+  }, {
+    "fieldId" : "BusMgt-5-34",
+    "fieldLabel" : "Valuation",
+    "score" : 0.41867037807978796
+  }, {
+    "fieldId" : "Soc-3-19",
+    "fieldLabel" : "Slav Europe Studies",
+    "score" : 0.48492171199478223
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.4791429697406436
+  } ]
+}, {
+  "fileName" : "3164.txt",
+  "result" : [ {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.7225152690373094
+  }, {
+    "fieldId" : "BusMgt-6-6",
+    "fieldLabel" : "Employment & Labor Law",
+    "score" : 0.6796924462356432
+  }, {
+    "fieldId" : "BusMgt-11-27",
+    "fieldLabel" : "Marketing Models",
+    "score" : 0.5264952245838816
+  }, {
+    "fieldId" : "Soc-11-11",
+    "fieldLabel" : "Critical/Conflict Theory",
+    "score" : 0.48121955750443907
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.35166329380413225
+  }, {
+    "fieldId" : "Poli-11-8",
+    "fieldLabel" : "International Conflict",
+    "score" : 0.3485715012872372
+  }, {
+    "fieldId" : "Comm-2-33",
+    "fieldLabel" : "Media Policy & Regulation",
+    "score" : 0.39288771574005843
+  }, {
+    "fieldId" : "Counsel-5-10",
+    "fieldLabel" : "Gestalt Therapy",
+    "score" : 0.3656600245365274
+  }, {
+    "fieldId" : "Crim-6-5",
+    "fieldLabel" : "Interviewing/Interrogation",
+    "score" : 0.283320699015096
+  }, {
+    "fieldId" : "BusMgt-5-24",
+    "fieldLabel" : "International Investments",
+    "score" : 0.3285749727189612
+  } ]
+}, {
+  "fileName" : "3269.txt",
+  "result" : [ {
+    "fieldId" : "Psych-5-24",
+    "fieldLabel" : "Visual Cognition",
+    "score" : 0.8869626077017105
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.8272786008994796
+  }, {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Hlth-8-1",
+    "fieldLabel" : "Health Services Research",
+    "score" : 0.8922865867359384
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Hlth-2-27",
+    "fieldLabel" : "Pediatric Medicine",
+    "score" : 0.8324509302706651
+  }, {
+    "fieldId" : "Hlth-12-35",
+    "fieldLabel" : "Infusion Therapy",
+    "score" : 0.63173805520315
+  }, {
+    "fieldId" : "Counsel-6-2",
+    "fieldLabel" : "Evaluating Therapeutic Outcomes",
+    "score" : 0.6215454836430908
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.7396329157577437
+  } ]
+}, {
+  "fileName" : "1776.txt",
+  "result" : [ {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-6-9",
+    "fieldLabel" : "Gender Roles",
+    "score" : 0.8589164445499816
+  }, {
+    "fieldId" : "Psych-12-7",
+    "fieldLabel" : "Laboratory Research in Psychology",
+    "score" : 0.7944578791208069
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.7878433101517874
+  }, {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.7742056669110655
+  }, {
+    "fieldId" : "Hlth-17-17",
+    "fieldLabel" : "Population Health",
+    "score" : 0.7685604681939668
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7533923803761523
+  }, {
+    "fieldId" : "Hlth-17-20",
+    "fieldLabel" : "Public Health Program Evaluation",
+    "score" : 0.7373947598103032
+  }, {
+    "fieldId" : "BusMgt-11-48",
+    "fieldLabel" : "Consumer Culture",
+    "score" : 0.7089303265435672
+  } ]
+}, {
+  "fileName" : "3287.txt",
+  "result" : [ {
+    "fieldId" : "Soc-8-10",
+    "fieldLabel" : "Racism & Discrimination",
+    "score" : 0.8033306935692386
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Poli-7-15",
+    "fieldLabel" : "Constitutions & Law",
+    "score" : 0.7299078965583048
+  }, {
+    "fieldId" : "Poli-8-11",
+    "fieldLabel" : "Political Ideologies",
+    "score" : 0.7092844202334619
+  }, {
+    "fieldId" : "Poli-11-13",
+    "fieldLabel" : "Terrorism/Counterterrorism",
+    "score" : 0.7077194435553233
+  }, {
+    "fieldId" : "BusMgt-6-20",
+    "fieldLabel" : "Diversity, Equality & Inclusion in the Workplace",
+    "score" : 0.7518627063450065
+  }, {
+    "fieldId" : "Edu-17-1",
+    "fieldLabel" : "Student Assessment",
+    "score" : 0.7089300452239347
+  }, {
+    "fieldId" : "Comm-5-5",
+    "fieldLabel" : "Cultural Economy",
+    "score" : 0.6684176177772133
+  }, {
+    "fieldId" : "Edu-5-27",
+    "fieldLabel" : "Superintendents & District Administration",
+    "score" : 0.5142014118707556
+  }, {
+    "fieldId" : "Crim-16-2",
+    "fieldLabel" : "Constitutional Law",
+    "score" : 0.56446606165421
+  } ]
+}, {
+  "fileName" : "991.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-12-82",
+    "fieldLabel" : "Public Health & Health Promotion",
+    "score" : 0.9054105696625563
+  }, {
+    "fieldId" : "Soc-8-10",
+    "fieldLabel" : "Racism & Discrimination",
+    "score" : 0.6201720189438059
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Psych-5-11",
+    "fieldLabel" : "Human Factors & Ergonomics",
+    "score" : 0.5633025439903173
+  }, {
+    "fieldId" : "Psych-4-21",
+    "fieldLabel" : "Psychosomatic Disorders",
+    "score" : 0.5626107273553033
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.5604564183589335
+  }, {
+    "fieldId" : "BusMgt-13-1",
+    "fieldLabel" : "Organization Studies",
+    "score" : 0.5507478531817916
+  }, {
+    "fieldId" : "Crim-2-13",
+    "fieldLabel" : "Special Populations in Corrections",
+    "score" : 0.50480627722317
+  }, {
+    "fieldId" : "Edu-4-15",
+    "fieldLabel" : "Early Childhood Gifted & Talented",
+    "score" : 0.35941055886506496
+  }, {
+    "fieldId" : "Comm-2-7",
+    "fieldLabel" : "Audience & Reception Studies",
+    "score" : 0.31232384472992486
+  } ]
+}, {
+  "fileName" : "3281.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-2-27",
+    "fieldLabel" : "Pediatric Medicine",
+    "score" : 0.8324509302706651
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7456744436463528
+  }, {
+    "fieldId" : "Edu-26-4",
+    "fieldLabel" : "Middle School ICT",
+    "score" : 0.6752594303851117
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.5310584455466583
+  }, {
+    "fieldId" : "Edu-26-7",
+    "fieldLabel" : "Middle School Math",
+    "score" : 0.5003990579389492
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.5774475343216348
+  }, {
+    "fieldId" : "Hlth-18-3",
+    "fieldLabel" : "Diagnostic Medical Sonography",
+    "score" : 0.5255861816125449
+  }, {
+    "fieldId" : "Edu-14-3",
+    "fieldLabel" : "College Preparation",
+    "score" : 0.5248850565463716
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.4371449546339202
+  } ]
+}, {
+  "fileName" : "3291.txt",
+  "result" : [ {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Psych-4-5",
+    "fieldLabel" : "Behavior Modification",
+    "score" : 0.7098030103857911
+  }, {
+    "fieldId" : "BusMgt-2-17",
+    "fieldLabel" : "Management Control Systems",
+    "score" : 0.6198921162670725
+  }, {
+    "fieldId" : "Psych-8-5",
+    "fieldLabel" : "Cognitive Development",
+    "score" : 0.7261105619049983
+  }, {
+    "fieldId" : "Psych-4-11",
+    "fieldLabel" : "Cognitive/Behavioral Psychology",
+    "score" : 0.6746014416036642
+  }, {
+    "fieldId" : "BusMgt-9-19",
+    "fieldLabel" : "Leadership Development",
+    "score" : 0.668785100848531
+  }, {
+    "fieldId" : "Hlth-2-28",
+    "fieldLabel" : "Pharmacology (Clinical)",
+    "score" : 0.6561167091743879
+  }, {
+    "fieldId" : "Counsel-5-1",
+    "fieldLabel" : "Counseling Theory & Approaches",
+    "score" : 0.6239602653612342
+  }, {
+    "fieldId" : "Edu-6-33",
+    "fieldLabel" : "M Level",
+    "score" : 0.547333078665555
+  }, {
+    "fieldId" : "BusMgt-7-5",
+    "fieldLabel" : "Systems Thinking",
+    "score" : 0.5364086169177549
+  } ]
+}, {
+  "fileName" : "3290.txt",
+  "result" : [ {
+    "fieldId" : "Counsel-1-1",
+    "fieldLabel" : "Counseling & Psychotherapy",
+    "score" : 0.8806402122992035
+  }, {
+    "fieldId" : "Counsel-5-10",
+    "fieldLabel" : "Gestalt Therapy",
+    "score" : 0.7954219156654101
+  }, {
+    "fieldId" : "Counsel-5-8",
+    "fieldLabel" : "Family Therapy",
+    "score" : 0.8942906643042535
+  }, {
+    "fieldId" : "Counsel-5-11",
+    "fieldLabel" : "Group Therapy",
+    "score" : 0.7985878033289316
+  }, {
+    "fieldId" : "Edu-23-2",
+    "fieldLabel" : "Community & Family Issues in Education",
+    "score" : 0.7090283053061605
+  }, {
+    "fieldId" : "Counsel-2-6",
+    "fieldLabel" : "Counseling Children & Young People",
+    "score" : 0.5716685153666714
+  }, {
+    "fieldId" : "BusMgt-9-19",
+    "fieldLabel" : "Leadership Development",
+    "score" : 0.668785100848531
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.6650736675329938
+  }, {
+    "fieldId" : "Counsel-5-25",
+    "fieldLabel" : "Solution-Focused Therapy",
+    "score" : 0.6508936042310214
+  }, {
+    "fieldId" : "Hlth-12-35",
+    "fieldLabel" : "Infusion Therapy",
+    "score" : 0.63173805520315
+  } ]
+}, {
+  "fileName" : "3272.txt",
+  "result" : [ {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7109878963167325
+  }, {
+    "fieldId" : "Edu-6-32",
+    "fieldLabel" : "Elementary Foundation Subjects",
+    "score" : 0.6063473832245329
+  }, {
+    "fieldId" : "Counsel-3-24",
+    "fieldLabel" : "Working with Automatic Thoughts & Perceptions",
+    "score" : 0.4289169239802271
+  }, {
+    "fieldId" : "BusMgt-2-2",
+    "fieldLabel" : "Accounting Information Systems",
+    "score" : 0.45290381576486916
+  }, {
+    "fieldId" : "Poli-12-14",
+    "fieldLabel" : "Voting Behavior",
+    "score" : 0.3584449481898582
+  }, {
+    "fieldId" : "BusMgt-9-23",
+    "fieldLabel" : "Leadership, Power & Influence",
+    "score" : 0.42469670317684777
+  }, {
+    "fieldId" : "Psych-9-2",
+    "fieldLabel" : "Big 5 Personality Measure",
+    "score" : 0.35335027707069494
+  }, {
+    "fieldId" : "Psych-9-5",
+    "fieldLabel" : "Personality & Motivation",
+    "score" : 0.4134039469109851
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.36386541547753437
+  }, {
+    "fieldId" : "Counsel-3-10",
+    "fieldLabel" : "Enhancing the Client's Self-helping Skills",
+    "score" : 0.350698602013813
+  } ]
+}, {
+  "fileName" : "2556.txt",
+  "result" : [ {
+    "fieldId" : "Edu-23-3",
+    "fieldLabel" : "Parent & Family Involvement in Education",
+    "score" : 0.7096354416734292
+  }, {
+    "fieldId" : "Counsel-4-11",
+    "fieldLabel" : "Therapeutic Relationship & Process",
+    "score" : 0.5260449626529362
+  }, {
+    "fieldId" : "BusMgt-11-12",
+    "fieldLabel" : "Customer Relationship Management",
+    "score" : 0.5814673284365001
+  }, {
+    "fieldId" : "Edu-4-15",
+    "fieldLabel" : "Early Childhood Gifted & Talented",
+    "score" : 0.24165013683481398
+  }, {
+    "fieldId" : "Geo-4-7",
+    "fieldLabel" : "Soil Contamination",
+    "score" : 0.23965469614080168
+  }, {
+    "fieldId" : "Comm-2-23",
+    "fieldLabel" : "Media Archives",
+    "score" : 0.25159255117932267
+  }, {
+    "fieldId" : "Edu-8-2",
+    "fieldLabel" : "Gifted & Talented Assessment",
+    "score" : 0.18651026646524063
+  }, {
+    "fieldId" : "Edu-8-4",
+    "fieldLabel" : "Gifted & Talented Identification",
+    "score" : 0.1526049407128179
+  }, {
+    "fieldId" : "Edu-8-6",
+    "fieldLabel" : "Gifted & Talented Program Development & Evaluation",
+    "score" : 0.2266389748481149
+  }, {
+    "fieldId" : "Geo-9-4",
+    "fieldLabel" : "Weather Forecasting",
+    "score" : 0.07001989441736813
+  } ]
+}, {
+  "fileName" : "3270.txt",
+  "result" : [ {
+    "fieldId" : "Comm-5-8",
+    "fieldLabel" : "Cultural Theory",
+    "score" : 0.7618073824199489
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Hlth-17-3",
+    "fieldLabel" : "Community Mental Health",
+    "score" : 0.8629161186918204
+  }, {
+    "fieldId" : "Counsel-2-3",
+    "fieldLabel" : "Adult Survivors of Child Abuse Counseling",
+    "score" : 0.707042605590729
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "Soc-18-1",
+    "fieldLabel" : "Age & the Life Course",
+    "score" : 0.8179358350511556
+  }, {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.7742056669110655
+  }, {
+    "fieldId" : "Geo-4-6",
+    "fieldLabel" : "Psychosocial Factors in Environmental Health",
+    "score" : 0.7701098812688159
+  }, {
+    "fieldId" : "Counsel-2-24",
+    "fieldLabel" : "Counseling for Trauma, Violence & Abuse",
+    "score" : 0.6319837606242681
+  }, {
+    "fieldId" : "Counsel-3-23",
+    "fieldLabel" : "Therapeutic Relationships",
+    "score" : 0.7052215652086193
+  } ]
+}, {
+  "fileName" : "1282.txt",
+  "result" : [ {
+    "fieldId" : "Crim-8-17",
+    "fieldLabel" : "Global Policing & International Law Enforcement",
+    "score" : 0.7478986755745899
+  }, {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.8206607025703041
+  }, {
+    "fieldId" : "Comm-2-4",
+    "fieldLabel" : "Advertising Copywriting & Campaigns",
+    "score" : 0.7816484661503587
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.7775298181701573
+  }, {
+    "fieldId" : "Crim-16-2",
+    "fieldLabel" : "Constitutional Law",
+    "score" : 0.7740194844724458
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.757067775911369
+  }, {
+    "fieldId" : "Comm-2-13",
+    "fieldLabel" : "Mass Communication",
+    "score" : 0.7458045400830329
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Soc-3-1",
+    "fieldLabel" : "Area Studies",
+    "score" : 0.5830397279867636
+  } ]
+}, {
+  "fileName" : "3284.txt",
+  "result" : [ {
+    "fieldId" : "Crim-16-2",
+    "fieldLabel" : "Constitutional Law",
+    "score" : 0.7740194844724458
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.6915737577667989
+  }, {
+    "fieldId" : "Soc-19-2",
+    "fieldLabel" : "Violence & Society",
+    "score" : 0.6764588974519543
+  }, {
+    "fieldId" : "Poli-11-6",
+    "fieldLabel" : "European Security",
+    "score" : 0.5054158646523526
+  }, {
+    "fieldId" : "Edu-24-7",
+    "fieldLabel" : "Qualitative Data Analysis in Education",
+    "score" : 0.5866207211963341
+  }, {
+    "fieldId" : "Soc-9-1",
+    "fieldLabel" : "Social Change & Modernization",
+    "score" : 0.5862084558198147
+  }, {
+    "fieldId" : "BusMgt-2-2",
+    "fieldLabel" : "Accounting Information Systems",
+    "score" : 0.5461017481964173
+  }, {
+    "fieldId" : "Edu-24-5",
+    "fieldLabel" : "Mixed Methods Research in Education",
+    "score" : 0.5306859897723847
+  }, {
+    "fieldId" : "Poli-15-8",
+    "fieldLabel" : "National Security",
+    "score" : 0.5050682178215802
+  } ]
+}, {
+  "fileName" : "793.txt",
+  "result" : [ {
+    "fieldId" : "Poli-9-28",
+    "fieldLabel" : "Public Sector Reform",
+    "score" : 0.7732167775080507
+  }, {
+    "fieldId" : "Hlth-19-11",
+    "fieldLabel" : "Pensions & Benefits",
+    "score" : 0.7659897592734746
+  }, {
+    "fieldId" : "BusMgt-5-20",
+    "fieldLabel" : "Insurance",
+    "score" : 0.7903404926810256
+  }, {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.780870080701841
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Hlth-8-4",
+    "fieldLabel" : "Health Policy Research",
+    "score" : 0.7382050661594752
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.6522107030611127
+  }, {
+    "fieldId" : "BusMgt-11-48",
+    "fieldLabel" : "Consumer Culture",
+    "score" : 0.6418127931518467
+  }, {
+    "fieldId" : "Hlth-10-3",
+    "fieldLabel" : "North American Health",
+    "score" : 0.6231021202907843
+  }, {
+    "fieldId" : "Poli-6-30",
+    "fieldLabel" : "Non-State Actors / Civil-Society Organizations",
+    "score" : 0.5939481988341386
+  } ]
+}, {
+  "fileName" : "1178.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-11-2",
+    "fieldLabel" : "Child Health",
+    "score" : 0.9659381641216714
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.9627382320219575
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.8740130951983078
+  }, {
+    "fieldId" : "Poli-6-1",
+    "fieldLabel" : "International Relations",
+    "score" : 0.8553912020979921
+  }, {
+    "fieldId" : "Hlth-11-4",
+    "fieldLabel" : "Maternal Health",
+    "score" : 0.8472078388974883
+  }, {
+    "fieldId" : "Hlth-12-7",
+    "fieldLabel" : "Child Care Nursing",
+    "score" : 0.8355722651614467
+  }, {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.8286133717240218
+  }, {
+    "fieldId" : "BusMgt-6-8",
+    "fieldLabel" : "Human Resource Development",
+    "score" : 0.8189783904505256
+  }, {
+    "fieldId" : "Edu-4-4",
+    "fieldLabel" : "Childhood & Society",
+    "score" : 0.8182147545906274
+  } ]
+}, {
+  "fileName" : "3283.txt",
+  "result" : [ {
+    "fieldId" : "Counsel-2-7",
+    "fieldLabel" : "Counseling in Education",
+    "score" : 0.9295437528280199
+  }, {
+    "fieldId" : "Edu-1-1",
+    "fieldLabel" : "Education",
+    "score" : 0.9278032122751854
+  }, {
+    "fieldId" : "Edu-14-22",
+    "fieldLabel" : "Secondary Math",
+    "score" : 0.7376757127170959
+  }, {
+    "fieldId" : "Soc-6-9",
+    "fieldLabel" : "Gender Roles",
+    "score" : 0.8589164445499816
+  }, {
+    "fieldId" : "Counsel-2-3",
+    "fieldLabel" : "Adult Survivors of Child Abuse Counseling",
+    "score" : 0.6866278379650314
+  }, {
+    "fieldId" : "Soc-7-3",
+    "fieldLabel" : "Global Civil Society & Human Rights",
+    "score" : 0.6790320327201556
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-23-2",
+    "fieldLabel" : "Community & Family Issues in Education",
+    "score" : 0.7597865805020607
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Edu-5-27",
+    "fieldLabel" : "Superintendents & District Administration",
+    "score" : 0.7026718531784073
+  } ]
+}, {
+  "fileName" : "3262.txt",
+  "result" : [ {
+    "fieldId" : "Crim-9-1",
+    "fieldLabel" : "Adults & Violence",
+    "score" : 0.7124393972933852
+  }, {
+    "fieldId" : "Soc-19-2",
+    "fieldLabel" : "Violence & Society",
+    "score" : 0.6364641976904725
+  }, {
+    "fieldId" : "Crim-9-9",
+    "fieldLabel" : "Prosecution of Violence",
+    "score" : 0.7047988847248672
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Comm-2-34",
+    "fieldLabel" : "Media Theory",
+    "score" : 0.682635643789583
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.6592689395518634
+  }, {
+    "fieldId" : "Poli-11-13",
+    "fieldLabel" : "Terrorism/Counterterrorism",
+    "score" : 0.49776180551419386
+  }, {
+    "fieldId" : "Counsel-6-2",
+    "fieldLabel" : "Evaluating Therapeutic Outcomes",
+    "score" : 0.5723063821948371
+  }, {
+    "fieldId" : "Crim-8-22",
+    "fieldLabel" : "Police Regulation",
+    "score" : 0.5562049469967362
+  }, {
+    "fieldId" : "Poli-11-8",
+    "fieldLabel" : "International Conflict",
+    "score" : 0.4098602568493399
+  } ]
+}, {
+  "fileName" : "3171.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-3",
+    "fieldLabel" : "Banking",
+    "score" : 0.8871145566772387
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.8858844575307216
+  }, {
+    "fieldId" : "Poli-13-7",
+    "fieldLabel" : "Local Government Policy",
+    "score" : 0.841656907696217
+  }, {
+    "fieldId" : "Comm-3-29",
+    "fieldLabel" : "Performance Studies",
+    "score" : 0.732030481771944
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.6986710942552742
+  }, {
+    "fieldId" : "BusMgt-4-32",
+    "fieldLabel" : "Theory of the Firm",
+    "score" : 0.6740520364381196
+  }, {
+    "fieldId" : "Poli-13-8",
+    "fieldLabel" : "Policy Analysis",
+    "score" : 0.6481399156485683
+  }, {
+    "fieldId" : "BusMgt-5-28",
+    "fieldLabel" : "Money & Capital Markets",
+    "score" : 0.5183966092765826
+  }, {
+    "fieldId" : "BusMgt-4-30",
+    "fieldLabel" : "Real Estate Economics",
+    "score" : 0.5136548235417768
+  }, {
+    "fieldId" : "Psych-12-16",
+    "fieldLabel" : "Analyzing Qualitative Data in Psychology",
+    "score" : 0.5855481423980898
+  } ]
+}, {
+  "fileName" : "3268.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.8778397169087897
+  }, {
+    "fieldId" : "Soc-14-11",
+    "fieldLabel" : "Social Networks",
+    "score" : 0.852787725257271
+  }, {
+    "fieldId" : "Psych-11-5",
+    "fieldLabel" : "Group Processes/Dynamics",
+    "score" : 0.7919947312558583
+  }, {
+    "fieldId" : "Soc-1-1",
+    "fieldLabel" : "Sociology",
+    "score" : 0.9460552622572017
+  }, {
+    "fieldId" : "Edu-25-2",
+    "fieldLabel" : "Action Research",
+    "score" : 0.6800044982241433
+  }, {
+    "fieldId" : "BusMgt-11-27",
+    "fieldLabel" : "Marketing Models",
+    "score" : 0.5676989691376392
+  }, {
+    "fieldId" : "BusMgt-14-5",
+    "fieldLabel" : "Entrepreneurial Strategies",
+    "score" : 0.5618930263925436
+  }, {
+    "fieldId" : "Edu-25-20",
+    "fieldLabel" : "Qualitative Data Analysis",
+    "score" : 0.55123637001419
+  }, {
+    "fieldId" : "Counsel-6-2",
+    "fieldLabel" : "Evaluating Therapeutic Outcomes",
+    "score" : 0.49624814680218954
+  }, {
+    "fieldId" : "Poli-6-1",
+    "fieldLabel" : "International Relations",
+    "score" : 0.49005620792891785
+  } ]
+}, {
+  "fileName" : "1575.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.691814923602452
+  }, {
+    "fieldId" : "Poli-6-32",
+    "fieldLabel" : "United Nations",
+    "score" : 0.6280663569018369
+  }, {
+    "fieldId" : "Poli-6-25",
+    "fieldLabel" : "International/Global Studies",
+    "score" : 0.5154882810075102
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.4161711735411269
+  }, {
+    "fieldId" : "Crim-16-7",
+    "fieldLabel" : "Sentencing",
+    "score" : 0.3272616884721717
+  }, {
+    "fieldId" : "Crim-8-17",
+    "fieldLabel" : "Global Policing & International Law Enforcement",
+    "score" : 0.27698736714175154
+  }, {
+    "fieldId" : "Geo-3-2",
+    "fieldLabel" : "Hazardous Toxic Waste",
+    "score" : 0.19271037226287596
+  }, {
+    "fieldId" : "Geo-9-4",
+    "fieldLabel" : "Weather Forecasting",
+    "score" : 0.16312187157271518
+  }, {
+    "fieldId" : "Edu-8-2",
+    "fieldLabel" : "Gifted & Talented Assessment",
+    "score" : 0.12452803609617429
+  }, {
+    "fieldId" : "Edu-14-18",
+    "fieldLabel" : "Secondary ICT",
+    "score" : 0.34675788027869714
+  } ]
+}, {
+  "fileName" : "2819.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-3",
+    "fieldLabel" : "Banking",
+    "score" : 0.8871145566772387
+  }, {
+    "fieldId" : "BusMgt-5-24",
+    "fieldLabel" : "International Investments",
+    "score" : 0.7764304368891554
+  }, {
+    "fieldId" : "BusMgt-5-17",
+    "fieldLabel" : "Financial Markets & Institutions",
+    "score" : 0.8858844575307216
+  }, {
+    "fieldId" : "BusMgt-5-19",
+    "fieldLabel" : "Fixed Income Securities",
+    "score" : 0.7061904606792025
+  }, {
+    "fieldId" : "Poli-13-7",
+    "fieldLabel" : "Local Government Policy",
+    "score" : 0.841656907696217
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-25-20",
+    "fieldLabel" : "Qualitative Data Analysis",
+    "score" : 0.7494610005925867
+  }, {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.6986710942552742
+  }, {
+    "fieldId" : "Crim-13-2",
+    "fieldLabel" : "Cyber-Security / Computer Security",
+    "score" : 0.6747588906477062
+  }, {
+    "fieldId" : "Psych-12-17",
+    "fieldLabel" : "Quantitative Methods in Psychology",
+    "score" : 0.6385769860127093
+  } ]
+}, {
+  "fileName" : "3282.txt",
+  "result" : [ {
+    "fieldId" : "Poli-8-11",
+    "fieldLabel" : "Political Ideologies",
+    "score" : 0.797133343191159
+  }, {
+    "fieldId" : "Psych-5-14",
+    "fieldLabel" : "Judgment & Decision Making",
+    "score" : 0.6818547566392238
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7451824357459061
+  }, {
+    "fieldId" : "Soc-9-5",
+    "fieldLabel" : "Conflict Studies",
+    "score" : 0.7100860540521211
+  }, {
+    "fieldId" : "Edu-25-31",
+    "fieldLabel" : "Research Projects",
+    "score" : 0.6950470397126615
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.5080424832251693
+  }, {
+    "fieldId" : "BusMgt-2-22",
+    "fieldLabel" : "Taxes & Business Decisions",
+    "score" : 0.5843055223798059
+  }, {
+    "fieldId" : "Poli-13-4",
+    "fieldLabel" : "Energy Policy",
+    "score" : 0.4597014449743654
+  }, {
+    "fieldId" : "Comm-3-26",
+    "fieldLabel" : "Negotiation & Conflict Management",
+    "score" : 0.4462092561859374
+  }, {
+    "fieldId" : "Comm-5-17",
+    "fieldLabel" : "Popular Music",
+    "score" : 0.4408767097401209
+  } ]
+}, {
+  "fileName" : "1150.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-3-3",
+    "fieldLabel" : "Correctional Health Care",
+    "score" : 0.9368630238174759
+  }, {
+    "fieldId" : "Hlth-24-11",
+    "fieldLabel" : "Health Care & Aging",
+    "score" : 0.8310627689465322
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.8131602619258251
+  }, {
+    "fieldId" : "BusMgt-5-20",
+    "fieldLabel" : "Insurance",
+    "score" : 0.7978505635354817
+  }, {
+    "fieldId" : "Hlth-8-10",
+    "fieldLabel" : "Medical Quality",
+    "score" : 0.7954696522270044
+  }, {
+    "fieldId" : "Hlth-2-3",
+    "fieldLabel" : "Medical Research",
+    "score" : 0.7874031474947232
+  }, {
+    "fieldId" : "Hlth-8-6",
+    "fieldLabel" : "Home Health Care Management & Administration",
+    "score" : 0.7683166422204679
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Edu-25-34",
+    "fieldLabel" : "Simulation & Gaming Research",
+    "score" : 0.7461164484019079
+  } ]
+}, {
+  "fileName" : "2148.txt",
+  "result" : [ {
+    "fieldId" : "Hlth-17-1",
+    "fieldLabel" : "Public Health",
+    "score" : 0.9660937898383808
+  }, {
+    "fieldId" : "Soc-8-6",
+    "fieldLabel" : "Race & Ethnicity",
+    "score" : 0.9627382320219575
+  }, {
+    "fieldId" : "Poli-9-18",
+    "fieldLabel" : "Public Management",
+    "score" : 0.7615614771083522
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.7358409572654059
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.7225419762931453
+  }, {
+    "fieldId" : "Hlth-2-2",
+    "fieldLabel" : "Medical Education",
+    "score" : 0.7204851774600051
+  }, {
+    "fieldId" : "Hlth-2-35",
+    "fieldLabel" : "Toxicology (Clinical)",
+    "score" : 0.704561813635682
+  }, {
+    "fieldId" : "Psych-12-22",
+    "fieldLabel" : "Survey Research in Psychology",
+    "score" : 0.7038283002420701
+  }, {
+    "fieldId" : "Hlth-13-1",
+    "fieldLabel" : "Nutrition & Dietetics",
+    "score" : 0.6723724602280826
+  } ]
+}, {
+  "fileName" : "3273.txt",
+  "result" : [ {
+    "fieldId" : "Soc-3-18",
+    "fieldLabel" : "Scandinavian Studies",
+    "score" : 0.8909427828820811
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Hlth-2-18",
+    "fieldLabel" : "Microbiology (Clinical)",
+    "score" : 0.748295161988872
+  }, {
+    "fieldId" : "Hlth-2-6",
+    "fieldLabel" : "Anesthesiology & Pain Medicine",
+    "score" : 0.7352071396949175
+  }, {
+    "fieldId" : "Hlth-9-1",
+    "fieldLabel" : "History of Medicine",
+    "score" : 0.7149335703035569
+  }, {
+    "fieldId" : "Hlth-4-2",
+    "fieldLabel" : "Alternative Medicine",
+    "score" : 0.6449811909826566
+  }, {
+    "fieldId" : "Edu-9-26",
+    "fieldLabel" : "Higher Education Teaching",
+    "score" : 0.6142262058001327
+  }, {
+    "fieldId" : "Hlth-12-67",
+    "fieldLabel" : "Operating Room & Perioperative Nursing",
+    "score" : 0.5651689522913159
+  }, {
+    "fieldId" : "Edu-17-7",
+    "fieldLabel" : "Summative Assessment & Testing",
+    "score" : 0.460246964680067
+  }, {
+    "fieldId" : "Hlth-6-2",
+    "fieldLabel" : "Infectious Disease",
+    "score" : 0.5453652225275326
+  } ]
+}, {
+  "fileName" : "163.txt",
+  "result" : [ {
+    "fieldId" : "BusMgt-5-18",
+    "fieldLabel" : "Financial Services",
+    "score" : 0.9359631596300455
+  }, {
+    "fieldId" : "BusMgt-4-1",
+    "fieldLabel" : "Economics",
+    "score" : 0.9187326237813263
+  }, {
+    "fieldId" : "BusMgt-8-8",
+    "fieldLabel" : "International Business Policy",
+    "score" : 0.8854719064891152
+  }, {
+    "fieldId" : "Edu-25-39",
+    "fieldLabel" : "Survey Research",
+    "score" : 0.8358280062679068
+  }, {
+    "fieldId" : "BusMgt-14-13",
+    "fieldLabel" : "Small & Medium-Sized Enterprises",
+    "score" : 0.8229819482878131
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Edu-17-2",
+    "fieldLabel" : "Data Analysis for Student Assessment",
+    "score" : 0.7582392284959699
+  }, {
+    "fieldId" : "Edu-25-20",
+    "fieldLabel" : "Qualitative Data Analysis",
+    "score" : 0.7494610005925867
+  }, {
+    "fieldId" : "BusMgt-14-3",
+    "fieldLabel" : "Creativity & Innovation in Business",
+    "score" : 0.7393600515116665
+  }, {
+    "fieldId" : "BusMgt-4-10",
+    "fieldLabel" : "Economic Growth",
+    "score" : 0.7316258331139107
+  } ]
+}, {
+  "fileName" : "2152.txt",
+  "result" : [ {
+    "fieldId" : "Psych-11-8",
+    "fieldLabel" : "Interpersonal Relationships",
+    "score" : 0.7080672114159787
+  }, {
+    "fieldId" : "Edu-4-34",
+    "fieldLabel" : "Working with Children, Young People & Families (Education)",
+    "score" : 0.6974800404105826
+  }, {
+    "fieldId" : "Edu-25-27",
+    "fieldLabel" : "Research Design",
+    "score" : 0.8208391443684292
+  }, {
+    "fieldId" : "Soc-24-3",
+    "fieldLabel" : "Religion in the United States",
+    "score" : 0.793927011735272
+  }, {
+    "fieldId" : "Edu-23-3",
+    "fieldLabel" : "Parent & Family Involvement in Education",
+    "score" : 0.6467472045600363
+  }, {
+    "fieldId" : "Psych-12-21",
+    "fieldLabel" : "Using Software in Data Analysis",
+    "score" : 0.7598166202855732
+  }, {
+    "fieldId" : "Comm-3-40",
+    "fieldLabel" : "Visual Communication",
+    "score" : 0.7430792467200746
+  }, {
+    "fieldId" : "Poli-2-14",
+    "fieldLabel" : "Southern Politics",
+    "score" : 0.7125138310851603
+  }, {
+    "fieldId" : "Poli-8-11",
+    "fieldLabel" : "Political Ideologies",
+    "score" : 0.7092844202334619
+  }, {
+    "fieldId" : "Psych-9-7",
+    "fieldLabel" : "Individual Differences & Cognition",
+    "score" : 0.6900217049549466
+  } ]
+} ]
