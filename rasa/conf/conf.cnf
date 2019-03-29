@@ -1,8 +1,0 @@
-[conf]
-rasa_conf = conf/conf.yml
-modelfolder = models/
-data_set_citations = jsonfilewithdatasetcitations.json
-publication_text_folder = folderwithpublicationtexts/
-trainingfile = trainingdata.json
-
-
