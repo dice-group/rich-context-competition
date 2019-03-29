@@ -1,10 +1,6 @@
 from ubuntu:18.04
 ENV DEBIAN_FRONTEND noninteractive
 
-#RUN locale-gen en_US.UTF-8
-#ENV LANG='en_US.UTF-8' 
-#ENV LANGUAGE='en_US:en'
-#ENV LC_ALL='en_US.UTF-8'
 ENV LANG=C.UTF-8
 
 # Run apt to install OS packages
@@ -25,19 +21,6 @@ RUN pip3 install ipython Cython matplotlib==2.2.3 numpy==1.15.4 pandas==0.23.4 s
 RUN pip3 install sklearn_crfsuite rasa-nlu==0.13.8 pytest==4.0.1 gensim==3.7.0
 RUN python3 -m spacy download en
 RUN python3 -m spacy download en_vectors_web_lg
-
-# directories for pattern-based dataset extraction
-#RUN git clone https://github.com/renespeck/knowledgeextraction
-#RUN cd knowledgeextraction
-#RUN  mvn compile install --quiet
-#RUN cd ..
-#
-#RUN git clone https://github.com/dice-group/Ocelot
-#RUN cd Ocelot
-#RUN mvn compile install -DskipTests=true --quiet
-#RUN cd ..
-#
-#RUN mvn compile
 
 # create directory for "work".
 RUN mkdir /work
