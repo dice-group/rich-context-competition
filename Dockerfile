@@ -1,10 +1,6 @@
 from ubuntu:18.04
 ENV DEBIAN_FRONTEND noninteractive
 
-#RUN locale-gen en_US.UTF-8
-#ENV LANG='en_US.UTF-8' 
-#ENV LANGUAGE='en_US:en'
-#ENV LC_ALL='en_US.UTF-8'
 ENV LANG=C.UTF-8
 
 # Run apt to install OS packages
@@ -16,19 +12,21 @@ RUN apt-get install -y openjdk-8-jdk
 RUN apt-get install -y openjdk-8-jre
 RUN update-alternatives --config java
 RUN update-alternatives --config javac
+RUN apt install -y maven
 
 # Python 3 package install example
 RUN pip3 install --upgrade setuptools
 RUN apt-get install aspell aspell-en dictionaries-common emacsen-common enchant hunspell-en-us libaspell15 libenchant1c2a libhunspell-1.6-0 libtext-iconv-perl
-RUN pip3 install ipython Cython matplotlib numpy pandas scikit-learn scipy six spacy langdetect pyenchant
-RUN pip3 install sklearn_crfsuite rasa_nlu
+RUN pip3 install ipython Cython matplotlib==2.2.3 numpy==1.15.4 pandas==0.23.4 scikit-learn scipy six==1.11.0 spacy==2.0.16 thinc==6.12.1 langdetect==1.0.7 pyenchant==2.0.0
+RUN pip3 install sklearn_crfsuite rasa-nlu==0.13.8 pytest==4.0.1 gensim==3.7.0
 RUN python3 -m spacy download en
-RUN python3 -m spacy download de
+RUN python3 -m spacy download en_vectors_web_lg
 
 # create directory for "work".
 RUN mkdir /work
 
 # clone the rich context repo into /rich-context-competition
 RUN git clone https://github.com/Coleridge-Initiative/rich-context-competition.git /rich-context-competition
+
 
 LABEL maintainer="jonathan.morgan@nyu.edu"
