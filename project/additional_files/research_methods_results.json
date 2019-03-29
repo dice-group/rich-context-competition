@@ -1,0 +1,4297 @@
+[ {
+  "fileName" : "1935.txt",
+  "result" : [ {
+    "methodId" : "2439",
+    "methodLabel" : "Round robin test",
+    "score" : 0.7824855301436033
+  }, {
+    "methodId" : "2536",
+    "methodLabel" : "Latin hypercube sampling",
+    "score" : 0.6766364137699732
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "957",
+    "methodLabel" : "Durbin test",
+    "score" : 0.6673763837780775
+  }, {
+    "methodId" : "1664",
+    "methodLabel" : "Covariance function",
+    "score" : 0.6627390416808473
+  }, {
+    "methodId" : "1654",
+    "methodLabel" : "Module of covariants",
+    "score" : 0.6585315466837723
+  }, {
+    "methodId" : "814",
+    "methodLabel" : "Rank condition",
+    "score" : 0.6539735897024943
+  }, {
+    "methodId" : "1671",
+    "methodLabel" : "Covariance operator",
+    "score" : 0.6470129102435623
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6789269212614533
+  }, {
+    "methodId" : "1715",
+    "methodLabel" : "Weighted median",
+    "score" : 0.7020472101036608
+  } ]
+}, {
+  "fileName" : "3276.txt",
+  "result" : [ {
+    "methodId" : "489",
+    "methodLabel" : "Vector generalized linear model",
+    "score" : 0.7437890491766047
+  }, {
+    "methodId" : "1863",
+    "methodLabel" : "Mixed-design analysis of variance",
+    "score" : 0.7424465574506522
+  }, {
+    "methodId" : "2384",
+    "methodLabel" : "Open-label trial",
+    "score" : 0.787287376556589
+  }, {
+    "methodId" : "2010",
+    "methodLabel" : "Normal-inverse-Wishart distribution",
+    "score" : 0.6691199215406889
+  }, {
+    "methodId" : "2059",
+    "methodLabel" : "Conceptual clustering",
+    "score" : 0.6644494431050645
+  }, {
+    "methodId" : "1152",
+    "methodLabel" : "Tukey–Duckworth test",
+    "score" : 0.6511358869601124
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.6440520849249315
+  }, {
+    "methodId" : "907",
+    "methodLabel" : "Fbsp wavelet",
+    "score" : 0.6275070163974722
+  }, {
+    "methodId" : "154",
+    "methodLabel" : "Shrinkage estimator",
+    "score" : 0.5989863194881602
+  }, {
+    "methodId" : "1928",
+    "methodLabel" : "Anchor test",
+    "score" : 0.6718018339394124
+  } ]
+}, {
+  "fileName" : "2328.txt",
+  "result" : [ {
+    "methodId" : "2551",
+    "methodLabel" : "Bernoulli sampling",
+    "score" : 0.7848724588527606
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.555336741056981
+  }, {
+    "methodId" : "532",
+    "methodLabel" : "Influential observation",
+    "score" : 0.6257476101312426
+  }, {
+    "methodId" : "301",
+    "methodLabel" : "Monte Carlo methods for option pricing",
+    "score" : 0.5942327868197042
+  }, {
+    "methodId" : "1965",
+    "methodLabel" : "Pointwise mutual information",
+    "score" : 0.5868411001204722
+  }, {
+    "methodId" : "147",
+    "methodLabel" : "Chapman–Robbins bound",
+    "score" : 0.5549198967890554
+  }, {
+    "methodId" : "409",
+    "methodLabel" : "Controlling for a variable",
+    "score" : 0.8068933457438382
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.5072160863388903
+  }, {
+    "methodId" : "1713",
+    "methodLabel" : "Weighted geometric mean",
+    "score" : 0.6316603777895642
+  }, {
+    "methodId" : "982",
+    "methodLabel" : "Cohen's kappa",
+    "score" : 0.503931186978094
+  } ]
+}, {
+  "fileName" : "1338.txt",
+  "result" : [ {
+    "methodId" : "38",
+    "methodLabel" : "Slice sampling",
+    "score" : 0.7444612131269183
+  }, {
+    "methodId" : "1537",
+    "methodLabel" : "Sensitivity and specificity",
+    "score" : 0.7194301490668908
+  }, {
+    "methodId" : "1616",
+    "methodLabel" : "Correction for attenuation",
+    "score" : 0.694468086850936
+  }, {
+    "methodId" : "2294",
+    "methodLabel" : "BrownBoost",
+    "score" : 0.7116326853423155
+  }, {
+    "methodId" : "339",
+    "methodLabel" : "Outliers ratio",
+    "score" : 0.6587733789237918
+  }, {
+    "methodId" : "1505",
+    "methodLabel" : "Relative change and difference",
+    "score" : 0.7274118108939117
+  }, {
+    "methodId" : "652",
+    "methodLabel" : "Needleman–Wunsch algorithm",
+    "score" : 0.6408818111005096
+  }, {
+    "methodId" : "1437",
+    "methodLabel" : "Fowlkes–Mallows index",
+    "score" : 0.6211811567595975
+  }, {
+    "methodId" : "1933",
+    "methodLabel" : "Spatial dependence",
+    "score" : 0.6147230120648154
+  }, {
+    "methodId" : "2179",
+    "methodLabel" : "Sigmoid function",
+    "score" : 0.6133694948039438
+  } ]
+}, {
+  "fileName" : "1293.txt",
+  "result" : [ {
+    "methodId" : "1722",
+    "methodLabel" : "Riesz mean",
+    "score" : 0.6777663752843112
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.6727443371162585
+  }, {
+    "methodId" : "1596",
+    "methodLabel" : "Percentile rank",
+    "score" : 0.6439563224944338
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6918180807416939
+  }, {
+    "methodId" : "2484",
+    "methodLabel" : "Inclusion probability",
+    "score" : 0.6383833751159166
+  }, {
+    "methodId" : "1539",
+    "methodLabel" : "Relative index of inequality",
+    "score" : 0.6573353945951409
+  }, {
+    "methodId" : "2585",
+    "methodLabel" : "Typology (statistics)",
+    "score" : 0.5945317663536351
+  }, {
+    "methodId" : "292",
+    "methodLabel" : "CASINO",
+    "score" : 0.6378808834002784
+  }, {
+    "methodId" : "1684",
+    "methodLabel" : "Cesàro mean",
+    "score" : 0.5734110002819605
+  }, {
+    "methodId" : "1950",
+    "methodLabel" : "Ceiling effect (statistics)",
+    "score" : 0.5700266433306722
+  } ]
+}, {
+  "fileName" : "3278.txt",
+  "result" : [ {
+    "methodId" : "1846",
+    "methodLabel" : "Contrast (statistics)",
+    "score" : 0.6587376969260775
+  }, {
+    "methodId" : "2102",
+    "methodLabel" : "Evolving classification function",
+    "score" : 0.63747450107155
+  }, {
+    "methodId" : "1512",
+    "methodLabel" : "Ground ball/fly ball ratio",
+    "score" : 0.6356387103056703
+  }, {
+    "methodId" : "957",
+    "methodLabel" : "Durbin test",
+    "score" : 0.63039335411355
+  }, {
+    "methodId" : "879",
+    "methodLabel" : "Calculating demand forecast accuracy",
+    "score" : 0.6284402234250447
+  }, {
+    "methodId" : "81",
+    "methodLabel" : "Wiener filter",
+    "score" : 0.6279517592518169
+  }, {
+    "methodId" : "415",
+    "methodLabel" : "Explained variation",
+    "score" : 0.7192914088909211
+  }, {
+    "methodId" : "2459",
+    "methodLabel" : "Instrument effect",
+    "score" : 0.6146250548850284
+  }, {
+    "methodId" : "2139",
+    "methodLabel" : "Autoassociative memory",
+    "score" : 0.7125897474031765
+  }, {
+    "methodId" : "1613",
+    "methodLabel" : "Covariance matrix",
+    "score" : 0.6809106796348149
+  } ]
+}, {
+  "fileName" : "2820.txt",
+  "result" : [ {
+    "methodId" : "1689",
+    "methodLabel" : "Geometric–harmonic mean",
+    "score" : 0.8228071542556676
+  }, {
+    "methodId" : "575",
+    "methodLabel" : "Entropic risk measure",
+    "score" : 0.734513777023289
+  }, {
+    "methodId" : "1613",
+    "methodLabel" : "Covariance matrix",
+    "score" : 0.8208245578709845
+  }, {
+    "methodId" : "2109",
+    "methodLabel" : "Winnow (algorithm)",
+    "score" : 0.721642131964444
+  }, {
+    "methodId" : "620",
+    "methodLabel" : "Scenario optimization",
+    "score" : 0.7209844062798771
+  }, {
+    "methodId" : "1275",
+    "methodLabel" : "Hyperparameter",
+    "score" : 0.7131800540946683
+  }, {
+    "methodId" : "1540",
+    "methodLabel" : "Upside potential ratio",
+    "score" : 0.7112531334586336
+  }, {
+    "methodId" : "309",
+    "methodLabel" : "Profit at risk",
+    "score" : 0.7103346434049593
+  }, {
+    "methodId" : "2148",
+    "methodLabel" : "Growing self-organizing map",
+    "score" : 0.710131663048917
+  }, {
+    "methodId" : "2209",
+    "methodLabel" : "Activation function",
+    "score" : 0.707457769100503
+  } ]
+}, {
+  "fileName" : "3265.txt",
+  "result" : [ {
+    "methodId" : "1269",
+    "methodLabel" : "Cohen's h",
+    "score" : 0.7283740772554833
+  }, {
+    "methodId" : "2559",
+    "methodLabel" : "Social polling",
+    "score" : 0.7316545772577092
+  }, {
+    "methodId" : "2603",
+    "methodLabel" : "Risk limiting post-election audit",
+    "score" : 0.6786716604014728
+  }, {
+    "methodId" : "2050",
+    "methodLabel" : "Bayes classifier",
+    "score" : 0.6209347585859608
+  }, {
+    "methodId" : "2330",
+    "methodLabel" : "Lusser's law",
+    "score" : 0.6161204787294438
+  }, {
+    "methodId" : "1467",
+    "methodLabel" : "Table diagonalization",
+    "score" : 0.6140022617226342
+  }, {
+    "methodId" : "870",
+    "methodLabel" : "Forecasting",
+    "score" : 0.608383116981261
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.5918215059501807
+  }, {
+    "methodId" : "2253",
+    "methodLabel" : "Convolutional Deep Belief Networks",
+    "score" : 0.5908867933955765
+  }, {
+    "methodId" : "983",
+    "methodLabel" : "Kernel (statistics)",
+    "score" : 0.5846587893940375
+  } ]
+}, {
+  "fileName" : "3152.txt",
+  "result" : [ {
+    "methodId" : "2242",
+    "methodLabel" : "Grossberg network",
+    "score" : 0.6385427186303865
+  }, {
+    "methodId" : "2559",
+    "methodLabel" : "Social polling",
+    "score" : 0.6460743698126393
+  }, {
+    "methodId" : "586",
+    "methodLabel" : "Trade-off talking rational economic person",
+    "score" : 0.6691112386145684
+  }, {
+    "methodId" : "129",
+    "methodLabel" : "L-estimator",
+    "score" : 0.6367376346165337
+  }, {
+    "methodId" : "2519",
+    "methodLabel" : "Lot quality assurance sampling",
+    "score" : 0.699688582683764
+  }, {
+    "methodId" : "255",
+    "methodLabel" : "Kinetic Monte Carlo",
+    "score" : 0.6853813065334294
+  }, {
+    "methodId" : "1599",
+    "methodLabel" : "Sample maximum and minimum",
+    "score" : 0.6633011813371134
+  }, {
+    "methodId" : "2186",
+    "methodLabel" : "Artisto",
+    "score" : 0.5546161200275346
+  }, {
+    "methodId" : "2331",
+    "methodLabel" : "Reliability theory of aging and longevity",
+    "score" : 0.5545967265815821
+  }, {
+    "methodId" : "1426",
+    "methodLabel" : "Second-order co-occurrence pointwise mutual information",
+    "score" : 0.5543590744773679
+  } ]
+}, {
+  "fileName" : "3258.txt",
+  "result" : [ {
+    "methodId" : "401",
+    "methodLabel" : "Trend analysis",
+    "score" : 0.7067514013008444
+  }, {
+    "methodId" : "2263",
+    "methodLabel" : "Comparison of deep learning software",
+    "score" : 0.6116731547375392
+  }, {
+    "methodId" : "1457",
+    "methodLabel" : "Inversion (discrete mathematics)",
+    "score" : 0.6109718618862275
+  }, {
+    "methodId" : "802",
+    "methodLabel" : "Surrogate data",
+    "score" : 0.8162138754079671
+  }, {
+    "methodId" : "1758",
+    "methodLabel" : "Biplot",
+    "score" : 0.7324077634918889
+  }, {
+    "methodId" : "1941",
+    "methodLabel" : "Conditional dependence",
+    "score" : 0.5640944308050853
+  }, {
+    "methodId" : "2511",
+    "methodLabel" : "Microdata (statistics)",
+    "score" : 0.6822554739569794
+  }, {
+    "methodId" : "2349",
+    "methodLabel" : "Latin rectangle",
+    "score" : 0.5168033956062698
+  }, {
+    "methodId" : "1229",
+    "methodLabel" : "K-statistic",
+    "score" : 0.5151848846014744
+  }, {
+    "methodId" : "2464",
+    "methodLabel" : "Manipulation check",
+    "score" : 0.5176343983114398
+  } ]
+}, {
+  "fileName" : "3267.txt",
+  "result" : [ {
+    "methodId" : "2352",
+    "methodLabel" : "Case-control study",
+    "score" : 0.7541091340216526
+  }, {
+    "methodId" : "1848",
+    "methodLabel" : "Random effects model",
+    "score" : 0.8371738424037619
+  }, {
+    "methodId" : "2503",
+    "methodLabel" : "Selection bias",
+    "score" : 0.6091793286257586
+  }, {
+    "methodId" : "2210",
+    "methodLabel" : "Promoter based genetic algorithm",
+    "score" : 0.6210770618864598
+  }, {
+    "methodId" : "2115",
+    "methodLabel" : "Co-training",
+    "score" : 0.6047708529064019
+  }, {
+    "methodId" : "1865",
+    "methodLabel" : "Principle of marginality",
+    "score" : 0.6615344264736442
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.5918215059501807
+  }, {
+    "methodId" : "339",
+    "methodLabel" : "Outliers ratio",
+    "score" : 0.587292736868408
+  }, {
+    "methodId" : "2134",
+    "methodLabel" : "Neural Networks (journal)",
+    "score" : 0.617124665296979
+  }, {
+    "methodId" : "2209",
+    "methodLabel" : "Activation function",
+    "score" : 0.5670975300655294
+  } ]
+}, {
+  "fileName" : "2541.txt",
+  "result" : [ {
+    "methodId" : "1406",
+    "methodLabel" : "Process Window Index",
+    "score" : 0.6188220385922546
+  }, {
+    "methodId" : "2362",
+    "methodLabel" : "Observational study",
+    "score" : 0.7394770195083673
+  }, {
+    "methodId" : "2222",
+    "methodLabel" : "Neural cryptography",
+    "score" : 0.6157419576425665
+  }, {
+    "methodId" : "2102",
+    "methodLabel" : "Evolving classification function",
+    "score" : 0.6099295959648837
+  }, {
+    "methodId" : "2592",
+    "methodLabel" : "Pocock boundary",
+    "score" : 0.6211440512440141
+  }, {
+    "methodId" : "2014",
+    "methodLabel" : "Prior knowledge for pattern recognition",
+    "score" : 0.5793001107198072
+  }, {
+    "methodId" : "542",
+    "methodLabel" : "Moderated mediation",
+    "score" : 0.5690702704527498
+  }, {
+    "methodId" : "550",
+    "methodLabel" : "Multiple-criteria decision analysis",
+    "score" : 0.5802368141315084
+  }, {
+    "methodId" : "2277",
+    "methodLabel" : "Decision tree",
+    "score" : 0.5496995296193589
+  }, {
+    "methodId" : "532",
+    "methodLabel" : "Influential observation",
+    "score" : 0.6257476101312426
+  } ]
+}, {
+  "fileName" : "3172.txt",
+  "result" : [ {
+    "methodId" : "2074",
+    "methodLabel" : "Relevance vector machine",
+    "score" : 0.7408590281468505
+  }, {
+    "methodId" : "2184",
+    "methodLabel" : "Learning vector quantization",
+    "score" : 0.6879960007575211
+  }, {
+    "methodId" : "752",
+    "methodLabel" : "Moving-average model",
+    "score" : 0.5774228611029967
+  }, {
+    "methodId" : "2",
+    "methodLabel" : "Structural break",
+    "score" : 0.5939698596636394
+  }, {
+    "methodId" : "583",
+    "methodLabel" : "Hedonimetry",
+    "score" : 0.6147792421478256
+  }, {
+    "methodId" : "1850",
+    "methodLabel" : "False positive rate",
+    "score" : 0.6604403873731284
+  }, {
+    "methodId" : "565",
+    "methodLabel" : "Gossen's second law",
+    "score" : 0.5428909025186643
+  }, {
+    "methodId" : "2603",
+    "methodLabel" : "Risk limiting post-election audit",
+    "score" : 0.4482556197311529
+  }, {
+    "methodId" : "2349",
+    "methodLabel" : "Latin rectangle",
+    "score" : 0.4167940394280155
+  }, {
+    "methodId" : "568",
+    "methodLabel" : "Frisch elasticity of labor supply",
+    "score" : 0.5201020135895488
+  } ]
+}, {
+  "fileName" : "3263.txt",
+  "result" : [ {
+    "methodId" : "517",
+    "methodLabel" : "Zero-inflated model",
+    "score" : 0.826150286033842
+  }, {
+    "methodId" : "423",
+    "methodLabel" : "Projection pursuit regression",
+    "score" : 0.7304007650822574
+  }, {
+    "methodId" : "332",
+    "methodLabel" : "Peirce's criterion",
+    "score" : 0.6994448433174306
+  }, {
+    "methodId" : "122",
+    "methodLabel" : "Point estimation",
+    "score" : 0.6786810727868614
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6740673263854806
+  }, {
+    "methodId" : "719",
+    "methodLabel" : "Binomial regression",
+    "score" : 0.7196577314524286
+  }, {
+    "methodId" : "173",
+    "methodLabel" : "Graphical lasso",
+    "score" : 0.6624342549339364
+  }, {
+    "methodId" : "322",
+    "methodLabel" : "Pseudo-random number sampling",
+    "score" : 0.6553255269401556
+  }, {
+    "methodId" : "714",
+    "methodLabel" : "Polynomial conjoint measurement",
+    "score" : 0.6551982285305912
+  }, {
+    "methodId" : "2391",
+    "methodLabel" : "Surrogate model",
+    "score" : 0.6534205544495328
+  } ]
+}, {
+  "fileName" : "2850.txt",
+  "result" : [ {
+    "methodId" : "309",
+    "methodLabel" : "Profit at risk",
+    "score" : 0.6616037268346017
+  }, {
+    "methodId" : "1706",
+    "methodLabel" : "Centerpoint (geometry)",
+    "score" : 0.5982943934765214
+  }, {
+    "methodId" : "1520",
+    "methodLabel" : "Beta (finance)",
+    "score" : 0.6709762528968266
+  }, {
+    "methodId" : "583",
+    "methodLabel" : "Hedonimetry",
+    "score" : 0.6147792421478256
+  }, {
+    "methodId" : "313",
+    "methodLabel" : "Margin at risk",
+    "score" : 0.5747724666728136
+  }, {
+    "methodId" : "875",
+    "methodLabel" : "Meteorological reanalysis",
+    "score" : 0.5534561051716569
+  }, {
+    "methodId" : "1401",
+    "methodLabel" : "Normalized compression distance",
+    "score" : 0.5412867397945988
+  }, {
+    "methodId" : "520",
+    "methodLabel" : "Electricity price forecasting",
+    "score" : 0.4384565551838664
+  }, {
+    "methodId" : "2341",
+    "methodLabel" : "Latin square",
+    "score" : 0.4374284688195382
+  }, {
+    "methodId" : "582",
+    "methodLabel" : "Indifference price",
+    "score" : 0.4972025960929769
+  } ]
+}, {
+  "fileName" : "2683.txt",
+  "result" : [ {
+    "methodId" : "1598",
+    "methodLabel" : "Generalized entropy index",
+    "score" : 0.7495055007577206
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.7100857647450759
+  }, {
+    "methodId" : "1565",
+    "methodLabel" : "Theil index",
+    "score" : 0.6951196905573404
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1584",
+    "methodLabel" : "Hoover index",
+    "score" : 0.7285810814810671
+  }, {
+    "methodId" : "2573",
+    "methodLabel" : "Indicator (statistics)",
+    "score" : 0.6633392824922255
+  }, {
+    "methodId" : "2496",
+    "methodLabel" : "Whipple's index",
+    "score" : 0.6608136736162075
+  }, {
+    "methodId" : "332",
+    "methodLabel" : "Peirce's criterion",
+    "score" : 0.6441315167263505
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.6440520849249315
+  }, {
+    "methodId" : "960",
+    "methodLabel" : "Rank correlation",
+    "score" : 0.7106455654989082
+  } ]
+}, {
+  "fileName" : "153.txt",
+  "result" : [ {
+    "methodId" : "1810",
+    "methodLabel" : "Sparse PCA",
+    "score" : 0.7367379364673905
+  }, {
+    "methodId" : "1976",
+    "methodLabel" : "Subindependence",
+    "score" : 0.7246483842423166
+  }, {
+    "methodId" : "546",
+    "methodLabel" : "Local case-control sampling",
+    "score" : 0.705800042864394
+  }, {
+    "methodId" : "196",
+    "methodLabel" : "Nash–Sutcliffe model efficiency coefficient",
+    "score" : 0.7029379781733738
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "861",
+    "methodLabel" : "Bayesian inference",
+    "score" : 0.6709336947619012
+  }, {
+    "methodId" : "51",
+    "methodLabel" : "Covariance intersection",
+    "score" : 0.7549896173672338
+  }, {
+    "methodId" : "545",
+    "methodLabel" : "Bradley–Terry model",
+    "score" : 0.6523810349277654
+  }, {
+    "methodId" : "1318",
+    "methodLabel" : "Conditional variance",
+    "score" : 0.7343878280313862
+  } ]
+}, {
+  "fileName" : "1968.txt",
+  "result" : [ {
+    "methodId" : "144",
+    "methodLabel" : "Linear trend estimation",
+    "score" : 0.7510619007459027
+  }, {
+    "methodId" : "534",
+    "methodLabel" : "Meta-regression",
+    "score" : 0.6584540898317888
+  }, {
+    "methodId" : "5",
+    "methodLabel" : "Control chart",
+    "score" : 0.6168871948559377
+  }, {
+    "methodId" : "2505",
+    "methodLabel" : "Sampling error",
+    "score" : 0.752131026741514
+  }, {
+    "methodId" : "1550",
+    "methodLabel" : "Survival rate",
+    "score" : 0.7561450443616633
+  }, {
+    "methodId" : "1517",
+    "methodLabel" : "Cramér's V",
+    "score" : 0.6037556819965335
+  }, {
+    "methodId" : "1832",
+    "methodLabel" : "Interaction (statistics)",
+    "score" : 0.6779456863161739
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.597109353036248
+  }, {
+    "methodId" : "814",
+    "methodLabel" : "Rank condition",
+    "score" : 0.5901227228613293
+  }, {
+    "methodId" : "2455",
+    "methodLabel" : "Consecutive case series",
+    "score" : 0.6968524205395257
+  } ]
+}, {
+  "fileName" : "3118.txt",
+  "result" : [ {
+    "methodId" : "2294",
+    "methodLabel" : "BrownBoost",
+    "score" : 0.7116326853423155
+  }, {
+    "methodId" : "415",
+    "methodLabel" : "Explained variation",
+    "score" : 0.7324283880565337
+  }, {
+    "methodId" : "1631",
+    "methodLabel" : "Ecological correlation",
+    "score" : 0.687297459554546
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.5918215059501807
+  }, {
+    "methodId" : "1525",
+    "methodLabel" : "Hazard ratio",
+    "score" : 0.8278716194312675
+  }, {
+    "methodId" : "1269",
+    "methodLabel" : "Cohen's h",
+    "score" : 0.6665343222553326
+  }, {
+    "methodId" : "328",
+    "methodLabel" : "Grubbs' test for outliers",
+    "score" : 0.7138371392436512
+  }, {
+    "methodId" : "1509",
+    "methodLabel" : "Standardized mortality ratio",
+    "score" : 0.8462626896500125
+  }, {
+    "methodId" : "1240",
+    "methodLabel" : "Fréchet inequalities",
+    "score" : 0.6862142324361649
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.5727132028652083
+  } ]
+}, {
+  "fileName" : "2906.txt",
+  "result" : [ {
+    "methodId" : "959",
+    "methodLabel" : "Kendall rank correlation coefficient",
+    "score" : 0.8297022912895674
+  }, {
+    "methodId" : "1420",
+    "methodLabel" : "Statistical distance",
+    "score" : 0.7393752847258285
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6877805631963149
+  }, {
+    "methodId" : "303",
+    "methodLabel" : "Value at risk",
+    "score" : 0.6806907586554652
+  }, {
+    "methodId" : "401",
+    "methodLabel" : "Trend analysis",
+    "score" : 0.6740949673035811
+  }, {
+    "methodId" : "1265",
+    "methodLabel" : "Combinatorial meta-analysis",
+    "score" : 0.6722205039710413
+  }, {
+    "methodId" : "144",
+    "methodLabel" : "Linear trend estimation",
+    "score" : 0.6708029306550501
+  }, {
+    "methodId" : "1451",
+    "methodLabel" : "Euclidean distance",
+    "score" : 0.6638027088764961
+  }, {
+    "methodId" : "173",
+    "methodLabel" : "Graphical lasso",
+    "score" : 0.6624342549339364
+  } ]
+}, {
+  "fileName" : "3293.txt",
+  "result" : [ {
+    "methodId" : "620",
+    "methodLabel" : "Scenario optimization",
+    "score" : 0.6038463094709079
+  }, {
+    "methodId" : "629",
+    "methodLabel" : "Line wrap and word wrap",
+    "score" : 0.5862444576381994
+  }, {
+    "methodId" : "2411",
+    "methodLabel" : "Resentful demoralization",
+    "score" : 0.5203392290100274
+  }, {
+    "methodId" : "978",
+    "methodLabel" : "Concordant pair",
+    "score" : 0.5154692091668205
+  }, {
+    "methodId" : "1795",
+    "methodLabel" : "Values Modes",
+    "score" : 0.524943520873905
+  }, {
+    "methodId" : "1400",
+    "methodLabel" : "Circular error probable",
+    "score" : 0.5119978302300967
+  }, {
+    "methodId" : "2266",
+    "methodLabel" : "OpenNN",
+    "score" : 0.5096381098319963
+  }, {
+    "methodId" : "2515",
+    "methodLabel" : "Imperfect induction",
+    "score" : 0.509549650389605
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.5072160863388903
+  }, {
+    "methodId" : "885",
+    "methodLabel" : "Market Explorer",
+    "score" : 0.5442692853352173
+  } ]
+}, {
+  "fileName" : "2241.txt",
+  "result" : [ {
+    "methodId" : "2147",
+    "methodLabel" : "Word embedding",
+    "score" : 0.690327788662278
+  }, {
+    "methodId" : "339",
+    "methodLabel" : "Outliers ratio",
+    "score" : 0.6897560125316875
+  }, {
+    "methodId" : "210",
+    "methodLabel" : "Lehmer code",
+    "score" : 0.6856903203393167
+  }, {
+    "methodId" : "620",
+    "methodLabel" : "Scenario optimization",
+    "score" : 0.6852374604618444
+  }, {
+    "methodId" : "2409",
+    "methodLabel" : "Combinatorial design",
+    "score" : 0.6831321748218722
+  }, {
+    "methodId" : "1839",
+    "methodLabel" : "Association scheme",
+    "score" : 0.6796096354014074
+  }, {
+    "methodId" : "1920",
+    "methodLabel" : "Reliability (statistics)",
+    "score" : 0.6784060193840955
+  }, {
+    "methodId" : "2464",
+    "methodLabel" : "Manipulation check",
+    "score" : 0.6667934280520819
+  }, {
+    "methodId" : "837",
+    "methodLabel" : "Non-negative least squares",
+    "score" : 0.6568659283084206
+  }, {
+    "methodId" : "1808",
+    "methodLabel" : "Generalized multidimensional scaling",
+    "score" : 0.6559389605661601
+  } ]
+}, {
+  "fileName" : "1067.txt",
+  "result" : [ {
+    "methodId" : "465",
+    "methodLabel" : "Multivariate adaptive regression splines",
+    "score" : 0.798854581167538
+  }, {
+    "methodId" : "1596",
+    "methodLabel" : "Percentile rank",
+    "score" : 0.7034331364704517
+  }, {
+    "methodId" : "954",
+    "methodLabel" : "Šidák correction",
+    "score" : 0.6982220070789195
+  }, {
+    "methodId" : "1743",
+    "methodLabel" : "Canonical correspondence analysis",
+    "score" : 0.6892305683682309
+  }, {
+    "methodId" : "1387",
+    "methodLabel" : "Range (statistics)",
+    "score" : 0.6666187033725748
+  }, {
+    "methodId" : "2352",
+    "methodLabel" : "Case-control study",
+    "score" : 0.6575361486962372
+  }, {
+    "methodId" : "2466",
+    "methodLabel" : "Solomon Four Group Design",
+    "score" : 0.6489878816209577
+  }, {
+    "methodId" : "2311",
+    "methodLabel" : "Residence time (statistics)",
+    "score" : 0.6452841153241492
+  }, {
+    "methodId" : "957",
+    "methodLabel" : "Durbin test",
+    "score" : 0.6452351219815565
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6880672676282187
+  } ]
+}, {
+  "fileName" : "1665.txt",
+  "result" : [ {
+    "methodId" : "772",
+    "methodLabel" : "Park test",
+    "score" : 0.6739292956646326
+  }, {
+    "methodId" : "51",
+    "methodLabel" : "Covariance intersection",
+    "score" : 0.7549896173672338
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.6542610516837417
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.660592337064949
+  }, {
+    "methodId" : "2304",
+    "methodLabel" : "Exponential-logarithmic distribution",
+    "score" : 0.6124450688736003
+  }, {
+    "methodId" : "1123",
+    "methodLabel" : "Chi-squared test",
+    "score" : 0.8916246567667709
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6509692551541519
+  }, {
+    "methodId" : "1200",
+    "methodLabel" : "Robust confidence intervals",
+    "score" : 0.7683483097463905
+  }, {
+    "methodId" : "482",
+    "methodLabel" : "Multinomial logistic regression",
+    "score" : 0.8020224601402065
+  }, {
+    "methodId" : "168",
+    "methodLabel" : "First-difference estimator",
+    "score" : 0.5667051005497503
+  } ]
+}, {
+  "fileName" : "3163.txt",
+  "result" : [ {
+    "methodId" : "549",
+    "methodLabel" : "Utility",
+    "score" : 0.5707162957619999
+  }, {
+    "methodId" : "582",
+    "methodLabel" : "Indifference price",
+    "score" : 0.6322384439760957
+  }, {
+    "methodId" : "490",
+    "methodLabel" : "Proofs involving ordinary least squares",
+    "score" : 0.49915759147789096
+  }, {
+    "methodId" : "2507",
+    "methodLabel" : "Sampling risk",
+    "score" : 0.4825530400208231
+  }, {
+    "methodId" : "1436",
+    "methodLabel" : "Adjusted mutual information",
+    "score" : 0.5385441923885973
+  }, {
+    "methodId" : "565",
+    "methodLabel" : "Gossen's second law",
+    "score" : 0.5085960302237453
+  }, {
+    "methodId" : "1795",
+    "methodLabel" : "Values Modes",
+    "score" : 0.447729210474888
+  }, {
+    "methodId" : "2169",
+    "methodLabel" : "ALOPEX",
+    "score" : 0.44545112219072214
+  }, {
+    "methodId" : "313",
+    "methodLabel" : "Margin at risk",
+    "score" : 0.5774899310817414
+  }, {
+    "methodId" : "312",
+    "methodLabel" : "Stochastic investment model",
+    "score" : 0.4385774473233613
+  } ]
+}, {
+  "fileName" : "770.txt",
+  "result" : [ {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6740673263854806
+  }, {
+    "methodId" : "51",
+    "methodLabel" : "Covariance intersection",
+    "score" : 0.7549896173672338
+  }, {
+    "methodId" : "173",
+    "methodLabel" : "Graphical lasso",
+    "score" : 0.6652863192462379
+  }, {
+    "methodId" : "1722",
+    "methodLabel" : "Riesz mean",
+    "score" : 0.6641361356183196
+  }, {
+    "methodId" : "1596",
+    "methodLabel" : "Percentile rank",
+    "score" : 0.6607280460118579
+  }, {
+    "methodId" : "703",
+    "methodLabel" : "Utility functions on divisible goods",
+    "score" : 0.6468839856962584
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6880672676282187
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6821534985111734
+  }, {
+    "methodId" : "1369",
+    "methodLabel" : "Indicator value",
+    "score" : 0.6293313135780717
+  } ]
+}, {
+  "fileName" : "3260.txt",
+  "result" : [ {
+    "methodId" : "2402",
+    "methodLabel" : "Block design",
+    "score" : 0.6500827190702974
+  }, {
+    "methodId" : "879",
+    "methodLabel" : "Calculating demand forecast accuracy",
+    "score" : 0.6269657783143964
+  }, {
+    "methodId" : "401",
+    "methodLabel" : "Trend analysis",
+    "score" : 0.5887809874375558
+  }, {
+    "methodId" : "1965",
+    "methodLabel" : "Pointwise mutual information",
+    "score" : 0.6543232003586812
+  }, {
+    "methodId" : "2134",
+    "methodLabel" : "Neural Networks (journal)",
+    "score" : 0.6179781079223811
+  }, {
+    "methodId" : "255",
+    "methodLabel" : "Kinetic Monte Carlo",
+    "score" : 0.6853813065334294
+  }, {
+    "methodId" : "2455",
+    "methodLabel" : "Consecutive case series",
+    "score" : 0.6973645564785775
+  }, {
+    "methodId" : "2243",
+    "methodLabel" : "Physical neural network",
+    "score" : 0.703134381987627
+  }, {
+    "methodId" : "1688",
+    "methodLabel" : "Average",
+    "score" : 0.5532513347691337
+  }, {
+    "methodId" : "943",
+    "methodLabel" : "Holm–Bonferroni method",
+    "score" : 0.6607377773722012
+  } ]
+}, {
+  "fileName" : "3170.txt",
+  "result" : [ {
+    "methodId" : "627",
+    "methodLabel" : "Partially observable Markov decision process",
+    "score" : 0.6488691914791246
+  }, {
+    "methodId" : "564",
+    "methodLabel" : "Gossen's laws",
+    "score" : 0.5947311824792855
+  }, {
+    "methodId" : "2143",
+    "methodLabel" : "Neocognitron",
+    "score" : 0.6333091935154582
+  }, {
+    "methodId" : "1348",
+    "methodLabel" : "Taylor's law",
+    "score" : 0.617089570861132
+  }, {
+    "methodId" : "582",
+    "methodLabel" : "Indifference price",
+    "score" : 0.731970971022288
+  }, {
+    "methodId" : "586",
+    "methodLabel" : "Trade-off talking rational economic person",
+    "score" : 0.5835119177422855
+  }, {
+    "methodId" : "678",
+    "methodLabel" : "Proebsting's paradox",
+    "score" : 0.487176857127261
+  }, {
+    "methodId" : "657",
+    "methodLabel" : "Longest alternating subsequence",
+    "score" : 0.5251690920048593
+  }, {
+    "methodId" : "308",
+    "methodLabel" : "Liquidity at risk",
+    "score" : 0.6360132186637824
+  }, {
+    "methodId" : "1850",
+    "methodLabel" : "False positive rate",
+    "score" : 0.6355363346674663
+  } ]
+}, {
+  "fileName" : "3261.txt",
+  "result" : [ {
+    "methodId" : "1650",
+    "methodLabel" : "Moran's I",
+    "score" : 0.6695263370308236
+  }, {
+    "methodId" : "1138",
+    "methodLabel" : "Separation test",
+    "score" : 0.6680204583541228
+  }, {
+    "methodId" : "2459",
+    "methodLabel" : "Instrument effect",
+    "score" : 0.6646681783685044
+  }, {
+    "methodId" : "570",
+    "methodLabel" : "Marginal utility",
+    "score" : 0.6531002674496311
+  }, {
+    "methodId" : "1654",
+    "methodLabel" : "Module of covariants",
+    "score" : 0.6376040480485101
+  }, {
+    "methodId" : "328",
+    "methodLabel" : "Grubbs' test for outliers",
+    "score" : 0.7683351862169602
+  }, {
+    "methodId" : "2298",
+    "methodLabel" : "Random subspace method",
+    "score" : 0.6035789902052591
+  }, {
+    "methodId" : "901",
+    "methodLabel" : "Continuous wavelet",
+    "score" : 0.5995742461399132
+  }, {
+    "methodId" : "1722",
+    "methodLabel" : "Riesz mean",
+    "score" : 0.5954800160307334
+  }, {
+    "methodId" : "421",
+    "methodLabel" : "Compressed sensing",
+    "score" : 0.5976526311215391
+  } ]
+}, {
+  "fileName" : "2358.txt",
+  "result" : [ {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "387",
+    "methodLabel" : "Huber loss",
+    "score" : 0.7755479061848014
+  }, {
+    "methodId" : "332",
+    "methodLabel" : "Peirce's criterion",
+    "score" : 0.6785801395955758
+  }, {
+    "methodId" : "1581",
+    "methodLabel" : "Frequency (statistics)",
+    "score" : 0.7817044052579212
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6880672676282187
+  }, {
+    "methodId" : "1605",
+    "methodLabel" : "Seven-number summary",
+    "score" : 0.7574013731223412
+  }, {
+    "methodId" : "1518",
+    "methodLabel" : "Experimental event rate",
+    "score" : 0.6065624430598795
+  }, {
+    "methodId" : "2412",
+    "methodLabel" : "Age adjustment",
+    "score" : 0.715356651559238
+  }, {
+    "methodId" : "1152",
+    "methodLabel" : "Tukey–Duckworth test",
+    "score" : 0.5942413687135065
+  }, {
+    "methodId" : "283",
+    "methodLabel" : "Monte Carlo N-Particle Transport Code",
+    "score" : 0.591924072219145
+  } ]
+}, {
+  "fileName" : "1524.txt",
+  "result" : [ {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.6834721407034247
+  }, {
+    "methodId" : "579",
+    "methodLabel" : "Risk neutral",
+    "score" : 0.676056588900405
+  }, {
+    "methodId" : "866",
+    "methodLabel" : "Futures techniques",
+    "score" : 0.6672091380680095
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6535856656312866
+  }, {
+    "methodId" : "261",
+    "methodLabel" : "Biology Monte Carlo method",
+    "score" : 0.651057613150458
+  }, {
+    "methodId" : "1659",
+    "methodLabel" : "Super-resolution optical fluctuation imaging",
+    "score" : 0.642173566989004
+  }, {
+    "methodId" : "2203",
+    "methodLabel" : "Artificial neuron",
+    "score" : 0.6393460806419243
+  }, {
+    "methodId" : "1713",
+    "methodLabel" : "Weighted geometric mean",
+    "score" : 0.7929165722530612
+  }, {
+    "methodId" : "2519",
+    "methodLabel" : "Lot quality assurance sampling",
+    "score" : 0.7490015189439067
+  }, {
+    "methodId" : "1795",
+    "methodLabel" : "Values Modes",
+    "score" : 0.6171487596823273
+  } ]
+}, {
+  "fileName" : "3166.txt",
+  "result" : [ {
+    "methodId" : "55",
+    "methodLabel" : "Generalized filtering",
+    "score" : 0.7722117975697198
+  }, {
+    "methodId" : "1671",
+    "methodLabel" : "Covariance operator",
+    "score" : 0.7298163107844624
+  }, {
+    "methodId" : "1526",
+    "methodLabel" : "Information ratio",
+    "score" : 0.7123421605185629
+  }, {
+    "methodId" : "2008",
+    "methodLabel" : "Complex normal distribution",
+    "score" : 0.7081571355145359
+  }, {
+    "methodId" : "886",
+    "methodLabel" : "Singular spectrum analysis",
+    "score" : 0.7068914686344251
+  }, {
+    "methodId" : "813",
+    "methodLabel" : "Order condition",
+    "score" : 0.7060399993740408
+  }, {
+    "methodId" : "2324",
+    "methodLabel" : "Survival function",
+    "score" : 0.7035518439647526
+  }, {
+    "methodId" : "123",
+    "methodLabel" : "Nuisance parameter",
+    "score" : 0.7032540615093028
+  }, {
+    "methodId" : "734",
+    "methodLabel" : "Conditional random field",
+    "score" : 0.700825855805898
+  }, {
+    "methodId" : "11",
+    "methodLabel" : "Bootstrapping populations",
+    "score" : 0.6996328386032175
+  } ]
+}, {
+  "fileName" : "1145.txt",
+  "result" : [ {
+    "methodId" : "1146",
+    "methodLabel" : "Paired data",
+    "score" : 0.7139333588971454
+  }, {
+    "methodId" : "813",
+    "methodLabel" : "Order condition",
+    "score" : 0.6851104423789598
+  }, {
+    "methodId" : "1241",
+    "methodLabel" : "Applications of p-boxes and probability bounds analysis",
+    "score" : 0.6919818024269713
+  }, {
+    "methodId" : "1627",
+    "methodLabel" : "Generalized canonical correlation",
+    "score" : 0.7287405925724709
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6740673263854806
+  }, {
+    "methodId" : "1785",
+    "methodLabel" : "Growth curve (statistics)",
+    "score" : 0.7526915994394862
+  }, {
+    "methodId" : "2372",
+    "methodLabel" : "Challenge–dechallenge–rechallenge",
+    "score" : 0.6740107993551997
+  }, {
+    "methodId" : "1318",
+    "methodLabel" : "Conditional variance",
+    "score" : 0.7072410792611037
+  }, {
+    "methodId" : "415",
+    "methodLabel" : "Explained variation",
+    "score" : 0.7042874738971137
+  }, {
+    "methodId" : "2356",
+    "methodLabel" : "Phases of clinical research",
+    "score" : 0.7599886601908674
+  } ]
+}, {
+  "fileName" : "2707.txt",
+  "result" : [ {
+    "methodId" : "104",
+    "methodLabel" : "Estimation",
+    "score" : 0.7037943244619788
+  }, {
+    "methodId" : "553",
+    "methodLabel" : "Final utility",
+    "score" : 0.6314690041253297
+  }, {
+    "methodId" : "1513",
+    "methodLabel" : "Attack rate",
+    "score" : 0.6225501294954026
+  }, {
+    "methodId" : "608",
+    "methodLabel" : "Expenditure minimization problem",
+    "score" : 0.5656814896921153
+  }, {
+    "methodId" : "555",
+    "methodLabel" : "Endogenous preferences",
+    "score" : 0.6034676615379415
+  }, {
+    "methodId" : "1558",
+    "methodLabel" : "Response-rate ratio",
+    "score" : 0.6990806614246339
+  }, {
+    "methodId" : "2242",
+    "methodLabel" : "Grossberg network",
+    "score" : 0.5562211193621323
+  }, {
+    "methodId" : "1205",
+    "methodLabel" : "Decision theory",
+    "score" : 0.5292728195410918
+  }, {
+    "methodId" : "153",
+    "methodLabel" : "Relaxed intersection",
+    "score" : 0.5367366754804505
+  }, {
+    "methodId" : "2263",
+    "methodLabel" : "Comparison of deep learning software",
+    "score" : 0.5223293779683813
+  } ]
+}, {
+  "fileName" : "339.txt",
+  "result" : [ {
+    "methodId" : "1484",
+    "methodLabel" : "Accuracy and precision",
+    "score" : 0.7209914805482792
+  }, {
+    "methodId" : "2585",
+    "methodLabel" : "Typology (statistics)",
+    "score" : 0.6991172957282407
+  }, {
+    "methodId" : "1313",
+    "methodLabel" : "Berkson error model",
+    "score" : 0.7901671504778788
+  }, {
+    "methodId" : "280",
+    "methodLabel" : "WinBUGS",
+    "score" : 0.6502177358666951
+  }, {
+    "methodId" : "2388",
+    "methodLabel" : "First-in-man study",
+    "score" : 0.6373018050013487
+  }, {
+    "methodId" : "1318",
+    "methodLabel" : "Conditional variance",
+    "score" : 0.6982302413936263
+  }, {
+    "methodId" : "879",
+    "methodLabel" : "Calculating demand forecast accuracy",
+    "score" : 0.6269657783143964
+  }, {
+    "methodId" : "2510",
+    "methodLabel" : "Balanced repeated replication",
+    "score" : 0.620683999107527
+  }, {
+    "methodId" : "2507",
+    "methodLabel" : "Sampling risk",
+    "score" : 0.6205946904952957
+  }, {
+    "methodId" : "104",
+    "methodLabel" : "Estimation",
+    "score" : 0.7000192802407676
+  } ]
+}, {
+  "fileName" : "3271.txt",
+  "result" : [ {
+    "methodId" : "827",
+    "methodLabel" : "Probit",
+    "score" : 0.7807687900306782
+  }, {
+    "methodId" : "414",
+    "methodLabel" : "Frisch–Waugh–Lovell theorem",
+    "score" : 0.7405101518513602
+  }, {
+    "methodId" : "919",
+    "methodLabel" : "Bayesian information criterion",
+    "score" : 0.7381634005507923
+  }, {
+    "methodId" : "964",
+    "methodLabel" : "Kolmogorov–Smirnov test",
+    "score" : 0.6949567184459746
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1443",
+    "methodLabel" : "Divergence (statistics)",
+    "score" : 0.6882644331363723
+  }, {
+    "methodId" : "457",
+    "methodLabel" : "Heckman correction",
+    "score" : 0.6845260687373423
+  }, {
+    "methodId" : "386",
+    "methodLabel" : "Stochastic gradient descent",
+    "score" : 0.7116794137839136
+  }, {
+    "methodId" : "2484",
+    "methodLabel" : "Inclusion probability",
+    "score" : 0.6536788765490334
+  }, {
+    "methodId" : "123",
+    "methodLabel" : "Nuisance parameter",
+    "score" : 0.6534297488999097
+  } ]
+}, {
+  "fileName" : "143.txt",
+  "result" : [ {
+    "methodId" : "2522",
+    "methodLabel" : "Correct sampling",
+    "score" : 0.6993014177859368
+  }, {
+    "methodId" : "689",
+    "methodLabel" : "Gorman polar form",
+    "score" : 0.6991790317468111
+  }, {
+    "methodId" : "1743",
+    "methodLabel" : "Canonical correspondence analysis",
+    "score" : 0.6892305683682309
+  }, {
+    "methodId" : "1547",
+    "methodLabel" : "Inverse Mills ratio",
+    "score" : 0.900269541977464
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6740673263854806
+  }, {
+    "methodId" : "553",
+    "methodLabel" : "Final utility",
+    "score" : 0.6708231082308942
+  }, {
+    "methodId" : "715",
+    "methodLabel" : "Choice model simulation",
+    "score" : 0.6638754079792067
+  }, {
+    "methodId" : "2380",
+    "methodLabel" : "One-factor-at-a-time method",
+    "score" : 0.6501444113854052
+  }, {
+    "methodId" : "2184",
+    "methodLabel" : "Learning vector quantization",
+    "score" : 0.7431054244817159
+  }, {
+    "methodId" : "1382",
+    "methodLabel" : "Alpha diversity",
+    "score" : 0.7135228255921161
+  } ]
+}, {
+  "fileName" : "3274.txt",
+  "result" : [ {
+    "methodId" : "424",
+    "methodLabel" : "Multinomial probit",
+    "score" : 0.7964245145751717
+  }, {
+    "methodId" : "970",
+    "methodLabel" : "Spearman's rank correlation coefficient",
+    "score" : 0.7831031535354721
+  }, {
+    "methodId" : "2322",
+    "methodLabel" : "Weibull distribution",
+    "score" : 0.77553509487043
+  }, {
+    "methodId" : "1837",
+    "methodLabel" : "Mixed model",
+    "score" : 0.7518718946945638
+  }, {
+    "methodId" : "933",
+    "methodLabel" : "Data dredging",
+    "score" : 0.7470034960293784
+  }, {
+    "methodId" : "1184",
+    "methodLabel" : "Fiducial inference",
+    "score" : 0.7373567616470224
+  }, {
+    "methodId" : "1657",
+    "methodLabel" : "Spurious correlation",
+    "score" : 0.7300666368377482
+  }, {
+    "methodId" : "714",
+    "methodLabel" : "Polynomial conjoint measurement",
+    "score" : 0.7245062985134451
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.7206586735464808
+  }, {
+    "methodId" : "1654",
+    "methodLabel" : "Module of covariants",
+    "score" : 0.7180295326190538
+  } ]
+}, {
+  "fileName" : "1113.txt",
+  "result" : [ {
+    "methodId" : "2538",
+    "methodLabel" : "Cluster sampling",
+    "score" : 0.7881621679405668
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "2159",
+    "methodLabel" : "Feed forward (control)",
+    "score" : 0.6567422229628187
+  }, {
+    "methodId" : "451",
+    "methodLabel" : "Isotonic regression",
+    "score" : 0.6489977226511761
+  }, {
+    "methodId" : "445",
+    "methodLabel" : "Segmented regression",
+    "score" : 0.7664119207253305
+  }, {
+    "methodId" : "2050",
+    "methodLabel" : "Bayes classifier",
+    "score" : 0.6209347585859608
+  }, {
+    "methodId" : "1363",
+    "methodLabel" : "Quartile coefficient of dispersion",
+    "score" : 0.6917579103927973
+  }, {
+    "methodId" : "398",
+    "methodLabel" : "Proper linear model",
+    "score" : 0.8695540628928726
+  }, {
+    "methodId" : "1963",
+    "methodLabel" : "Mediation (statistics)",
+    "score" : 0.6904329871030488
+  }, {
+    "methodId" : "1533",
+    "methodLabel" : "Conditional probability",
+    "score" : 0.5884678164143387
+  } ]
+}, {
+  "fileName" : "3275.txt",
+  "result" : [ {
+    "methodId" : "4",
+    "methodLabel" : "Change detection",
+    "score" : 0.8227448688464043
+  }, {
+    "methodId" : "2463",
+    "methodLabel" : "Multifactor design of experiments software",
+    "score" : 0.7254795035241607
+  }, {
+    "methodId" : "1673",
+    "methodLabel" : "Scaled correlation",
+    "score" : 0.7181277401907068
+  }, {
+    "methodId" : "914",
+    "methodLabel" : "Cohen-Daubechies-Feauveau wavelet",
+    "score" : 0.7147167968414868
+  }, {
+    "methodId" : "2061",
+    "methodLabel" : "Linear classifier",
+    "score" : 0.6942951519640513
+  }, {
+    "methodId" : "1986",
+    "methodLabel" : "Fleiss' kappa",
+    "score" : 0.6894524999078684
+  }, {
+    "methodId" : "899",
+    "methodLabel" : "Difference of Gaussians",
+    "score" : 0.7203709041517617
+  }, {
+    "methodId" : "2459",
+    "methodLabel" : "Instrument effect",
+    "score" : 0.6646681783685044
+  }, {
+    "methodId" : "2294",
+    "methodLabel" : "BrownBoost",
+    "score" : 0.7116326853423155
+  }, {
+    "methodId" : "260",
+    "methodLabel" : "Quantum jump method",
+    "score" : 0.657682470744387
+  } ]
+}, {
+  "fileName" : "189.txt",
+  "result" : [ {
+    "methodId" : "1929",
+    "methodLabel" : "Pairwise independence",
+    "score" : 0.7178451937736823
+  }, {
+    "methodId" : "494",
+    "methodLabel" : "Elastic net regularization",
+    "score" : 0.6756360282440461
+  }, {
+    "methodId" : "2510",
+    "methodLabel" : "Balanced repeated replication",
+    "score" : 0.6699519584763519
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6918180807416939
+  }, {
+    "methodId" : "1304",
+    "methodLabel" : "Statistical noise",
+    "score" : 0.6419687315851818
+  }, {
+    "methodId" : "676",
+    "methodLabel" : "Allais paradox",
+    "score" : 0.605658489847745
+  }, {
+    "methodId" : "1715",
+    "methodLabel" : "Weighted median",
+    "score" : 0.601682648115147
+  }, {
+    "methodId" : "309",
+    "methodLabel" : "Profit at risk",
+    "score" : 0.5942581455937663
+  }, {
+    "methodId" : "292",
+    "methodLabel" : "CASINO",
+    "score" : 0.6202221755463222
+  }, {
+    "methodId" : "301",
+    "methodLabel" : "Monte Carlo methods for option pricing",
+    "score" : 0.5744370755550963
+  } ]
+}, {
+  "fileName" : "3296.txt",
+  "result" : [ {
+    "methodId" : "1328",
+    "methodLabel" : "Average absolute deviation",
+    "score" : 0.7053424125436135
+  }, {
+    "methodId" : "386",
+    "methodLabel" : "Stochastic gradient descent",
+    "score" : 0.6338440897771013
+  }, {
+    "methodId" : "943",
+    "methodLabel" : "Holm–Bonferroni method",
+    "score" : 0.6799775505443915
+  }, {
+    "methodId" : "2608",
+    "methodLabel" : "Wait list control group",
+    "score" : 0.6104094728930743
+  }, {
+    "methodId" : "2254",
+    "methodLabel" : "Synaptic transistor",
+    "score" : 0.6224618454135158
+  }, {
+    "methodId" : "2541",
+    "methodLabel" : "Kish grid",
+    "score" : 0.5420712434785163
+  }, {
+    "methodId" : "1470",
+    "methodLabel" : "John Tukey",
+    "score" : 0.5385669759828695
+  }, {
+    "methodId" : "805",
+    "methodLabel" : "Bispectrum",
+    "score" : 0.7167082859353836
+  }, {
+    "methodId" : "2373",
+    "methodLabel" : "Crossover study",
+    "score" : 0.5281848040902046
+  }, {
+    "methodId" : "1826",
+    "methodLabel" : "Two-way analysis of variance",
+    "score" : 0.7195241085509991
+  } ]
+}, {
+  "fileName" : "2022.txt",
+  "result" : [ {
+    "methodId" : "2402",
+    "methodLabel" : "Block design",
+    "score" : 0.6928124592687611
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6880672676282187
+  }, {
+    "methodId" : "2605",
+    "methodLabel" : "Principal stratification",
+    "score" : 0.6290047439003988
+  }, {
+    "methodId" : "1833",
+    "methodLabel" : "Covariate",
+    "score" : 0.7418749061869658
+  }, {
+    "methodId" : "1825",
+    "methodLabel" : "Repeated measures design",
+    "score" : 0.6145057932586568
+  }, {
+    "methodId" : "1286",
+    "methodLabel" : "Candlestick chart",
+    "score" : 0.5935458481058026
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.5928742072681438
+  }, {
+    "methodId" : "943",
+    "methodLabel" : "Holm–Bonferroni method",
+    "score" : 0.7053441453288697
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.5727132028652083
+  }, {
+    "methodId" : "494",
+    "methodLabel" : "Elastic net regularization",
+    "score" : 0.5553212360916248
+  } ]
+}, {
+  "fileName" : "3297.txt",
+  "result" : [ {
+    "methodId" : "107",
+    "methodLabel" : "Score (statistics)",
+    "score" : 0.6974000453467903
+  }, {
+    "methodId" : "1823",
+    "methodLabel" : "Bühlmann model",
+    "score" : 0.764047100704086
+  }, {
+    "methodId" : "2294",
+    "methodLabel" : "BrownBoost",
+    "score" : 0.7116326853423155
+  }, {
+    "methodId" : "1627",
+    "methodLabel" : "Generalized canonical correlation",
+    "score" : 0.6834104873533802
+  }, {
+    "methodId" : "171",
+    "methodLabel" : "Inverse-variance weighting",
+    "score" : 0.6208204258232429
+  }, {
+    "methodId" : "2608",
+    "methodLabel" : "Wait list control group",
+    "score" : 0.665487073192687
+  }, {
+    "methodId" : "1286",
+    "methodLabel" : "Candlestick chart",
+    "score" : 0.6135572027581753
+  }, {
+    "methodId" : "2263",
+    "methodLabel" : "Comparison of deep learning software",
+    "score" : 0.6068897517451002
+  }, {
+    "methodId" : "1843",
+    "methodLabel" : "ANOVA gauge R&R",
+    "score" : 0.7882799103825381
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.5727132028652083
+  } ]
+}, {
+  "fileName" : "2896.txt",
+  "result" : [ {
+    "methodId" : "1374",
+    "methodLabel" : "Diversity index",
+    "score" : 0.6294837102428381
+  }, {
+    "methodId" : "2277",
+    "methodLabel" : "Decision tree",
+    "score" : 0.6030742112744465
+  }, {
+    "methodId" : "1250",
+    "methodLabel" : "Individual participant data",
+    "score" : 0.5900201812937432
+  }, {
+    "methodId" : "1341",
+    "methodLabel" : "Tracking signal",
+    "score" : 0.6015173232292483
+  }, {
+    "methodId" : "568",
+    "methodLabel" : "Frisch elasticity of labor supply",
+    "score" : 0.6904696274522343
+  }, {
+    "methodId" : "1942",
+    "methodLabel" : "Conditional independence",
+    "score" : 0.5543521689404189
+  }, {
+    "methodId" : "884",
+    "methodLabel" : "Rare events",
+    "score" : 0.5058686712833979
+  }, {
+    "methodId" : "565",
+    "methodLabel" : "Gossen's second law",
+    "score" : 0.5553855272312885
+  }, {
+    "methodId" : "615",
+    "methodLabel" : "Admissible decision rule",
+    "score" : 0.510689479544703
+  }, {
+    "methodId" : "1384",
+    "methodLabel" : "Biosurvey",
+    "score" : 0.5476014584119577
+  } ]
+}, {
+  "fileName" : "2119.txt",
+  "result" : [ {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6914090896399115
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "2417",
+    "methodLabel" : "Multiple baseline design",
+    "score" : 0.6684339242720437
+  }, {
+    "methodId" : "488",
+    "methodLabel" : "Propensity score matching",
+    "score" : 0.7114520390236719
+  }, {
+    "methodId" : "1785",
+    "methodLabel" : "Growth curve (statistics)",
+    "score" : 0.7377856094698878
+  }, {
+    "methodId" : "1833",
+    "methodLabel" : "Covariate",
+    "score" : 0.7583850693698664
+  }, {
+    "methodId" : "1539",
+    "methodLabel" : "Relative index of inequality",
+    "score" : 0.694164926741902
+  }, {
+    "methodId" : "1581",
+    "methodLabel" : "Frequency (statistics)",
+    "score" : 0.7492305474650496
+  }, {
+    "methodId" : "800",
+    "methodLabel" : "STAR model",
+    "score" : 0.6346865124954848
+  }, {
+    "methodId" : "1631",
+    "methodLabel" : "Ecological correlation",
+    "score" : 0.630972655721541
+  } ]
+}, {
+  "fileName" : "3168.txt",
+  "result" : [ {
+    "methodId" : "302",
+    "methodLabel" : "Stochastic modelling (insurance)",
+    "score" : 0.8293253291055019
+  }, {
+    "methodId" : "116",
+    "methodLabel" : "Identifiability",
+    "score" : 0.6848789479944921
+  }, {
+    "methodId" : "885",
+    "methodLabel" : "Market Explorer",
+    "score" : 0.5740606746354373
+  }, {
+    "methodId" : "570",
+    "methodLabel" : "Marginal utility",
+    "score" : 0.5731768787106962
+  }, {
+    "methodId" : "2469",
+    "methodLabel" : "Design space exploration",
+    "score" : 0.6792062722000114
+  }, {
+    "methodId" : "1843",
+    "methodLabel" : "ANOVA gauge R&R",
+    "score" : 0.7882799103825381
+  }, {
+    "methodId" : "1253",
+    "methodLabel" : "Study heterogeneity",
+    "score" : 0.7012237459317724
+  }, {
+    "methodId" : "520",
+    "methodLabel" : "Electricity price forecasting",
+    "score" : 0.5198944674354151
+  }, {
+    "methodId" : "1520",
+    "methodLabel" : "Beta (finance)",
+    "score" : 0.5564284345528715
+  }, {
+    "methodId" : "2569",
+    "methodLabel" : "Bayesian optimization",
+    "score" : 0.5660587520612741
+  } ]
+}, {
+  "fileName" : "3266.txt",
+  "result" : [ {
+    "methodId" : "1699",
+    "methodLabel" : "Winsorized mean",
+    "score" : 0.7029318667765652
+  }, {
+    "methodId" : "1522",
+    "methodLabel" : "Positive and negative predictive values",
+    "score" : 0.6735517755500309
+  }, {
+    "methodId" : "1540",
+    "methodLabel" : "Upside potential ratio",
+    "score" : 0.664792316098757
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6535856656312866
+  }, {
+    "methodId" : "1326",
+    "methodLabel" : "Deviation (statistics)",
+    "score" : 0.6510756134907485
+  }, {
+    "methodId" : "2283",
+    "methodLabel" : "Information gain ratio",
+    "score" : 0.7222291660556246
+  }, {
+    "methodId" : "328",
+    "methodLabel" : "Grubbs' test for outliers",
+    "score" : 0.7537058331177441
+  }, {
+    "methodId" : "770",
+    "methodLabel" : "White test",
+    "score" : 0.6049959836146112
+  }, {
+    "methodId" : "1944",
+    "methodLabel" : "Gutenberg–Richter law",
+    "score" : 0.713877491710095
+  }, {
+    "methodId" : "582",
+    "methodLabel" : "Indifference price",
+    "score" : 0.7099686381163423
+  } ]
+}, {
+  "fileName" : "3169.txt",
+  "result" : [ {
+    "methodId" : "754",
+    "methodLabel" : "Vector autoregression",
+    "score" : 0.7474896541017336
+  }, {
+    "methodId" : "1747",
+    "methodLabel" : "Robust principal component analysis",
+    "score" : 0.7319398487897543
+  }, {
+    "methodId" : "954",
+    "methodLabel" : "Šidák correction",
+    "score" : 0.7180582818420822
+  }, {
+    "methodId" : "753",
+    "methodLabel" : "Autoregressive model",
+    "score" : 0.7171284016947824
+  }, {
+    "methodId" : "921",
+    "methodLabel" : "Akaike information criterion",
+    "score" : 0.7096457693842538
+  }, {
+    "methodId" : "2484",
+    "methodLabel" : "Inclusion probability",
+    "score" : 0.7021045638244918
+  }, {
+    "methodId" : "1685",
+    "methodLabel" : "Chisini mean",
+    "score" : 0.6953328096385601
+  }, {
+    "methodId" : "52",
+    "methodLabel" : "Multiple Models",
+    "score" : 0.6953035643081332
+  }, {
+    "methodId" : "303",
+    "methodLabel" : "Value at risk",
+    "score" : 0.6949563217962424
+  }, {
+    "methodId" : "1341",
+    "methodLabel" : "Tracking signal",
+    "score" : 0.7432578437319379
+  } ]
+}, {
+  "fileName" : "3295.txt",
+  "result" : [ {
+    "methodId" : "2587",
+    "methodLabel" : "Bootstrap error-adjusted single-sample technique",
+    "score" : 0.6817972530052341
+  }, {
+    "methodId" : "2254",
+    "methodLabel" : "Synaptic transistor",
+    "score" : 0.7555463452808281
+  }, {
+    "methodId" : "657",
+    "methodLabel" : "Longest alternating subsequence",
+    "score" : 0.7001857710214434
+  }, {
+    "methodId" : "1585",
+    "methodLabel" : "Multiple of the median",
+    "score" : 0.6225585894485861
+  }, {
+    "methodId" : "1561",
+    "methodLabel" : "Prevalence effect",
+    "score" : 0.6147292796953845
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.6032184863052874
+  }, {
+    "methodId" : "292",
+    "methodLabel" : "CASINO",
+    "score" : 0.6207589400177598
+  }, {
+    "methodId" : "1387",
+    "methodLabel" : "Range (statistics)",
+    "score" : 0.5707940030314871
+  }, {
+    "methodId" : "2210",
+    "methodLabel" : "Promoter based genetic algorithm",
+    "score" : 0.5643680322063358
+  }, {
+    "methodId" : "1447",
+    "methodLabel" : "Hamming distance",
+    "score" : 0.5634615452230277
+  } ]
+}, {
+  "fileName" : "3280.txt",
+  "result" : [ {
+    "methodId" : "2237",
+    "methodLabel" : "Synaptic weight",
+    "score" : 0.5886024027057704
+  }, {
+    "methodId" : "2464",
+    "methodLabel" : "Manipulation check",
+    "score" : 0.503812183760063
+  }, {
+    "methodId" : "313",
+    "methodLabel" : "Margin at risk",
+    "score" : 0.6052089111946797
+  }, {
+    "methodId" : "2491",
+    "methodLabel" : "Empirical evidence",
+    "score" : 0.6039234035867102
+  }, {
+    "methodId" : "1178",
+    "methodLabel" : "Alternative hypothesis",
+    "score" : 0.793923238453242
+  }, {
+    "methodId" : "2360",
+    "methodLabel" : "Institutional review board",
+    "score" : 0.632313041008936
+  }, {
+    "methodId" : "1378",
+    "methodLabel" : "Species richness",
+    "score" : 0.4696418231072038
+  }, {
+    "methodId" : "1812",
+    "methodLabel" : "Causal inference",
+    "score" : 0.4135829412211607
+  }, {
+    "methodId" : "1323",
+    "methodLabel" : "Cornish–Fisher expansion",
+    "score" : 0.31666347674636836
+  }, {
+    "methodId" : "1",
+    "methodLabel" : "False alarm",
+    "score" : 0.31586233768602495
+  } ]
+}, {
+  "fileName" : "3294.txt",
+  "result" : [ {
+    "methodId" : "1493",
+    "methodLabel" : "Likelihood ratios in diagnostic testing",
+    "score" : 0.6734298805089364
+  }, {
+    "methodId" : "146",
+    "methodLabel" : "Matched filter",
+    "score" : 0.6556543737072222
+  }, {
+    "methodId" : "2481",
+    "methodLabel" : "Acceptable quality limit",
+    "score" : 0.6545018500641234
+  }, {
+    "methodId" : "154",
+    "methodLabel" : "Shrinkage estimator",
+    "score" : 0.6419421536823398
+  }, {
+    "methodId" : "1596",
+    "methodLabel" : "Percentile rank",
+    "score" : 0.58989306801687
+  }, {
+    "methodId" : "2066",
+    "methodLabel" : "Gesture Description Language",
+    "score" : 0.5745879108766524
+  }, {
+    "methodId" : "135",
+    "methodLabel" : "Richardson–Lucy deconvolution",
+    "score" : 0.567701873035235
+  }, {
+    "methodId" : "2169",
+    "methodLabel" : "ALOPEX",
+    "score" : 0.6053909129180111
+  }, {
+    "methodId" : "555",
+    "methodLabel" : "Endogenous preferences",
+    "score" : 0.6046440708786163
+  }, {
+    "methodId" : "838",
+    "methodLabel" : "Least-squares function approximation",
+    "score" : 0.554560203478023
+  } ]
+}, {
+  "fileName" : "3285.txt",
+  "result" : [ {
+    "methodId" : "804",
+    "methodLabel" : "Phase dispersion minimization",
+    "score" : 0.7091124536199812
+  }, {
+    "methodId" : "2437",
+    "methodLabel" : "Single-subject research",
+    "score" : 0.7739876611095916
+  }, {
+    "methodId" : "2455",
+    "methodLabel" : "Consecutive case series",
+    "score" : 0.6811429618154414
+  }, {
+    "methodId" : "2507",
+    "methodLabel" : "Sampling risk",
+    "score" : 0.5636389696369274
+  }, {
+    "methodId" : "2598",
+    "methodLabel" : "Taguchi methods",
+    "score" : 0.5634376715401304
+  }, {
+    "methodId" : "2303",
+    "methodLabel" : "Prognostics",
+    "score" : 0.6411800515307495
+  }, {
+    "methodId" : "885",
+    "methodLabel" : "Market Explorer",
+    "score" : 0.5926438140123351
+  }, {
+    "methodId" : "532",
+    "methodLabel" : "Influential observation",
+    "score" : 0.6257476101312426
+  }, {
+    "methodId" : "2283",
+    "methodLabel" : "Information gain ratio",
+    "score" : 0.6202234431002308
+  }, {
+    "methodId" : "864",
+    "methodLabel" : "Aggregative Contingent Estimation",
+    "score" : 0.5279766626256908
+  } ]
+}, {
+  "fileName" : "876.txt",
+  "result" : [ {
+    "methodId" : "946",
+    "methodLabel" : "Dunnett's test",
+    "score" : 0.7967439128222575
+  }, {
+    "methodId" : "1700",
+    "methodLabel" : "Muirhead's inequality",
+    "score" : 0.6826939438384889
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.5913340039682565
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.5904321031493645
+  }, {
+    "methodId" : "553",
+    "methodLabel" : "Final utility",
+    "score" : 0.5785444345130859
+  }, {
+    "methodId" : "2052",
+    "methodLabel" : "False positives and false negatives",
+    "score" : 0.5701645677156094
+  }, {
+    "methodId" : "2455",
+    "methodLabel" : "Consecutive case series",
+    "score" : 0.6675642849428939
+  }, {
+    "methodId" : "2519",
+    "methodLabel" : "Lot quality assurance sampling",
+    "score" : 0.6660890697168145
+  }, {
+    "methodId" : "127",
+    "methodLabel" : "Trimmed estimator",
+    "score" : 0.5553810676709507
+  }, {
+    "methodId" : "532",
+    "methodLabel" : "Influential observation",
+    "score" : 0.6257476101312426
+  } ]
+}, {
+  "fileName" : "765.txt",
+  "result" : [ {
+    "methodId" : "1814",
+    "methodLabel" : "Scatter matrix",
+    "score" : 0.7827145437064729
+  }, {
+    "methodId" : "1627",
+    "methodLabel" : "Generalized canonical correlation",
+    "score" : 0.7425368437247698
+  }, {
+    "methodId" : "1704",
+    "methodLabel" : "Inequality of arithmetic and geometric means",
+    "score" : 0.6390526574845286
+  }, {
+    "methodId" : "1597",
+    "methodLabel" : "Frequency distribution",
+    "score" : 0.6224220693856478
+  }, {
+    "methodId" : "2304",
+    "methodLabel" : "Exponential-logarithmic distribution",
+    "score" : 0.6124450688736003
+  }, {
+    "methodId" : "1284",
+    "methodLabel" : "Mean log deviation",
+    "score" : 0.5957571405671397
+  }, {
+    "methodId" : "292",
+    "methodLabel" : "CASINO",
+    "score" : 0.6303499214173681
+  }, {
+    "methodId" : "407",
+    "methodLabel" : "Regression validation",
+    "score" : 0.6251366135941607
+  }, {
+    "methodId" : "309",
+    "methodLabel" : "Profit at risk",
+    "score" : 0.5744961194234438
+  }, {
+    "methodId" : "396",
+    "methodLabel" : "Omitted-variable bias",
+    "score" : 0.7183719746352525
+  } ]
+}, {
+  "fileName" : "3286.txt",
+  "result" : [ {
+    "methodId" : "1556",
+    "methodLabel" : "Ratio distribution",
+    "score" : 0.6964453490220827
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.6440520849249315
+  }, {
+    "methodId" : "2362",
+    "methodLabel" : "Observational study",
+    "score" : 0.7565778946927167
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6744465819905794
+  }, {
+    "methodId" : "1328",
+    "methodLabel" : "Average absolute deviation",
+    "score" : 0.7053424125436135
+  }, {
+    "methodId" : "2608",
+    "methodLabel" : "Wait list control group",
+    "score" : 0.665487073192687
+  }, {
+    "methodId" : "1584",
+    "methodLabel" : "Hoover index",
+    "score" : 0.6358241158572466
+  }, {
+    "methodId" : "1585",
+    "methodLabel" : "Multiple of the median",
+    "score" : 0.5973184581999131
+  }, {
+    "methodId" : "1843",
+    "methodLabel" : "ANOVA gauge R&R",
+    "score" : 0.7882799103825381
+  }, {
+    "methodId" : "1855",
+    "methodLabel" : "F-distribution",
+    "score" : 0.5691812077167058
+  } ]
+}, {
+  "fileName" : "3289.txt",
+  "result" : [ {
+    "methodId" : "1257",
+    "methodLabel" : "Systematic review",
+    "score" : 0.6971606545637218
+  }, {
+    "methodId" : "1384",
+    "methodLabel" : "Biosurvey",
+    "score" : 0.5476014584119577
+  }, {
+    "methodId" : "1426",
+    "methodLabel" : "Second-order co-occurrence pointwise mutual information",
+    "score" : 0.44922307625906327
+  }, {
+    "methodId" : "2356",
+    "methodLabel" : "Phases of clinical research",
+    "score" : 0.5625572665448693
+  }, {
+    "methodId" : "2317",
+    "methodLabel" : "Power-on hours",
+    "score" : 0.4343730950390924
+  }, {
+    "methodId" : "1247",
+    "methodLabel" : "Review article",
+    "score" : 0.696704230435246
+  }, {
+    "methodId" : "864",
+    "methodLabel" : "Aggregative Contingent Estimation",
+    "score" : 0.41337138090427694
+  }, {
+    "methodId" : "251",
+    "methodLabel" : "Volumetric path tracing",
+    "score" : 0.4849210404689624
+  }, {
+    "methodId" : "885",
+    "methodLabel" : "Market Explorer",
+    "score" : 0.4421483609557234
+  }, {
+    "methodId" : "586",
+    "methodLabel" : "Trade-off talking rational economic person",
+    "score" : 0.43989490729124897
+  } ]
+}, {
+  "fileName" : "2951.txt",
+  "result" : [ {
+    "methodId" : "2568",
+    "methodLabel" : "Sequential analysis",
+    "score" : 0.7044817567773102
+  }, {
+    "methodId" : "875",
+    "methodLabel" : "Meteorological reanalysis",
+    "score" : 0.5061513684025648
+  }, {
+    "methodId" : "313",
+    "methodLabel" : "Margin at risk",
+    "score" : 0.4917153981373163
+  }, {
+    "methodId" : "582",
+    "methodLabel" : "Indifference price",
+    "score" : 0.4868850419287098
+  }, {
+    "methodId" : "1504",
+    "methodLabel" : "Treynor ratio",
+    "score" : 0.5309990146785563
+  }, {
+    "methodId" : "2499",
+    "methodLabel" : "Opinion poll",
+    "score" : 0.5160004353906357
+  }, {
+    "methodId" : "308",
+    "methodLabel" : "Liquidity at risk",
+    "score" : 0.4304332546270349
+  }, {
+    "methodId" : "1742",
+    "methodLabel" : "Owen's T function",
+    "score" : 0.43529098045116615
+  }, {
+    "methodId" : "1247",
+    "methodLabel" : "Review article",
+    "score" : 0.46536627542749265
+  }, {
+    "methodId" : "2228",
+    "methodLabel" : "IPO underpricing algorithm",
+    "score" : 0.33149512664351755
+  } ]
+}, {
+  "fileName" : "3279.txt",
+  "result" : [ {
+    "methodId" : "2610",
+    "methodLabel" : "Plot sampling",
+    "score" : 0.6935406198966148
+  }, {
+    "methodId" : "2559",
+    "methodLabel" : "Social polling",
+    "score" : 0.6530166429476437
+  }, {
+    "methodId" : "593",
+    "methodLabel" : "Action axiom",
+    "score" : 0.5982757108764507
+  }, {
+    "methodId" : "1928",
+    "methodLabel" : "Anchor test",
+    "score" : 0.6712357464677835
+  }, {
+    "methodId" : "538",
+    "methodLabel" : "Virtual sensing",
+    "score" : 0.5754450231643821
+  }, {
+    "methodId" : "130",
+    "methodLabel" : "Location estimation in sensor networks",
+    "score" : 0.6620940319700409
+  }, {
+    "methodId" : "1795",
+    "methodLabel" : "Values Modes",
+    "score" : 0.562665590737099
+  }, {
+    "methodId" : "2459",
+    "methodLabel" : "Instrument effect",
+    "score" : 0.5336245356350424
+  }, {
+    "methodId" : "2177",
+    "methodLabel" : "Dropout (neural networks)",
+    "score" : 0.5172278739146738
+  }, {
+    "methodId" : "570",
+    "methodLabel" : "Marginal utility",
+    "score" : 0.5135896291907271
+  } ]
+}, {
+  "fileName" : "3025.txt",
+  "result" : [ {
+    "methodId" : "1235",
+    "methodLabel" : "Rodger's method",
+    "score" : 0.7456808274839066
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.6440520849249315
+  }, {
+    "methodId" : "1688",
+    "methodLabel" : "Average",
+    "score" : 0.6316206501157784
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6744465819905794
+  }, {
+    "methodId" : "373",
+    "methodLabel" : "Bagplot",
+    "score" : 0.594714383219756
+  }, {
+    "methodId" : "581",
+    "methodLabel" : "Stone–Geary utility function",
+    "score" : 0.5883796880625077
+  }, {
+    "methodId" : "309",
+    "methodLabel" : "Profit at risk",
+    "score" : 0.5676033348462777
+  }, {
+    "methodId" : "1558",
+    "methodLabel" : "Response-rate ratio",
+    "score" : 0.6990806614246339
+  }, {
+    "methodId" : "494",
+    "methodLabel" : "Elastic net regularization",
+    "score" : 0.5553212360916248
+  }, {
+    "methodId" : "2539",
+    "methodLabel" : "Stratified sampling",
+    "score" : 0.7510688093164433
+  } ]
+}, {
+  "fileName" : "3167.txt",
+  "result" : [ {
+    "methodId" : "1944",
+    "methodLabel" : "Gutenberg–Richter law",
+    "score" : 0.713877491710095
+  }, {
+    "methodId" : "559",
+    "methodLabel" : "Classical general equilibrium model",
+    "score" : 0.7189430621130101
+  }, {
+    "methodId" : "2331",
+    "methodLabel" : "Reliability theory of aging and longevity",
+    "score" : 0.5759796851039785
+  }, {
+    "methodId" : "568",
+    "methodLabel" : "Frisch elasticity of labor supply",
+    "score" : 0.7100338660544703
+  }, {
+    "methodId" : "1572",
+    "methodLabel" : "Gini coefficient",
+    "score" : 0.6933933088190741
+  }, {
+    "methodId" : "313",
+    "methodLabel" : "Margin at risk",
+    "score" : 0.6156915560123112
+  }, {
+    "methodId" : "153",
+    "methodLabel" : "Relaxed intersection",
+    "score" : 0.44535628141471834
+  }, {
+    "methodId" : "2412",
+    "methodLabel" : "Age adjustment",
+    "score" : 0.5294234819177185
+  }, {
+    "methodId" : "520",
+    "methodLabel" : "Electricity price forecasting",
+    "score" : 0.4157862656397107
+  }, {
+    "methodId" : "862",
+    "methodLabel" : "International Institute of Forecasters",
+    "score" : 0.4110010001387919
+  } ]
+}, {
+  "fileName" : "2907.txt",
+  "result" : [ {
+    "methodId" : "451",
+    "methodLabel" : "Isotonic regression",
+    "score" : 0.6876395188464531
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "2030",
+    "methodLabel" : "Classification rule",
+    "score" : 0.6675598063911223
+  }, {
+    "methodId" : "562",
+    "methodLabel" : "Utility maximization problem",
+    "score" : 0.6450967431904292
+  }, {
+    "methodId" : "1938",
+    "methodLabel" : "Negative relationship",
+    "score" : 0.6802167270607307
+  }, {
+    "methodId" : "2050",
+    "methodLabel" : "Bayes classifier",
+    "score" : 0.6209347585859608
+  }, {
+    "methodId" : "1374",
+    "methodLabel" : "Diversity index",
+    "score" : 0.6163763238937569
+  }, {
+    "methodId" : "1363",
+    "methodLabel" : "Quartile coefficient of dispersion",
+    "score" : 0.6917579103927973
+  }, {
+    "methodId" : "520",
+    "methodLabel" : "Electricity price forecasting",
+    "score" : 0.6581505653235914
+  }, {
+    "methodId" : "1407",
+    "methodLabel" : "Bregman divergence",
+    "score" : 0.6094234171413268
+  } ]
+}, {
+  "fileName" : "3292.txt",
+  "result" : [ {
+    "methodId" : "2324",
+    "methodLabel" : "Survival function",
+    "score" : 0.6627743635517233
+  }, {
+    "methodId" : "2459",
+    "methodLabel" : "Instrument effect",
+    "score" : 0.6146250548850284
+  }, {
+    "methodId" : "2139",
+    "methodLabel" : "Autoassociative memory",
+    "score" : 0.6802133896686394
+  }, {
+    "methodId" : "1654",
+    "methodLabel" : "Module of covariants",
+    "score" : 0.5693264119471233
+  }, {
+    "methodId" : "2150",
+    "methodLabel" : "European Neural Network Society",
+    "score" : 0.5488851923702583
+  }, {
+    "methodId" : "339",
+    "methodLabel" : "Outliers ratio",
+    "score" : 0.5265322538276147
+  }, {
+    "methodId" : "1213",
+    "methodLabel" : "Formal epistemology",
+    "score" : 0.624720522592106
+  }, {
+    "methodId" : "2131",
+    "methodLabel" : "Jackknife variance estimates for random forest",
+    "score" : 0.522366519498422
+  }, {
+    "methodId" : "2175",
+    "methodLabel" : "Lernmatrix",
+    "score" : 0.5291471949379376
+  }, {
+    "methodId" : "702",
+    "methodLabel" : "Dichotomous preferences",
+    "score" : 0.5143770567353636
+  } ]
+}, {
+  "fileName" : "2283.txt",
+  "result" : [ {
+    "methodId" : "538",
+    "methodLabel" : "Virtual sensing",
+    "score" : 0.7151530585401301
+  }, {
+    "methodId" : "401",
+    "methodLabel" : "Trend analysis",
+    "score" : 0.6667538429072548
+  }, {
+    "methodId" : "1387",
+    "methodLabel" : "Range (statistics)",
+    "score" : 0.6459330567604863
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.6446099649934639
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6866369908534222
+  }, {
+    "methodId" : "879",
+    "methodLabel" : "Calculating demand forecast accuracy",
+    "score" : 0.6269657783143964
+  }, {
+    "methodId" : "633",
+    "methodLabel" : "Knapsack problem",
+    "score" : 0.6234862282287267
+  }, {
+    "methodId" : "2459",
+    "methodLabel" : "Instrument effect",
+    "score" : 0.6149548061640825
+  }, {
+    "methodId" : "1654",
+    "methodLabel" : "Module of covariants",
+    "score" : 0.6021028411404984
+  }, {
+    "methodId" : "691",
+    "methodLabel" : "Quasilinear utility",
+    "score" : 0.6005824089819649
+  } ]
+}, {
+  "fileName" : "3074.txt",
+  "result" : [ {
+    "methodId" : "1235",
+    "methodLabel" : "Rodger's method",
+    "score" : 0.8243449710221458
+  }, {
+    "methodId" : "174",
+    "methodLabel" : "V-statistic",
+    "score" : 0.7326712765008837
+  }, {
+    "methodId" : "1768",
+    "methodLabel" : "Generalized Procrustes analysis",
+    "score" : 0.7233080178418527
+  }, {
+    "methodId" : "1850",
+    "methodLabel" : "False positive rate",
+    "score" : 0.87706728105598
+  }, {
+    "methodId" : "158",
+    "methodLabel" : "Observed information",
+    "score" : 0.6454311421409016
+  }, {
+    "methodId" : "2362",
+    "methodLabel" : "Observational study",
+    "score" : 0.7565778946927167
+  }, {
+    "methodId" : "879",
+    "methodLabel" : "Calculating demand forecast accuracy",
+    "score" : 0.6269657783143964
+  }, {
+    "methodId" : "2381",
+    "methodLabel" : "Treatment and control groups",
+    "score" : 0.7715264006792045
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1533",
+    "methodLabel" : "Conditional probability",
+    "score" : 0.6868737021173302
+  } ]
+}, {
+  "fileName" : "3288.txt",
+  "result" : [ {
+    "methodId" : "2137",
+    "methodLabel" : "Evolutionary acquisition of neural topologies",
+    "score" : 0.7364420889565819
+  }, {
+    "methodId" : "2373",
+    "methodLabel" : "Crossover study",
+    "score" : 0.6401620920429145
+  }, {
+    "methodId" : "1392",
+    "methodLabel" : "Allan variance",
+    "score" : 0.6392009706095169
+  }, {
+    "methodId" : "1630",
+    "methodLabel" : "Intraclass correlation",
+    "score" : 0.6368489679692346
+  }, {
+    "methodId" : "1376",
+    "methodLabel" : "Species diversity",
+    "score" : 0.8391506548445692
+  }, {
+    "methodId" : "2415",
+    "methodLabel" : "Random assignment",
+    "score" : 0.6247473659286216
+  }, {
+    "methodId" : "2384",
+    "methodLabel" : "Open-label trial",
+    "score" : 0.7039512441567983
+  }, {
+    "methodId" : "1654",
+    "methodLabel" : "Module of covariants",
+    "score" : 0.6242667616624948
+  }, {
+    "methodId" : "2605",
+    "methodLabel" : "Principal stratification",
+    "score" : 0.6175433718170992
+  }, {
+    "methodId" : "1606",
+    "methodLabel" : "Polychoric correlation",
+    "score" : 0.7667136642782786
+  } ]
+}, {
+  "fileName" : "2593.txt",
+  "result" : [ {
+    "methodId" : "387",
+    "methodLabel" : "Huber loss",
+    "score" : 0.7924525351188244
+  }, {
+    "methodId" : "158",
+    "methodLabel" : "Observed information",
+    "score" : 0.6911841547334188
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1823",
+    "methodLabel" : "Bühlmann model",
+    "score" : 0.764047100704086
+  }, {
+    "methodId" : "543",
+    "methodLabel" : "G-prior",
+    "score" : 0.6671672201200569
+  }, {
+    "methodId" : "1713",
+    "methodLabel" : "Weighted geometric mean",
+    "score" : 0.8183299522608377
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6880672676282187
+  }, {
+    "methodId" : "445",
+    "methodLabel" : "Segmented regression",
+    "score" : 0.7314133991884366
+  }, {
+    "methodId" : "225",
+    "methodLabel" : "Monte Carlo tree search",
+    "score" : 0.60119047454027
+  }, {
+    "methodId" : "2177",
+    "methodLabel" : "Dropout (neural networks)",
+    "score" : 0.597578181572352
+  } ]
+}, {
+  "fileName" : "3165.txt",
+  "result" : [ {
+    "methodId" : "1533",
+    "methodLabel" : "Conditional probability",
+    "score" : 0.5722091533871904
+  }, {
+    "methodId" : "312",
+    "methodLabel" : "Stochastic investment model",
+    "score" : 0.5972827572775223
+  }, {
+    "methodId" : "1549",
+    "methodLabel" : "Sharpe ratio",
+    "score" : 0.5347257368744365
+  }, {
+    "methodId" : "568",
+    "methodLabel" : "Frisch elasticity of labor supply",
+    "score" : 0.5796114067699919
+  }, {
+    "methodId" : "2",
+    "methodLabel" : "Structural break",
+    "score" : 0.4885685134653164
+  }, {
+    "methodId" : "1963",
+    "methodLabel" : "Mediation (statistics)",
+    "score" : 0.5191603870055402
+  }, {
+    "methodId" : "1401",
+    "methodLabel" : "Normalized compression distance",
+    "score" : 0.5526321852842808
+  }, {
+    "methodId" : "313",
+    "methodLabel" : "Margin at risk",
+    "score" : 0.5162800468161637
+  }, {
+    "methodId" : "884",
+    "methodLabel" : "Rare events",
+    "score" : 0.4184328570541715
+  }, {
+    "methodId" : "2603",
+    "methodLabel" : "Risk limiting post-election audit",
+    "score" : 0.46660787908992324
+  } ]
+}, {
+  "fileName" : "1134.txt",
+  "result" : [ {
+    "methodId" : "2394",
+    "methodLabel" : "Randomization",
+    "score" : 0.7769441598372293
+  }, {
+    "methodId" : "2294",
+    "methodLabel" : "BrownBoost",
+    "score" : 0.7707023262677433
+  }, {
+    "methodId" : "2543",
+    "methodLabel" : "Convenience sampling",
+    "score" : 0.7020159372706386
+  }, {
+    "methodId" : "2610",
+    "methodLabel" : "Plot sampling",
+    "score" : 0.7052825124679349
+  }, {
+    "methodId" : "2545",
+    "methodLabel" : "Multistage sampling",
+    "score" : 0.7652292387060535
+  }, {
+    "methodId" : "332",
+    "methodLabel" : "Peirce's criterion",
+    "score" : 0.5834970694649624
+  }, {
+    "methodId" : "2493",
+    "methodLabel" : "Recall bias",
+    "score" : 0.577351334438657
+  }, {
+    "methodId" : "2519",
+    "methodLabel" : "Lot quality assurance sampling",
+    "score" : 0.6834153562292773
+  }, {
+    "methodId" : "2540",
+    "methodLabel" : "Survey sampling",
+    "score" : 0.7899967548028285
+  }, {
+    "methodId" : "2511",
+    "methodLabel" : "Microdata (statistics)",
+    "score" : 0.6768315141353144
+  } ]
+}, {
+  "fileName" : "3264.txt",
+  "result" : [ {
+    "methodId" : "167",
+    "methodLabel" : "Lag windowing",
+    "score" : 0.6829084666574369
+  }, {
+    "methodId" : "2145",
+    "methodLabel" : "Neural backpropagation",
+    "score" : 0.6796054192139236
+  }, {
+    "methodId" : "896",
+    "methodLabel" : "Morlet wavelet",
+    "score" : 0.6575473783746432
+  }, {
+    "methodId" : "1722",
+    "methodLabel" : "Riesz mean",
+    "score" : 0.6564974186199066
+  }, {
+    "methodId" : "2400",
+    "methodLabel" : "Choice set",
+    "score" : 0.6909637348343391
+  }, {
+    "methodId" : "2060",
+    "methodLabel" : "Feature Selection Toolbox",
+    "score" : 0.6344813241996267
+  }, {
+    "methodId" : "2395",
+    "methodLabel" : "Type I and type II errors",
+    "score" : 0.6338874599395455
+  }, {
+    "methodId" : "542",
+    "methodLabel" : "Moderated mediation",
+    "score" : 0.6355659262019315
+  }, {
+    "methodId" : "2534",
+    "methodLabel" : "Experience sampling method",
+    "score" : 0.670111999650598
+  }, {
+    "methodId" : "907",
+    "methodLabel" : "Fbsp wavelet",
+    "score" : 0.613701678291577
+  } ]
+}, {
+  "fileName" : "192.txt",
+  "result" : [ {
+    "methodId" : "692",
+    "methodLabel" : "Utility functions on indivisible goods",
+    "score" : 0.5252606822806373
+  }, {
+    "methodId" : "7",
+    "methodLabel" : "Change detection (GIS)",
+    "score" : 0.49846774888288364
+  }, {
+    "methodId" : "2469",
+    "methodLabel" : "Design space exploration",
+    "score" : 0.48785461550488013
+  }, {
+    "methodId" : "1247",
+    "methodLabel" : "Review article",
+    "score" : 0.3576952000075652
+  }, {
+    "methodId" : "1519",
+    "methodLabel" : "Strikeout-to-walk ratio",
+    "score" : 0.23295965607947847
+  }, {
+    "methodId" : "868",
+    "methodLabel" : "Political forecasting",
+    "score" : 0.2711599165957024
+  }, {
+    "methodId" : "1742",
+    "methodLabel" : "Owen's T function",
+    "score" : 0.2571239478898926
+  }, {
+    "methodId" : "1",
+    "methodLabel" : "False alarm",
+    "score" : 0.21180198453028895
+  }, {
+    "methodId" : "2346",
+    "methodLabel" : "Vaccine trial",
+    "score" : 0.17236278327337526
+  } ]
+}, {
+  "fileName" : "3259.txt",
+  "result" : [ {
+    "methodId" : "912",
+    "methodLabel" : "Coiflet",
+    "score" : 0.576021006592892
+  }, {
+    "methodId" : "1785",
+    "methodLabel" : "Growth curve (statistics)",
+    "score" : 0.5717506832587792
+  }, {
+    "methodId" : "1919",
+    "methodLabel" : "Reliability (research methods)",
+    "score" : 0.839173272087013
+  }, {
+    "methodId" : "1384",
+    "methodLabel" : "Biosurvey",
+    "score" : 0.5476014584119577
+  }, {
+    "methodId" : "1410",
+    "methodLabel" : "Normalized Google distance",
+    "score" : 0.5532074914269062
+  }, {
+    "methodId" : "2374",
+    "methodLabel" : "Provocation test",
+    "score" : 0.4880325520876339
+  }, {
+    "methodId" : "1457",
+    "methodLabel" : "Inversion (discrete mathematics)",
+    "score" : 0.4098408400202257
+  }, {
+    "methodId" : "2341",
+    "methodLabel" : "Latin square",
+    "score" : 0.4374284688195382
+  }, {
+    "methodId" : "1",
+    "methodLabel" : "False alarm",
+    "score" : 0.47737668467412103
+  }, {
+    "methodId" : "2207",
+    "methodLabel" : "Winner-take-all (computing)",
+    "score" : 0.47753353276796817
+  } ]
+}, {
+  "fileName" : "3277.txt",
+  "result" : [ {
+    "methodId" : "921",
+    "methodLabel" : "Akaike information criterion",
+    "score" : 0.749347503164888
+  }, {
+    "methodId" : "1613",
+    "methodLabel" : "Covariance matrix",
+    "score" : 0.8208245578709845
+  }, {
+    "methodId" : "1749",
+    "methodLabel" : "Partial least squares path modeling",
+    "score" : 0.8047887969997338
+  }, {
+    "methodId" : "515",
+    "methodLabel" : "Polynomial and rational function modeling",
+    "score" : 0.7174088859848861
+  }, {
+    "methodId" : "970",
+    "methodLabel" : "Spearman's rank correlation coefficient",
+    "score" : 0.7021535975360625
+  }, {
+    "methodId" : "2481",
+    "methodLabel" : "Acceptable quality limit",
+    "score" : 0.7002404452964087
+  }, {
+    "methodId" : "1865",
+    "methodLabel" : "Principle of marginality",
+    "score" : 0.7547318993706593
+  }, {
+    "methodId" : "918",
+    "methodLabel" : "Bayes factor",
+    "score" : 0.6825951085956585
+  }, {
+    "methodId" : "1938",
+    "methodLabel" : "Negative relationship",
+    "score" : 0.7475645156717263
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6740673263854806
+  } ]
+}, {
+  "fileName" : "3164.txt",
+  "result" : [ {
+    "methodId" : "52",
+    "methodLabel" : "Multiple Models",
+    "score" : 0.7089542054581276
+  }, {
+    "methodId" : "1380",
+    "methodLabel" : "Beta diversity",
+    "score" : 0.5663029557361127
+  }, {
+    "methodId" : "568",
+    "methodLabel" : "Frisch elasticity of labor supply",
+    "score" : 0.7100338660544703
+  }, {
+    "methodId" : "583",
+    "methodLabel" : "Hedonimetry",
+    "score" : 0.6147792421478256
+  }, {
+    "methodId" : "1410",
+    "methodLabel" : "Normalized Google distance",
+    "score" : 0.5682655898463502
+  }, {
+    "methodId" : "1457",
+    "methodLabel" : "Inversion (discrete mathematics)",
+    "score" : 0.4671101515282823
+  }, {
+    "methodId" : "2169",
+    "methodLabel" : "ALOPEX",
+    "score" : 0.44545112219072214
+  }, {
+    "methodId" : "312",
+    "methodLabel" : "Stochastic investment model",
+    "score" : 0.4385774473233613
+  }, {
+    "methodId" : "1178",
+    "methodLabel" : "Alternative hypothesis",
+    "score" : 0.6277400518174845
+  }, {
+    "methodId" : "1413",
+    "methodLabel" : "Kendall tau distance",
+    "score" : 0.3192398582176378
+  } ]
+}, {
+  "fileName" : "3269.txt",
+  "result" : [ {
+    "methodId" : "1825",
+    "methodLabel" : "Repeated measures design",
+    "score" : 0.7452258432140398
+  }, {
+    "methodId" : "2585",
+    "methodLabel" : "Typology (statistics)",
+    "score" : 0.7409721747114014
+  }, {
+    "methodId" : "2241",
+    "methodLabel" : "Dehaene–Changeux model",
+    "score" : 0.791724264896676
+  }, {
+    "methodId" : "1866",
+    "methodLabel" : "Between-group design",
+    "score" : 0.7283827007562039
+  }, {
+    "methodId" : "1269",
+    "methodLabel" : "Cohen's h",
+    "score" : 0.7283740772554833
+  }, {
+    "methodId" : "2449",
+    "methodLabel" : "N of 1 trial",
+    "score" : 0.7249080135194517
+  }, {
+    "methodId" : "768",
+    "methodLabel" : "Ramsey RESET test",
+    "score" : 0.7224472892021894
+  }, {
+    "methodId" : "962",
+    "methodLabel" : "Ranklet",
+    "score" : 0.7085178481258205
+  }, {
+    "methodId" : "1283",
+    "methodLabel" : "Strictly standardized mean difference",
+    "score" : 0.7060331414551261
+  }, {
+    "methodId" : "1837",
+    "methodLabel" : "Mixed model",
+    "score" : 0.7031425822827039
+  } ]
+}, {
+  "fileName" : "1776.txt",
+  "result" : [ {
+    "methodId" : "1991",
+    "methodLabel" : "Inverse-Wishart distribution",
+    "score" : 0.6964198879762391
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "822",
+    "methodLabel" : "Job-exposure matrix",
+    "score" : 0.6706091988048067
+  }, {
+    "methodId" : "951",
+    "methodLabel" : "Closed testing procedure",
+    "score" : 0.7602595776896541
+  }, {
+    "methodId" : "1720",
+    "methodLabel" : "Truncated mean",
+    "score" : 0.628924112578835
+  }, {
+    "methodId" : "1284",
+    "methodLabel" : "Mean log deviation",
+    "score" : 0.6288242509289895
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6744465819905794
+  }, {
+    "methodId" : "685",
+    "methodLabel" : "Constant elasticity of substitution",
+    "score" : 0.629675798523843
+  }, {
+    "methodId" : "1605",
+    "methodLabel" : "Seven-number summary",
+    "score" : 0.737332935671442
+  } ]
+}, {
+  "fileName" : "3287.txt",
+  "result" : [ {
+    "methodId" : "135",
+    "methodLabel" : "Richardson–Lucy deconvolution",
+    "score" : 0.5162894111040749
+  }, {
+    "methodId" : "1348",
+    "methodLabel" : "Taylor's law",
+    "score" : 0.5503019675598909
+  }, {
+    "methodId" : "1504",
+    "methodLabel" : "Treynor ratio",
+    "score" : 0.6712903045057448
+  }, {
+    "methodId" : "573",
+    "methodLabel" : "Debreu theorems",
+    "score" : 0.45460047115683433
+  }, {
+    "methodId" : "884",
+    "methodLabel" : "Rare events",
+    "score" : 0.39805101349430605
+  }, {
+    "methodId" : "682",
+    "methodLabel" : "Substitute good",
+    "score" : 0.37797253777166206
+  }, {
+    "methodId" : "1701",
+    "methodLabel" : "Quasi-arithmetic mean",
+    "score" : 0.5326157883172857
+  }, {
+    "methodId" : "1378",
+    "methodLabel" : "Species richness",
+    "score" : 0.5381626044964756
+  }, {
+    "methodId" : "1605",
+    "methodLabel" : "Seven-number summary",
+    "score" : 0.4231823361303365
+  }, {
+    "methodId" : "1944",
+    "methodLabel" : "Gutenberg–Richter law",
+    "score" : 0.4010551322693521
+  } ]
+}, {
+  "fileName" : "991.txt",
+  "result" : [ {
+    "methodId" : "1554",
+    "methodLabel" : "Diagnostic odds ratio",
+    "score" : 0.7457334211030674
+  }, {
+    "methodId" : "2180",
+    "methodLabel" : "Softmax function",
+    "score" : 0.683407788771792
+  }, {
+    "methodId" : "1627",
+    "methodLabel" : "Generalized canonical correlation",
+    "score" : 0.6834104873533802
+  }, {
+    "methodId" : "2541",
+    "methodLabel" : "Kish grid",
+    "score" : 0.6111325593975775
+  }, {
+    "methodId" : "2519",
+    "methodLabel" : "Lot quality assurance sampling",
+    "score" : 0.7181018744644913
+  }, {
+    "methodId" : "482",
+    "methodLabel" : "Multinomial logistic regression",
+    "score" : 0.8020224601402065
+  }, {
+    "methodId" : "2507",
+    "methodLabel" : "Sampling risk",
+    "score" : 0.5750241423255447
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.5727132028652083
+  }, {
+    "methodId" : "2423",
+    "methodLabel" : "Data collection",
+    "score" : 0.7086360743042702
+  }, {
+    "methodId" : "1536",
+    "methodLabel" : "Relative risk reduction",
+    "score" : 0.6885883537455305
+  } ]
+}, {
+  "fileName" : "3281.txt",
+  "result" : [ {
+    "methodId" : "533",
+    "methodLabel" : "Outline of regression analysis",
+    "score" : 0.80179846124495
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.6789689607099397
+  }, {
+    "methodId" : "2384",
+    "methodLabel" : "Open-label trial",
+    "score" : 0.7386499596124657
+  }, {
+    "methodId" : "2345",
+    "methodLabel" : "Zelen's design",
+    "score" : 0.6440520849249315
+  }, {
+    "methodId" : "508",
+    "methodLabel" : "Antecedent variable",
+    "score" : 0.6880672676282187
+  }, {
+    "methodId" : "894",
+    "methodLabel" : "Ljung–Box test",
+    "score" : 0.6179246720731919
+  }, {
+    "methodId" : "1113",
+    "methodLabel" : "Fay and Wu's H",
+    "score" : 0.6100429145198221
+  }, {
+    "methodId" : "1585",
+    "methodLabel" : "Multiple of the median",
+    "score" : 0.6127467208213744
+  }, {
+    "methodId" : "1906",
+    "methodLabel" : "Factor analysis of mixed data",
+    "score" : 0.7806357835601181
+  }, {
+    "methodId" : "2423",
+    "methodLabel" : "Data collection",
+    "score" : 0.7178948071383546
+  } ]
+}, {
+  "fileName" : "3291.txt",
+  "result" : [ {
+    "methodId" : "2241",
+    "methodLabel" : "Dehaene–Changeux model",
+    "score" : 0.7104439695598236
+  }, {
+    "methodId" : "1313",
+    "methodLabel" : "Berkson error model",
+    "score" : 0.7606607707892326
+  }, {
+    "methodId" : "2251",
+    "methodLabel" : "Hyper basis function network",
+    "score" : 0.5731116611179186
+  }, {
+    "methodId" : "304",
+    "methodLabel" : "Statistical finance",
+    "score" : 0.5448845231173903
+  }, {
+    "methodId" : "2208",
+    "methodLabel" : "Artificial Intelligence System",
+    "score" : 0.49706134874032937
+  }, {
+    "methodId" : "681",
+    "methodLabel" : "Independent goods",
+    "score" : 0.4848998615444907
+  }, {
+    "methodId" : "2413",
+    "methodLabel" : "Clinical study design",
+    "score" : 0.6515803948174035
+  }, {
+    "methodId" : "130",
+    "methodLabel" : "Location estimation in sensor networks",
+    "score" : 0.5444752203861524
+  }, {
+    "methodId" : "2405",
+    "methodLabel" : "Clinical trial",
+    "score" : 0.6136994076618155
+  }, {
+    "methodId" : "1323",
+    "methodLabel" : "Cornish–Fisher expansion",
+    "score" : 0.4737896456605083
+  } ]
+}, {
+  "fileName" : "3290.txt",
+  "result" : [ {
+    "methodId" : "1839",
+    "methodLabel" : "Association scheme",
+    "score" : 0.6790730840133619
+  }, {
+    "methodId" : "1816",
+    "methodLabel" : "Tensor rank decomposition",
+    "score" : 0.5106098368051439
+  }, {
+    "methodId" : "2386",
+    "methodLabel" : "Standard treatment",
+    "score" : 0.7313124139002667
+  }, {
+    "methodId" : "520",
+    "methodLabel" : "Electricity price forecasting",
+    "score" : 0.4969651298507978
+  }, {
+    "methodId" : "1323",
+    "methodLabel" : "Cornish–Fisher expansion",
+    "score" : 0.4737896456605083
+  }, {
+    "methodId" : "2451",
+    "methodLabel" : "Placebo-controlled study",
+    "score" : 0.6594842907838409
+  }, {
+    "methodId" : "1709",
+    "methodLabel" : "Spherical mean",
+    "score" : 0.41867351163335204
+  }, {
+    "methodId" : "1742",
+    "methodLabel" : "Owen's T function",
+    "score" : 0.5265235837653433
+  }, {
+    "methodId" : "1401",
+    "methodLabel" : "Normalized compression distance",
+    "score" : 0.45207701531441924
+  }, {
+    "methodId" : "1511",
+    "methodLabel" : "Prevalence",
+    "score" : 0.526520485891761
+  } ]
+}, {
+  "fileName" : "3272.txt",
+  "result" : [ {
+    "methodId" : "570",
+    "methodLabel" : "Marginal utility",
+    "score" : 0.5811002642511839
+  }, {
+    "methodId" : "758",
+    "methodLabel" : "Oscillator linewidth",
+    "score" : 0.595730135867344
+  }, {
+    "methodId" : "2283",
+    "methodLabel" : "Information gain ratio",
+    "score" : 0.6080955056891453
+  }, {
+    "methodId" : "253",
+    "methodLabel" : "Control variates",
+    "score" : 0.5139417140120928
+  }, {
+    "methodId" : "599",
+    "methodLabel" : "Regret (decision theory)",
+    "score" : 0.5103955177967522
+  }, {
+    "methodId" : "2506",
+    "methodLabel" : "Eigenpoll",
+    "score" : 0.4784503187269659
+  }, {
+    "methodId" : "251",
+    "methodLabel" : "Volumetric path tracing",
+    "score" : 0.5030533324569025
+  }, {
+    "methodId" : "2341",
+    "methodLabel" : "Latin square",
+    "score" : 0.4374284688195382
+  }, {
+    "methodId" : "2317",
+    "methodLabel" : "Power-on hours",
+    "score" : 0.3808320450350589
+  }, {
+    "methodId" : "274",
+    "methodLabel" : "PYTHIA",
+    "score" : 0.3610843535758405
+  } ]
+}, {
+  "fileName" : "2556.txt",
+  "result" : [ {
+    "methodId" : "1622",
+    "methodLabel" : "Sample mean and covariance",
+    "score" : 0.7748304813902126
+  }, {
+    "methodId" : "415",
+    "methodLabel" : "Explained variation",
+    "score" : 0.7637698908239906
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6755254397487609
+  }, {
+    "methodId" : "2546",
+    "methodLabel" : "Simple random sample",
+    "score" : 0.7146304618013123
+  }, {
+    "methodId" : "1484",
+    "methodLabel" : "Accuracy and precision",
+    "score" : 0.6475104702823978
+  }, {
+    "methodId" : "1935",
+    "methodLabel" : "Independence (probability theory)",
+    "score" : 0.6050739690267869
+  }, {
+    "methodId" : "1902",
+    "methodLabel" : "Exploratory factor analysis",
+    "score" : 0.7778766589911954
+  }, {
+    "methodId" : "2323",
+    "methodLabel" : "Fides (reliability)",
+    "score" : 0.7315408628690753
+  }, {
+    "methodId" : "946",
+    "methodLabel" : "Dunnett's test",
+    "score" : 0.6452110055027563
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.5627820231245279
+  } ]
+}, {
+  "fileName" : "3270.txt",
+  "result" : [ {
+    "methodId" : "715",
+    "methodLabel" : "Choice model simulation",
+    "score" : 0.7053333102526899
+  }, {
+    "methodId" : "2543",
+    "methodLabel" : "Convenience sampling",
+    "score" : 0.6946836831762625
+  }, {
+    "methodId" : "714",
+    "methodLabel" : "Polynomial conjoint measurement",
+    "score" : 0.6876298809123357
+  }, {
+    "methodId" : "2452",
+    "methodLabel" : "Spherical design",
+    "score" : 0.6836482879659682
+  }, {
+    "methodId" : "1565",
+    "methodLabel" : "Theil index",
+    "score" : 0.6741815174093319
+  }, {
+    "methodId" : "2331",
+    "methodLabel" : "Reliability theory of aging and longevity",
+    "score" : 0.6615680186688216
+  }, {
+    "methodId" : "2508",
+    "methodLabel" : "Sampling (statistics)",
+    "score" : 0.7583048545943945
+  }, {
+    "methodId" : "1823",
+    "methodLabel" : "Bühlmann model",
+    "score" : 0.717746746241453
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.636015902224246
+  }, {
+    "methodId" : "1370",
+    "methodLabel" : "Measurement of biodiversity",
+    "score" : 0.6307978761080552
+  } ]
+}, {
+  "fileName" : "1282.txt",
+  "result" : [ {
+    "methodId" : "134",
+    "methodLabel" : "Endogeneity (econometrics)",
+    "score" : 0.7025711892614237
+  }, {
+    "methodId" : "878",
+    "methodLabel" : "Demand forecasting",
+    "score" : 0.6965749374996939
+  }, {
+    "methodId" : "158",
+    "methodLabel" : "Observed information",
+    "score" : 0.6792909971106422
+  }, {
+    "methodId" : "1720",
+    "methodLabel" : "Truncated mean",
+    "score" : 0.6501380786942488
+  }, {
+    "methodId" : "445",
+    "methodLabel" : "Segmented regression",
+    "score" : 0.7650321477491816
+  }, {
+    "methodId" : "1782",
+    "methodLabel" : "Geodemographic segmentation",
+    "score" : 0.6744465819905794
+  }, {
+    "methodId" : "415",
+    "methodLabel" : "Explained variation",
+    "score" : 0.700349899907245
+  }, {
+    "methodId" : "2388",
+    "methodLabel" : "First-in-man study",
+    "score" : 0.6198913908253738
+  }, {
+    "methodId" : "1865",
+    "methodLabel" : "Principle of marginality",
+    "score" : 0.6219490224511202
+  }, {
+    "methodId" : "2448",
+    "methodLabel" : "Saturated array",
+    "score" : 0.5702054391851584
+  } ]
+}, {
+  "fileName" : "3284.txt",
+  "result" : [ {
+    "methodId" : "1223",
+    "methodLabel" : "Exact statistics",
+    "score" : 0.7227675449368167
+  }, {
+    "methodId" : "143",
+    "methodLabel" : "Lehmann–Scheffé theorem",
+    "score" : 0.6851851071390338
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6381497759605833
+  }, {
+    "methodId" : "687",
+    "methodLabel" : "Cobb–Douglas production function",
+    "score" : 0.634097517901775
+  }, {
+    "methodId" : "874",
+    "methodLabel" : "Backtesting",
+    "score" : 0.6297145870163148
+  }, {
+    "methodId" : "1184",
+    "methodLabel" : "Fiducial inference",
+    "score" : 0.6352226290868629
+  }, {
+    "methodId" : "1855",
+    "methodLabel" : "F-distribution",
+    "score" : 0.6201894413522268
+  }, {
+    "methodId" : "174",
+    "methodLabel" : "V-statistic",
+    "score" : 0.6280558405523395
+  }, {
+    "methodId" : "620",
+    "methodLabel" : "Scenario optimization",
+    "score" : 0.607701596001819
+  }, {
+    "methodId" : "1965",
+    "methodLabel" : "Pointwise mutual information",
+    "score" : 0.6800231714945969
+  } ]
+}, {
+  "fileName" : "793.txt",
+  "result" : [ {
+    "methodId" : "129",
+    "methodLabel" : "L-estimator",
+    "score" : 0.6991172703280072
+  }, {
+    "methodId" : "2340",
+    "methodLabel" : "Discrete Weibull distribution",
+    "score" : 0.643885633066082
+  }, {
+    "methodId" : "143",
+    "methodLabel" : "Lehmann–Scheffé theorem",
+    "score" : 0.637644794267125
+  }, {
+    "methodId" : "127",
+    "methodLabel" : "Trimmed estimator",
+    "score" : 0.6367651264996655
+  }, {
+    "methodId" : "570",
+    "methodLabel" : "Marginal utility",
+    "score" : 0.6191894902906881
+  }, {
+    "methodId" : "1688",
+    "methodLabel" : "Average",
+    "score" : 0.6127649079990555
+  }, {
+    "methodId" : "104",
+    "methodLabel" : "Estimation",
+    "score" : 0.6850731699702748
+  }, {
+    "methodId" : "1965",
+    "methodLabel" : "Pointwise mutual information",
+    "score" : 0.6672399745389087
+  }, {
+    "methodId" : "564",
+    "methodLabel" : "Gossen's laws",
+    "score" : 0.5889293307718504
+  }, {
+    "methodId" : "2338",
+    "methodLabel" : "Intelligent maintenance system",
+    "score" : 0.7348969128474254
+  } ]
+}, {
+  "fileName" : "1178.txt",
+  "result" : [ {
+    "methodId" : "1554",
+    "methodLabel" : "Diagnostic odds ratio",
+    "score" : 0.712391308369531
+  }, {
+    "methodId" : "511",
+    "methodLabel" : "Line fitting",
+    "score" : 0.7969053176179003
+  }, {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1526",
+    "methodLabel" : "Information ratio",
+    "score" : 0.6809796436837554
+  }, {
+    "methodId" : "1337",
+    "methodLabel" : "Median absolute deviation",
+    "score" : 0.6480013957482361
+  }, {
+    "methodId" : "2605",
+    "methodLabel" : "Principal stratification",
+    "score" : 0.6355611166939884
+  }, {
+    "methodId" : "1627",
+    "methodLabel" : "Generalized canonical correlation",
+    "score" : 0.6834104873533802
+  }, {
+    "methodId" : "339",
+    "methodLabel" : "Outliers ratio",
+    "score" : 0.630993248532696
+  }, {
+    "methodId" : "630",
+    "methodLabel" : "WASP (cricket calculation tool)",
+    "score" : 0.6167465658428255
+  }, {
+    "methodId" : "1584",
+    "methodLabel" : "Hoover index",
+    "score" : 0.6635608883005152
+  } ]
+}, {
+  "fileName" : "3283.txt",
+  "result" : [ {
+    "methodId" : "1891",
+    "methodLabel" : "Multilinear subspace learning",
+    "score" : 0.7135699163262019
+  }, {
+    "methodId" : "2544",
+    "methodLabel" : "Quota sampling",
+    "score" : 0.7410188711614659
+  }, {
+    "methodId" : "1906",
+    "methodLabel" : "Factor analysis of mixed data",
+    "score" : 0.7850957699512412
+  }, {
+    "methodId" : "2423",
+    "methodLabel" : "Data collection",
+    "score" : 0.6968575602600493
+  }, {
+    "methodId" : "2610",
+    "methodLabel" : "Plot sampling",
+    "score" : 0.6332535859582783
+  }, {
+    "methodId" : "2545",
+    "methodLabel" : "Multistage sampling",
+    "score" : 0.6685957755475139
+  }, {
+    "methodId" : "1558",
+    "methodLabel" : "Response-rate ratio",
+    "score" : 0.663541461336406
+  }, {
+    "methodId" : "2515",
+    "methodLabel" : "Imperfect induction",
+    "score" : 0.5173368619696035
+  }, {
+    "methodId" : "2507",
+    "methodLabel" : "Sampling risk",
+    "score" : 0.49597416146577566
+  }, {
+    "methodId" : "1745",
+    "methodLabel" : "Panel data",
+    "score" : 0.6162625604994375
+  } ]
+}, {
+  "fileName" : "3262.txt",
+  "result" : [ {
+    "methodId" : "1719",
+    "methodLabel" : "Temporal mean",
+    "score" : 0.6310685879576479
+  }, {
+    "methodId" : "1780",
+    "methodLabel" : "Multidimensional analysis",
+    "score" : 0.6864944444413513
+  }, {
+    "methodId" : "802",
+    "methodLabel" : "Surrogate data",
+    "score" : 0.7633019911959319
+  }, {
+    "methodId" : "864",
+    "methodLabel" : "Aggregative Contingent Estimation",
+    "score" : 0.5481953743823738
+  }, {
+    "methodId" : "2317",
+    "methodLabel" : "Power-on hours",
+    "score" : 0.5181869061563338
+  }, {
+    "methodId" : "1363",
+    "methodLabel" : "Quartile coefficient of dispersion",
+    "score" : 0.5666235607721126
+  }, {
+    "methodId" : "875",
+    "methodLabel" : "Meteorological reanalysis",
+    "score" : 0.574240892329435
+  }, {
+    "methodId" : "1512",
+    "methodLabel" : "Ground ball/fly ball ratio",
+    "score" : 0.45845077991100486
+  }, {
+    "methodId" : "1384",
+    "methodLabel" : "Biosurvey",
+    "score" : 0.5476014584119577
+  }, {
+    "methodId" : "1426",
+    "methodLabel" : "Second-order co-occurrence pointwise mutual information",
+    "score" : 0.44922307625906327
+  } ]
+}, {
+  "fileName" : "3171.txt",
+  "result" : [ {
+    "methodId" : "580",
+    "methodLabel" : "Friedman–Savage utility function",
+    "score" : 0.5254384164638787
+  }, {
+    "methodId" : "1180",
+    "methodLabel" : "Gambling and information theory",
+    "score" : 0.5727781113360627
+  }, {
+    "methodId" : "2441",
+    "methodLabel" : "Designated Member Review",
+    "score" : 0.6541710782011741
+  }, {
+    "methodId" : "2491",
+    "methodLabel" : "Empirical evidence",
+    "score" : 0.5979524742820885
+  }, {
+    "methodId" : "2356",
+    "methodLabel" : "Phases of clinical research",
+    "score" : 0.594950959059801
+  }, {
+    "methodId" : "1520",
+    "methodLabel" : "Beta (finance)",
+    "score" : 0.5238559292728511
+  }, {
+    "methodId" : "553",
+    "methodLabel" : "Final utility",
+    "score" : 0.43834806501019585
+  }, {
+    "methodId" : "1257",
+    "methodLabel" : "Systematic review",
+    "score" : 0.6425552461086069
+  }, {
+    "methodId" : "2603",
+    "methodLabel" : "Risk limiting post-election audit",
+    "score" : 0.46660787908992324
+  }, {
+    "methodId" : "1605",
+    "methodLabel" : "Seven-number summary",
+    "score" : 0.4891530222723073
+  } ]
+}, {
+  "fileName" : "3268.txt",
+  "result" : [ {
+    "methodId" : "2249",
+    "methodLabel" : "Modular neural network",
+    "score" : 0.7345891724465692
+  }, {
+    "methodId" : "2252",
+    "methodLabel" : "Neural network synchronization protocol",
+    "score" : 0.6222932636637714
+  }, {
+    "methodId" : "1401",
+    "methodLabel" : "Normalized compression distance",
+    "score" : 0.6150749937998681
+  }, {
+    "methodId" : "1147",
+    "methodLabel" : "Nemenyi test",
+    "score" : 0.5811511808346678
+  }, {
+    "methodId" : "274",
+    "methodLabel" : "PYTHIA",
+    "score" : 0.5204111626739085
+  }, {
+    "methodId" : "2305",
+    "methodLabel" : "De Moivre's law",
+    "score" : 0.47779100443654554
+  }, {
+    "methodId" : "864",
+    "methodLabel" : "Aggregative Contingent Estimation",
+    "score" : 0.4629288189946443
+  }, {
+    "methodId" : "599",
+    "methodLabel" : "Regret (decision theory)",
+    "score" : 0.4845756366083969
+  }, {
+    "methodId" : "1795",
+    "methodLabel" : "Values Modes",
+    "score" : 0.447729210474888
+  }, {
+    "methodId" : "884",
+    "methodLabel" : "Rare events",
+    "score" : 0.4326131224063769
+  } ]
+}, {
+  "fileName" : "1575.txt",
+  "result" : [ {
+    "methodId" : "2041",
+    "methodLabel" : "Data classification (business intelligence)",
+    "score" : 0.723692474188629
+  }, {
+    "methodId" : "210",
+    "methodLabel" : "Lehmer code",
+    "score" : 0.6061081988264475
+  }, {
+    "methodId" : "1368",
+    "methodLabel" : "Indicator species",
+    "score" : 0.5796961544873795
+  }, {
+    "methodId" : "2102",
+    "methodLabel" : "Evolving classification function",
+    "score" : 0.565028097377974
+  }, {
+    "methodId" : "2412",
+    "methodLabel" : "Age adjustment",
+    "score" : 0.6611050119521413
+  }, {
+    "methodId" : "1536",
+    "methodLabel" : "Relative risk reduction",
+    "score" : 0.6717432856335637
+  }, {
+    "methodId" : "1968",
+    "methodLabel" : "Local independence",
+    "score" : 0.5428180236082646
+  }, {
+    "methodId" : "532",
+    "methodLabel" : "Influential observation",
+    "score" : 0.6257476101312426
+  }, {
+    "methodId" : "1525",
+    "methodLabel" : "Hazard ratio",
+    "score" : 0.6232547081581512
+  }, {
+    "methodId" : "1113",
+    "methodLabel" : "Fay and Wu's H",
+    "score" : 0.5197189745524858
+  } ]
+}, {
+  "fileName" : "2819.txt",
+  "result" : [ {
+    "methodId" : "562",
+    "methodLabel" : "Utility maximization problem",
+    "score" : 0.7148859997062459
+  }, {
+    "methodId" : "2324",
+    "methodLabel" : "Survival function",
+    "score" : 0.6532858455611524
+  }, {
+    "methodId" : "715",
+    "methodLabel" : "Choice model simulation",
+    "score" : 0.6483879099243678
+  }, {
+    "methodId" : "534",
+    "methodLabel" : "Meta-regression",
+    "score" : 0.6572907632860207
+  }, {
+    "methodId" : "879",
+    "methodLabel" : "Calculating demand forecast accuracy",
+    "score" : 0.6269657783143964
+  }, {
+    "methodId" : "185",
+    "methodLabel" : "Prediction interval",
+    "score" : 0.622497559763143
+  }, {
+    "methodId" : "2279",
+    "methodLabel" : "ID3 algorithm",
+    "score" : 0.6252008163867552
+  }, {
+    "methodId" : "2421",
+    "methodLabel" : "Computer experiment",
+    "score" : 0.6679361172135756
+  }, {
+    "methodId" : "312",
+    "methodLabel" : "Stochastic investment model",
+    "score" : 0.6278099858258247
+  }, {
+    "methodId" : "705",
+    "methodLabel" : "Unit demand",
+    "score" : 0.5748106615692065
+  } ]
+}, {
+  "fileName" : "3282.txt",
+  "result" : [ {
+    "methodId" : "15",
+    "methodLabel" : "Bayesian",
+    "score" : 0.6357214719213113
+  }, {
+    "methodId" : "2138",
+    "methodLabel" : "Perceptron",
+    "score" : 0.5925914532619393
+  }, {
+    "methodId" : "2058",
+    "methodLabel" : "Sukhotin's algorithm",
+    "score" : 0.4998256337201508
+  }, {
+    "methodId" : "868",
+    "methodLabel" : "Political forecasting",
+    "score" : 0.618823669824092
+  }, {
+    "methodId" : "1373",
+    "methodLabel" : "Gamma diversity",
+    "score" : 0.47017241474116417
+  }, {
+    "methodId" : "2",
+    "methodLabel" : "Structural break",
+    "score" : 0.5012047379599663
+  }, {
+    "methodId" : "2413",
+    "methodLabel" : "Clinical study design",
+    "score" : 0.6252582530426379
+  }, {
+    "methodId" : "1987",
+    "methodLabel" : "Bennett, Alpert, and Goldstein’s S",
+    "score" : 0.7014287962522254
+  }, {
+    "methodId" : "586",
+    "methodLabel" : "Trade-off talking rational economic person",
+    "score" : 0.4987286386466707
+  }, {
+    "methodId" : "1247",
+    "methodLabel" : "Review article",
+    "score" : 0.7090653206268539
+  } ]
+}, {
+  "fileName" : "1150.txt",
+  "result" : [ {
+    "methodId" : "1505",
+    "methodLabel" : "Relative change and difference",
+    "score" : 0.6965762480377805
+  }, {
+    "methodId" : "2421",
+    "methodLabel" : "Computer experiment",
+    "score" : 0.6916421447427621
+  }, {
+    "methodId" : "878",
+    "methodLabel" : "Demand forecasting",
+    "score" : 0.6067385878151231
+  }, {
+    "methodId" : "1950",
+    "methodLabel" : "Ceiling effect (statistics)",
+    "score" : 0.5919922392402883
+  }, {
+    "methodId" : "255",
+    "methodLabel" : "Kinetic Monte Carlo",
+    "score" : 0.6853813065334294
+  }, {
+    "methodId" : "2412",
+    "methodLabel" : "Age adjustment",
+    "score" : 0.685362574320627
+  }, {
+    "methodId" : "570",
+    "methodLabel" : "Marginal utility",
+    "score" : 0.5693621023172482
+  }, {
+    "methodId" : "1229",
+    "methodLabel" : "K-statistic",
+    "score" : 0.5661224091768619
+  }, {
+    "methodId" : "2608",
+    "methodLabel" : "Wait list control group",
+    "score" : 0.6089085739339406
+  }, {
+    "methodId" : "1574",
+    "methodLabel" : "Pareto index",
+    "score" : 0.6755778164486502
+  } ]
+}, {
+  "fileName" : "2148.txt",
+  "result" : [ {
+    "methodId" : "1556",
+    "methodLabel" : "Ratio distribution",
+    "score" : 0.7353906832873858
+  }, {
+    "methodId" : "1331",
+    "methodLabel" : "Ratio estimator",
+    "score" : 0.6637785414053835
+  }, {
+    "methodId" : "1526",
+    "methodLabel" : "Information ratio",
+    "score" : 0.6578285012426099
+  }, {
+    "methodId" : "1670",
+    "methodLabel" : "Correlation coefficient",
+    "score" : 0.7386912874594495
+  }, {
+    "methodId" : "2610",
+    "methodLabel" : "Plot sampling",
+    "score" : 0.6157474586302583
+  }, {
+    "methodId" : "1282",
+    "methodLabel" : "Statistics of incarcerated African-American males",
+    "score" : 0.7006405001097651
+  }, {
+    "methodId" : "1549",
+    "methodLabel" : "Sharpe ratio",
+    "score" : 0.575657568186785
+  }, {
+    "methodId" : "1368",
+    "methodLabel" : "Indicator species",
+    "score" : 0.5781604018069029
+  }, {
+    "methodId" : "1547",
+    "methodLabel" : "Inverse Mills ratio",
+    "score" : 0.6725664922236372
+  }, {
+    "methodId" : "1509",
+    "methodLabel" : "Standardized mortality ratio",
+    "score" : 0.7110019739600836
+  } ]
+}, {
+  "fileName" : "3273.txt",
+  "result" : [ {
+    "methodId" : "2304",
+    "methodLabel" : "Exponential-logarithmic distribution",
+    "score" : 0.7095659480608056
+  }, {
+    "methodId" : "2164",
+    "methodLabel" : "Computational cybernetics",
+    "score" : 0.7314309092203358
+  }, {
+    "methodId" : "1375",
+    "methodLabel" : "Phylogenetic diversity",
+    "score" : 0.6161905176999763
+  }, {
+    "methodId" : "2421",
+    "methodLabel" : "Computer experiment",
+    "score" : 0.6846095064327213
+  }, {
+    "methodId" : "2608",
+    "methodLabel" : "Wait list control group",
+    "score" : 0.665487073192687
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.5772277729500194
+  }, {
+    "methodId" : "388",
+    "methodLabel" : "Two-step M-estimators involving MLE",
+    "score" : 0.6205492852154093
+  }, {
+    "methodId" : "1719",
+    "methodLabel" : "Temporal mean",
+    "score" : 0.6170953629257282
+  }, {
+    "methodId" : "156",
+    "methodLabel" : "Adaptive estimator",
+    "score" : 0.5711554893646303
+  }, {
+    "methodId" : "2411",
+    "methodLabel" : "Resentful demoralization",
+    "score" : 0.5665811995812926
+  } ]
+}, {
+  "fileName" : "163.txt",
+  "result" : [ {
+    "methodId" : "1431",
+    "methodLabel" : "Rand index",
+    "score" : 0.690172065908569
+  }, {
+    "methodId" : "1971",
+    "methodLabel" : "Coefficient of colligation",
+    "score" : 0.6819991461766719
+  }, {
+    "methodId" : "547",
+    "methodLabel" : "Probit model for panel data with heterogeneity and endogenous explanatory variables",
+    "score" : 0.6910013057299884
+  }, {
+    "methodId" : "1233",
+    "methodLabel" : "Polykay",
+    "score" : 0.6740673263854806
+  }, {
+    "methodId" : "861",
+    "methodLabel" : "Bayesian inference",
+    "score" : 0.6709336947619012
+  }, {
+    "methodId" : "467",
+    "methodLabel" : "Nonlinear regression",
+    "score" : 0.7680790256046659
+  }, {
+    "methodId" : "703",
+    "methodLabel" : "Utility functions on divisible goods",
+    "score" : 0.6626729491037893
+  }, {
+    "methodId" : "127",
+    "methodLabel" : "Trimmed estimator",
+    "score" : 0.6647466976463506
+  }, {
+    "methodId" : "309",
+    "methodLabel" : "Profit at risk",
+    "score" : 0.6499015819310182
+  }, {
+    "methodId" : "407",
+    "methodLabel" : "Regression validation",
+    "score" : 0.7126835452143685
+  } ]
+}, {
+  "fileName" : "2152.txt",
+  "result" : [ {
+    "methodId" : "2323",
+    "methodLabel" : "Fides (reliability)",
+    "score" : 0.8105152560977977
+  }, {
+    "methodId" : "2543",
+    "methodLabel" : "Convenience sampling",
+    "score" : 0.5816270024945357
+  }, {
+    "methodId" : "1355",
+    "methodLabel" : "Goldfeld–Quandt test",
+    "score" : 0.6881542803124886
+  }, {
+    "methodId" : "1558",
+    "methodLabel" : "Response-rate ratio",
+    "score" : 0.6813922408649477
+  }, {
+    "methodId" : "1467",
+    "methodLabel" : "Table diagonalization",
+    "score" : 0.5450235761589785
+  }, {
+    "methodId" : "532",
+    "methodLabel" : "Influential observation",
+    "score" : 0.6257476101312426
+  }, {
+    "methodId" : "2060",
+    "methodLabel" : "Feature Selection Toolbox",
+    "score" : 0.4947819670647412
+  }, {
+    "methodId" : "1372",
+    "methodLabel" : "Environmental DNA",
+    "score" : 0.49422161044733265
+  }, {
+    "methodId" : "2411",
+    "methodLabel" : "Resentful demoralization",
+    "score" : 0.490503395943187
+  }, {
+    "methodId" : "1709",
+    "methodLabel" : "Spherical mean",
+    "score" : 0.488155477477725
+  } ]
+} ]
