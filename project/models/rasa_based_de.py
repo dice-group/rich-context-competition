@@ -1,7 +1,7 @@
 from rasa_nlu.model import Interpreter
 from project.models.identify_dataset import DatasetIdentification
 from operator import itemgetter
-from preprocessing.get_input import ProcessInput
+from project.preprocessing.get_input import ProcessInput
 from project.preprocessing.preprocess_publications import PublicationPreprocessing
 import os, json, logging, re, spacy, string
 from time import time
@@ -18,7 +18,7 @@ class RasaDatasetExtraction(DatasetIdentification):
         self.pubpr = PublicationPreprocessing()
         self.pub_df = self.pi.load_publication_input(path=path)
         self.dataset_vocab = self.pi.load_dataset_vocab()
-        self.nlp = spacy.load('en_vectors_web_lg', disable = ['tagger', 'parser', 'ner', 'textcat'])
+        self.nlp = spacy.load('en_vectors_web_lg', disable=['tagger', 'parser', 'ner', 'textcat'])
 
     def extract_content(self, path):
         """
