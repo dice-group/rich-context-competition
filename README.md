@@ -1,4 +1,5 @@
-# Rich Context Competition
+# Rich Context Competition [![DOI](https://zenodo.org/badge/154674897.svg)](https://zenodo.org/badge/latestdoi/154674897)
+
 
 This repo contains our code for the [Rich Context Competition](https://coleridgeinitiative.org/richcontextcompetition). 
 
