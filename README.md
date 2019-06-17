@@ -1,4 +1,4 @@
-# rich-context-competition
+# Rich Cntext Competition
 
 This repo contains our code for the [Rich Context Competition](https://coleridgeinitiative.org/richcontextcompetition). 
 
@@ -33,8 +33,10 @@ While inspecting the input data, we found out that there were many text articles
 5. If a section is not found in the article (because of no explicit mention), then only the sections that can be identified are extracted and the remaining content is saved as ‘reduced_content’ after cleaning.
 6. We use the open source tool pdfinfo from the [poppler suite](https://manpages.debian.org/testing/poppler-utils/pdfinfo.1.en.html) to extract PDF metadata that seldom contains the keywords and subject of a research article.  <br>
 <br>
-After the preprocessing module is run, three folders are generated in `project/additional_files` (`pdf-info`, `nounPhrases` and `processed_articles`) which are used for training and evaluating the models.
+After the preprocessing module is run, three folders are generated in `project/additional_files` (`pdf-info`, `nounPhrases` and `processed_articles`) which are used for training and evaluating the models. <br>
+
 ***************************************************
+
 ### Dataset detection 
 
 **To run the entire dataset detection pipeline, run** `project/models/run_dataset_extractor.py`.  
