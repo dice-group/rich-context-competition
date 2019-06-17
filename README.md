@@ -1,4 +1,4 @@
-# Rich Cntext Competition
+# Rich Context Competition
 
 This repo contains our code for the [Rich Context Competition](https://coleridgeinitiative.org/richcontextcompetition). 
 
